@@ -1,0 +1,203 @@
+{
+  "version": "v4.2",
+  "date": "2026-10-12",
+  "input": "/mnt/data/frontier_ai_v4_2_research_input.xlsx",
+  "output": "/mnt/data/frontier_ai_superaggregate_v4_2_sparse_calibrated.xlsx",
+  "benchmark_rows": 57,
+  "protocol_controlled_rows": 25,
+  "strict_equal_compute_rows": 0,
+  "full_weights": {
+    "Professional": 0.25,
+    "Coding": 0.2,
+    "Science": 0.2,
+    "Knowledge": 0.15,
+    "Context": 0.1,
+    "Multimodal": 0.07,
+    "Games": 0.03
+  },
+  "models": [
+    "Claude Opus 5.5",
+    "GPT-6 Astra",
+    "GPT-6.1 Sol",
+    "Claude Fable 5.1",
+    "Claude Sonnet 5.5",
+    "Gemini 4 Argon"
+  ],
+  "joint_theta": {
+    "Claude Opus 5.5": 0.0,
+    "GPT-6 Astra": -0.29825159691392994,
+    "GPT-6.1 Sol": -0.49619881048459824,
+    "Claude Fable 5.1": -0.36502129245295645,
+    "Claude Sonnet 5.5": -0.2980749124764194,
+    "Gemini 4 Argon": -0.27851008894754226
+  },
+  "full_index": {
+    "Claude Opus 5.5": 100.0,
+    "GPT-6 Astra": 94.0349680617214,
+    "GPT-6.1 Sol": 90.07602379030803,
+    "Claude Fable 5.1": 92.69957415094088,
+    "Claude Sonnet 5.5": 94.03850175047161,
+    "Gemini 4 Argon": 94.42979822104915
+  },
+  "protocol_index": {
+    "Claude Opus 5.5": 100.0,
+    "GPT-6 Astra": 87.23268576769141,
+    "GPT-6.1 Sol": 84.19584442316147,
+    "Claude Fable 5.1": 86.52368071785723,
+    "Claude Sonnet 5.5": 86.68603304341171,
+    "Gemini 4 Argon": 83.31139073808919
+  },
+  "scenario_interval_index": {
+    "Claude Opus 5.5": [
+      100.0,
+      100.0
+    ],
+    "GPT-6 Astra": [
+      87.77429981572269,
+      100.1372733531408
+    ],
+    "GPT-6.1 Sol": [
+      84.72242538291677,
+      95.97502313593408
+    ],
+    "Claude Fable 5.1": [
+      89.3976350402291,
+      95.70417593583
+    ],
+    "Claude Sonnet 5.5": [
+      90.61011863574959,
+      97.51256614520184
+    ],
+    "Gemini 4 Argon": [
+      89.25347300565792,
+      100.93043536235685
+    ]
+  },
+  "scenario_first_share": {
+    "Claude Opus 5.5": 0.9316666666666666,
+    "GPT-6 Astra": 0.028333333333333332,
+    "GPT-6.1 Sol": 0.0,
+    "Claude Fable 5.1": 0.0,
+    "Claude Sonnet 5.5": 0.0,
+    "Gemini 4 Argon": 0.04
+  },
+  "coverage": {
+    "Claude Opus 5.5": 0.9999999999999999,
+    "GPT-6 Astra": 0.9091404744373793,
+    "GPT-6.1 Sol": 0.886278329919053,
+    "Claude Fable 5.1": 0.9232606323247275,
+    "Claude Sonnet 5.5": 0.85796858330954,
+    "Gemini 4 Argon": 0.6765773829220451
+  },
+  "bootstrap_draws": 1200,
+  "protocol_draws": 1200,
+  "original_evaluators": 9,
+  "baseline_same_method": {
+    "Claude Opus 5.5": 100.0,
+    "GPT-6 Astra": 94.23959868197564,
+    "GPT-6.1 Sol": 90.1515522548274,
+    "Claude Fable 5.1": 92.81432301184579,
+    "Claude Sonnet 5.5": 94.08999016187495,
+    "Gemini 4 Argon": 94.51268030769096
+  },
+  "thinkingbox_only": {
+    "Claude Opus 5.5": 100.0,
+    "GPT-6 Astra": 94.26691854738627,
+    "GPT-6.1 Sol": 90.20056123706817,
+    "Claude Fable 5.1": 92.74324139272021,
+    "Claude Sonnet 5.5": 93.99001417031133,
+    "Gemini 4 Argon": 94.38438796804985
+  },
+  "coverage_method": "publisher strength = n_f/(n_f+2) * sqrt(mean C(k,2)/15), Arena Text preference strength \u00d70.5",
+  "full_champion": "Claude Opus 5.5",
+  "protocol_champion": "Claude Opus 5.5",
+  "leaveout_champions": [
+    {
+      "test": "Leave evaluator out",
+      "omitted": "AA",
+      "winner": "Gemini 4 Argon"
+    },
+    {
+      "test": "Leave evaluator out",
+      "omitted": "ARC Prize",
+      "winner": "Claude Opus 5.5"
+    },
+    {
+      "test": "Leave evaluator out",
+      "omitted": "Arena",
+      "winner": "Claude Opus 5.5"
+    },
+    {
+      "test": "Leave evaluator out",
+      "omitted": "Cognition",
+      "winner": "Claude Opus 5.5"
+    },
+    {
+      "test": "Leave evaluator out",
+      "omitted": "Epoch",
+      "winner": "Claude Opus 5.5"
+    },
+    {
+      "test": "Leave evaluator out",
+      "omitted": "Mercor",
+      "winner": "Claude Opus 5.5"
+    },
+    {
+      "test": "Leave evaluator out",
+      "omitted": "Microsoft",
+      "winner": "Claude Opus 5.5"
+    },
+    {
+      "test": "Leave evaluator out",
+      "omitted": "Scale",
+      "winner": "Claude Opus 5.5"
+    },
+    {
+      "test": "Leave evaluator out",
+      "omitted": "Vals",
+      "winner": "Claude Opus 5.5"
+    },
+    {
+      "test": "Leave domain out",
+      "omitted": "Professional",
+      "winner": "Claude Opus 5.5"
+    },
+    {
+      "test": "Leave domain out",
+      "omitted": "Coding",
+      "winner": "Claude Opus 5.5"
+    },
+    {
+      "test": "Leave domain out",
+      "omitted": "Science",
+      "winner": "Claude Opus 5.5"
+    },
+    {
+      "test": "Leave domain out",
+      "omitted": "Knowledge",
+      "winner": "Claude Opus 5.5"
+    },
+    {
+      "test": "Leave domain out",
+      "omitted": "Context",
+      "winner": "Claude Opus 5.5"
+    },
+    {
+      "test": "Leave domain out",
+      "omitted": "Multimodal",
+      "winner": "Claude Opus 5.5"
+    },
+    {
+      "test": "Leave domain out",
+      "omitted": "Games",
+      "winner": "Claude Opus 5.5"
+    },
+    {
+      "test": "Alternative weighting",
+      "omitted": "Equal domains",
+      "winner": "Claude Opus 5.5"
+    }
+  ],
+  "source_sha256": "22cd4599b2e6aacd45bf1b3f55087b798f3e5f1d041426bae5c05f6ff0a9c1be",
+  "comment": "Uncertainty ranges are benchmark-family/domain-weight sensitivity only; not task-level confidence intervals. Equal-compute ranking unavailable."
+}

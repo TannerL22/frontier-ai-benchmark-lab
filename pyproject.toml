@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "frontier-ai-benchmark-lab"
+version = "5.1.0a1"
+description = "Auditable frontier AI benchmark evidence and historical validation"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10"]
+
+[project.optional-dependencies]
+app = ["streamlit>=1.30", "plotly>=5"]
+dev = ["pytest>=7"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths=["tests"]
+markers=["slow: computationally intensive calibration reconstruction"]
+

@@ -1,0 +1,5 @@
+# Streamlit Community Cloud installation entrypoint.
+# Editable local package installs frontierlab from src/; do not rely on PYTHONPATH.
+-e .
+streamlit>=1.30,<3
+plotly>=5,<7

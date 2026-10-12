@@ -1,0 +1,520 @@
+{
+  "version": "v4.4",
+  "date": "2026-10-12",
+  "source_workbook_sha256": "da501c0c33f499563d501dd14e1dfd76c17eed1cde5bc7ab1597985d9c11b391",
+  "source_json_sha256": "294a57808842730cb826118bd3ec509cdbf86198c4332ee85b4525913f6be872",
+  "models": [
+    "Claude Opus 5.5",
+    "GPT-6 Astra",
+    "GPT-6.1 Sol",
+    "Claude Fable 5.1",
+    "Claude Sonnet 5.5",
+    "Gemini 4 Argon"
+  ],
+  "weights": {
+    "Professional": 0.25,
+    "Coding": 0.2,
+    "Science": 0.2,
+    "Knowledge": 0.15,
+    "Context": 0.1,
+    "Multimodal": 0.07,
+    "Games": 0.03
+  },
+  "scope": "Historical grouped validation. Not prospectively registered; original index parameters informed by the same benchmark ecosystem.",
+  "coverage": {
+    "benchmark_rows": 57,
+    "unique_family_ids": 56,
+    "unique_evaluators": 9,
+    "lobo_directional_pairs": 586,
+    "loeo_directional_pairs": 586,
+    "lodo_directional_pairs": 586,
+    "no_predictable_family_folds": [],
+    "no_predictable_evaluator_folds": []
+  },
+  "full_sample_fits": {
+    "Equal families": {
+      "Claude Opus 5.5": 0.0,
+      "GPT-6 Astra": -0.31946044911452337,
+      "GPT-6.1 Sol": -0.5917376715098891,
+      "Claude Fable 5.1": -0.38913079890209845,
+      "Claude Sonnet 5.5": -0.27539514551880345,
+      "Gemini 4 Argon": -0.12828295517444818
+    },
+    "Equal domains": {
+      "Claude Opus 5.5": 0.0,
+      "GPT-6 Astra": -0.04473012312282968,
+      "GPT-6.1 Sol": -0.33723596748362733,
+      "Claude Fable 5.1": -0.39079613891213266,
+      "Claude Sonnet 5.5": -0.3178018777030803,
+      "Gemini 4 Argon": -0.39679783439389055
+    },
+    "Super-Aggregate v4.2": {
+      "Claude Opus 5.5": 0.0,
+      "GPT-6 Astra": -0.2982515969139321,
+      "GPT-6.1 Sol": -0.4961988104846006,
+      "Claude Fable 5.1": -0.3650212924529587,
+      "Claude Sonnet 5.5": -0.29807491247642165,
+      "Gemini 4 Argon": -0.27851008894754453
+    }
+  },
+  "cross_validation_summary": [
+    {
+      "fold_type": "family",
+      "margin_threshold": 0,
+      "method": "Equal families",
+      "macro": 0.6102169603579378,
+      "micro": 0.6006825938566553,
+      "fold_count": 56,
+      "pair_count": 586
+    },
+    {
+      "fold_type": "family",
+      "margin_threshold": 0,
+      "method": "Equal domains",
+      "macro": 0.5605481402473884,
+      "micro": 0.515358361774744,
+      "fold_count": 56,
+      "pair_count": 586
+    },
+    {
+      "fold_type": "family",
+      "margin_threshold": 0,
+      "method": "Super-Aggregate v4.2",
+      "macro": 0.573050456227148,
+      "micro": 0.5494880546075085,
+      "fold_count": 56,
+      "pair_count": 586
+    },
+    {
+      "fold_type": "family",
+      "margin_threshold": 0.1,
+      "method": "Equal families",
+      "macro": 0.633180753324294,
+      "micro": 0.6108108108108108,
+      "fold_count": 55,
+      "pair_count": 555
+    },
+    {
+      "fold_type": "family",
+      "margin_threshold": 0.1,
+      "method": "Equal domains",
+      "macro": 0.5680708764919291,
+      "micro": 0.5099099099099099,
+      "fold_count": 55,
+      "pair_count": 555
+    },
+    {
+      "fold_type": "family",
+      "margin_threshold": 0.1,
+      "method": "Super-Aggregate v4.2",
+      "macro": 0.5933592616846206,
+      "micro": 0.5567567567567567,
+      "fold_count": 55,
+      "pair_count": 555
+    },
+    {
+      "fold_type": "family",
+      "margin_threshold": 0.25,
+      "method": "Equal families",
+      "macro": 0.6228726847206314,
+      "micro": 0.6133056133056133,
+      "fold_count": 53,
+      "pair_count": 481
+    },
+    {
+      "fold_type": "family",
+      "margin_threshold": 0.25,
+      "method": "Equal domains",
+      "macro": 0.5463023257418375,
+      "micro": 0.5031185031185031,
+      "fold_count": 53,
+      "pair_count": 481
+    },
+    {
+      "fold_type": "family",
+      "margin_threshold": 0.25,
+      "method": "Super-Aggregate v4.2",
+      "macro": 0.5786284593443306,
+      "micro": 0.553014553014553,
+      "fold_count": 53,
+      "pair_count": 481
+    },
+    {
+      "fold_type": "evaluator",
+      "margin_threshold": 0,
+      "method": "Equal families",
+      "macro": 0.6172125125985657,
+      "micro": 0.5511945392491467,
+      "fold_count": 9,
+      "pair_count": 586
+    },
+    {
+      "fold_type": "evaluator",
+      "margin_threshold": 0,
+      "method": "Equal domains",
+      "macro": 0.6569351058576749,
+      "micro": 0.5102389078498294,
+      "fold_count": 9,
+      "pair_count": 586
+    },
+    {
+      "fold_type": "evaluator",
+      "margin_threshold": 0,
+      "method": "Super-Aggregate v4.2",
+      "macro": 0.6191787311255229,
+      "micro": 0.5580204778156996,
+      "fold_count": 9,
+      "pair_count": 586
+    },
+    {
+      "fold_type": "evaluator",
+      "margin_threshold": 0.1,
+      "method": "Equal families",
+      "macro": 0.6208861214103136,
+      "micro": 0.554954954954955,
+      "fold_count": 9,
+      "pair_count": 555
+    },
+    {
+      "fold_type": "evaluator",
+      "margin_threshold": 0.1,
+      "method": "Equal domains",
+      "macro": 0.647812683905022,
+      "micro": 0.5027027027027027,
+      "fold_count": 9,
+      "pair_count": 555
+    },
+    {
+      "fold_type": "evaluator",
+      "margin_threshold": 0.1,
+      "method": "Super-Aggregate v4.2",
+      "macro": 0.6210003516252747,
+      "micro": 0.5585585585585585,
+      "fold_count": 9,
+      "pair_count": 555
+    },
+    {
+      "fold_type": "evaluator",
+      "margin_threshold": 0.25,
+      "method": "Equal families",
+      "macro": 0.653748710253875,
+      "micro": 0.5488565488565489,
+      "fold_count": 9,
+      "pair_count": 481
+    },
+    {
+      "fold_type": "evaluator",
+      "margin_threshold": 0.25,
+      "method": "Equal domains",
+      "macro": 0.6465059755539566,
+      "micro": 0.49480249480249483,
+      "fold_count": 9,
+      "pair_count": 481
+    },
+    {
+      "fold_type": "evaluator",
+      "margin_threshold": 0.25,
+      "method": "Super-Aggregate v4.2",
+      "macro": 0.6500769707237981,
+      "micro": 0.5467775467775468,
+      "fold_count": 9,
+      "pair_count": 481
+    },
+    {
+      "fold_type": "domain",
+      "margin_threshold": 0,
+      "method": "Equal families",
+      "macro": 0.49407117693938085,
+      "micro": 0.5409556313993175,
+      "fold_count": 7,
+      "pair_count": 586
+    },
+    {
+      "fold_type": "domain",
+      "margin_threshold": 0,
+      "method": "Equal domains",
+      "macro": 0.5148296851904441,
+      "micro": 0.4778156996587031,
+      "fold_count": 7,
+      "pair_count": 586
+    },
+    {
+      "fold_type": "domain",
+      "margin_threshold": 0,
+      "method": "Super-Aggregate v4.2",
+      "macro": 0.49277605750645115,
+      "micro": 0.5102389078498294,
+      "fold_count": 7,
+      "pair_count": 586
+    },
+    {
+      "fold_type": "domain",
+      "margin_threshold": 0.1,
+      "method": "Equal families",
+      "macro": 0.5016994979786905,
+      "micro": 0.5477477477477477,
+      "fold_count": 7,
+      "pair_count": 555
+    },
+    {
+      "fold_type": "domain",
+      "margin_threshold": 0.1,
+      "method": "Equal domains",
+      "macro": 0.5140646377094301,
+      "micro": 0.4702702702702703,
+      "fold_count": 7,
+      "pair_count": 555
+    },
+    {
+      "fold_type": "domain",
+      "margin_threshold": 0.1,
+      "method": "Super-Aggregate v4.2",
+      "macro": 0.4941850333599093,
+      "micro": 0.5063063063063064,
+      "fold_count": 7,
+      "pair_count": 555
+    },
+    {
+      "fold_type": "domain",
+      "margin_threshold": 0.25,
+      "method": "Equal families",
+      "macro": 0.4955632608891863,
+      "micro": 0.5426195426195426,
+      "fold_count": 7,
+      "pair_count": 481
+    },
+    {
+      "fold_type": "domain",
+      "margin_threshold": 0.25,
+      "method": "Equal domains",
+      "macro": 0.5058137748209159,
+      "micro": 0.46361746361746364,
+      "fold_count": 7,
+      "pair_count": 481
+    },
+    {
+      "fold_type": "domain",
+      "margin_threshold": 0.25,
+      "method": "Super-Aggregate v4.2",
+      "macro": 0.48414932547502104,
+      "micro": 0.4968814968814969,
+      "fold_count": 7,
+      "pair_count": 481
+    }
+  ],
+  "paired_bootstrap_differences": [
+    {
+      "fold_type": "family",
+      "complex_minus": "Equal families",
+      "folds": 56,
+      "difference": -0.03716650413078985,
+      "p025": -0.054046216680145254,
+      "p975": -0.02177518661893661,
+      "percent_positive": 0.0
+    },
+    {
+      "fold_type": "family",
+      "complex_minus": "Equal domains",
+      "folds": 56,
+      "difference": 0.012502315979759593,
+      "p025": -0.03698200765400012,
+      "p975": 0.06211367188575835,
+      "percent_positive": 0.6743333333333333
+    },
+    {
+      "fold_type": "evaluator",
+      "complex_minus": "Equal families",
+      "folds": 9,
+      "difference": 0.001966218526957232,
+      "p025": -0.021396117306897968,
+      "p975": 0.02688172043010754,
+      "percent_positive": 0.6306666666666667
+    },
+    {
+      "fold_type": "evaluator",
+      "complex_minus": "Equal domains",
+      "folds": 9,
+      "difference": -0.037756374732151925,
+      "p025": -0.1352931118424202,
+      "p975": 0.05660246519720955,
+      "percent_positive": 0.22433333333333333
+    }
+  ],
+  "nested_probability_calibration": [
+    {
+      "method": "Equal families",
+      "families": 56,
+      "pairs": 586,
+      "macro_brier": 0.24334529136878794,
+      "macro_logloss": 0.6802645835929771,
+      "micro_brier": 0.24308566394732065,
+      "slope_range": [
+        1.068218994231671,
+        1.364447315045014
+      ]
+    },
+    {
+      "method": "Equal domains",
+      "families": 56,
+      "pairs": 586,
+      "macro_brier": 0.24474448973334834,
+      "macro_logloss": 0.6826831270341226,
+      "micro_brier": 0.2503876538151132,
+      "slope_range": [
+        0.7223552745498555,
+        1.4740972226393825
+      ]
+    },
+    {
+      "method": "Super-Aggregate v4.2",
+      "families": 56,
+      "pairs": 586,
+      "macro_brier": 0.2411125547497219,
+      "macro_logloss": 0.6757511698884475,
+      "micro_brier": 0.2426622472063077,
+      "slope_range": [
+        1.3681777255814451,
+        1.736449307160888
+      ]
+    }
+  ],
+  "calibration_brier_sensitivity": [
+    {
+      "complex_minus": "Equal families",
+      "families": 56,
+      "brier_difference": -0.0022327366190660505,
+      "resampled_p025": -0.005930984338754703,
+      "resampled_p975": 0.001600746295241625
+    },
+    {
+      "complex_minus": "Equal domains",
+      "families": 56,
+      "brier_difference": -0.0036319349836264167,
+      "resampled_p025": -0.014302251717732034,
+      "resampled_p975": 0.008002154530722352
+    }
+  ],
+  "gap_reliability_diagnostic": [
+    {
+      "method": "Equal families",
+      "min_abs_gap": 0,
+      "max_abs_gap": 0.1,
+      "comparisons": 93,
+      "observed_sign_hit_rate": 0.6236559139784946,
+      "mean_predicted_confidence": 0.517073830062973
+    },
+    {
+      "method": "Equal families",
+      "min_abs_gap": 0.1,
+      "max_abs_gap": 0.25,
+      "comparisons": 183,
+      "observed_sign_hit_rate": 0.5300546448087432,
+      "mean_predicted_confidence": 0.5488213632145992
+    },
+    {
+      "method": "Equal families",
+      "min_abs_gap": 0.25,
+      "max_abs_gap": 0.5,
+      "comparisons": 261,
+      "observed_sign_hit_rate": 0.6436781609195402,
+      "mean_predicted_confidence": 0.5943541024083469
+    },
+    {
+      "method": "Equal families",
+      "min_abs_gap": 0.5,
+      "max_abs_gap": 100,
+      "comparisons": 49,
+      "observed_sign_hit_rate": 0.5918367346938775,
+      "mean_predicted_confidence": 0.6652487307027354
+    },
+    {
+      "method": "Equal domains",
+      "min_abs_gap": 0,
+      "max_abs_gap": 0.1,
+      "comparisons": 251,
+      "observed_sign_hit_rate": 0.4302788844621514,
+      "mean_predicted_confidence": 0.5145736370853919
+    },
+    {
+      "method": "Equal domains",
+      "min_abs_gap": 0.1,
+      "max_abs_gap": 0.25,
+      "comparisons": 29,
+      "observed_sign_hit_rate": 0.5172413793103449,
+      "mean_predicted_confidence": 0.5490608687433075
+    },
+    {
+      "method": "Equal domains",
+      "min_abs_gap": 0.25,
+      "max_abs_gap": 0.5,
+      "comparisons": 304,
+      "observed_sign_hit_rate": 0.5855263157894737,
+      "mean_predicted_confidence": 0.6013769638533354
+    },
+    {
+      "method": "Equal domains",
+      "min_abs_gap": 0.5,
+      "max_abs_gap": 100,
+      "comparisons": 2,
+      "observed_sign_hit_rate": 0.5,
+      "mean_predicted_confidence": 0.5926804560812472
+    },
+    {
+      "method": "Super-Aggregate v4.2",
+      "min_abs_gap": 0,
+      "max_abs_gap": 0.1,
+      "comparisons": 197,
+      "observed_sign_hit_rate": 0.39593908629441626,
+      "mean_predicted_confidence": 0.5169781646732727
+    },
+    {
+      "method": "Super-Aggregate v4.2",
+      "min_abs_gap": 0.1,
+      "max_abs_gap": 0.25,
+      "comparisons": 172,
+      "observed_sign_hit_rate": 0.622093023255814,
+      "mean_predicted_confidence": 0.5652029989539219
+    },
+    {
+      "method": "Super-Aggregate v4.2",
+      "min_abs_gap": 0.25,
+      "max_abs_gap": 0.5,
+      "comparisons": 195,
+      "observed_sign_hit_rate": 0.6717948717948717,
+      "mean_predicted_confidence": 0.6209037093213253
+    },
+    {
+      "method": "Super-Aggregate v4.2",
+      "min_abs_gap": 0.5,
+      "max_abs_gap": 100,
+      "comparisons": 22,
+      "observed_sign_hit_rate": 0.2727272727272727,
+      "mean_predicted_confidence": 0.6845483935115435
+    }
+  ],
+  "limitations": [
+    "All input benchmark families previously informed the original methodology design: historical CV is not independent prospective validation.",
+    "An equal-family baseline shares clipping, score standardisation and WLS estimation with v4.2 to isolate weighting impact.",
+    "The equal-domain baseline weights observed domains equally, also uses WLS and same sparse-pair rule.",
+    "Model-by-benchmark comparisons share model runs; within-family pairs cannot be assumed independent.",
+    "Raw score magnitudes are heterogeneous. Brier/log loss are for learned win probabilities only, NOT absolute performance prediction.",
+    "Even the nested calibrated probabilities are sample-conditional and should not be interpreted as objective intelligence certainty.",
+    "Published Artificial Analysis composite is not cross-validated because its underlying constituent results cannot be retrained with each held-out family removed.",
+    "No new benchmark evidence included; no primary leaderboard changes.",
+    "Evaluation configurations differ: best-delivered systems, not standardised equal compute."
+  ],
+  "aa_static_comparator_diagnostic": [
+    {
+      "excluding_AA_publisher_folds": false,
+      "eligible_families": 56,
+      "macro_accuracy": 0.6215025341200153,
+      "note": "Contaminated diagnostic; the published AA composite includes some in-sample benchmark results and cannot be fold-refitted."
+    },
+    {
+      "excluding_AA_publisher_folds": true,
+      "eligible_families": 46,
+      "macro_accuracy": 0.6121390432603246,
+      "note": "Contaminated diagnostic; the published AA composite includes some in-sample benchmark results and cannot be fold-refitted."
+    }
+  ]
+}

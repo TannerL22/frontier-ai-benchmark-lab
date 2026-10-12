@@ -1,0 +1,23 @@
+{
+  "version": "5.1.0",
+  "created": "2026-10-12",
+  "original_baseline": "v4.2",
+  "new_models": [
+    "Muse Wonder Full",
+    "Muse Wonder"
+  ],
+  "added_original_score_rows": 20,
+  "frozen_57_benchmark_rows": 57,
+  "sources": [
+    "https://artificialanalysis.ai/es/models/comparisons",
+    "https://artificialanalysis.ai/models/comparisons/muse-wonder-vs-claude-opus-5-5",
+    "https://artificialanalysis.ai/articles/muse-wonder",
+    "https://artificialanalysis.ai/models/comparisons",
+    "https://artificialanalysis.ai/models/comparisons/claude-fable-5-1-vs-claude-fable-5"
+  ],
+  "sha256": {
+    "scores.csv": "f9f38b0ac810486478b6f79cbc0321441e27411f6e1352672b2b79adbcd1a7f8",
+    "benchmarks.csv": "cb8de41861e527c25068446bd34bdd8a72f49669a27a2e94b2bb10d8d051e45f",
+    "config.json": "a0cc962906bbf854dd206a75eac0c566b2b79fc2a462385b73ffc2648dae43b9"
+  }
+}

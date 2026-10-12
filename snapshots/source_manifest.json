@@ -1,0 +1,8 @@
+{
+  "original_workbook": "frontier_ai_superaggregate_v4_2_sparse_calibrated.xlsx",
+  "sha256": "da501c0c33f499563d501dd14e1dfd76c17eed1cde5bc7ab1597985d9c11b391",
+  "source_rows": 57,
+  "observed_model_scores": 284,
+  "candidate_model_count": 2,
+  "warning": "Snapshot scores imported verbatim; independent re-verification beyond prior audits not implied."
+}

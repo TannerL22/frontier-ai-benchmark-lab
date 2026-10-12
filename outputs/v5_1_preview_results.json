@@ -1,0 +1,151 @@
+{
+  "version": "v5.1",
+  "as_of": "2026-10-12",
+  "mode": "best available (not equal compute)",
+  "models": [
+    "Claude Opus 5.5",
+    "GPT-6 Astra",
+    "GPT-6.1 Sol",
+    "Claude Fable 5.1",
+    "Claude Sonnet 5.5",
+    "Gemini 4 Argon",
+    "Muse Wonder Full",
+    "Muse Wonder"
+  ],
+  "benchmark_rows": 57,
+  "evaluator_count": 9,
+  "distinct_families": 56,
+  "aa_evaluation_count_new_models": 10,
+  "scores_by_method": {
+    "Equal families": {
+      "Claude Opus 5.5": 100.0,
+      "GPT-6 Astra": 92.88498935619145,
+      "GPT-6.1 Sol": 87.604423936786,
+      "Claude Fable 5.1": 91.73930186999837,
+      "Claude Sonnet 5.5": 94.70819095942453,
+      "Gemini 4 Argon": 96.27201441904644,
+      "Muse Wonder Full": 98.67080063332969,
+      "Muse Wonder": 85.68304307020124
+    },
+    "Equal domains": {
+      "Claude Opus 5.5": 100.0,
+      "GPT-6 Astra": 98.59610573135296,
+      "GPT-6.1 Sol": 93.37773308142145,
+      "Claude Fable 5.1": 92.34619723397729,
+      "Claude Sonnet 5.5": 93.90564258841908,
+      "Gemini 4 Argon": 91.05313117269444,
+      "Muse Wonder Full": 102.71085498369806,
+      "Muse Wonder": 91.1717740672492
+    },
+    "Super-Aggregate v4.2": {
+      "Claude Opus 5.5": 100.0,
+      "GPT-6 Astra": 92.31394479469951,
+      "GPT-6.1 Sol": 88.5099332522548,
+      "Claude Fable 5.1": 91.49818615582639,
+      "Claude Sonnet 5.5": 93.91150901889922,
+      "Gemini 4 Argon": 92.02313313468365,
+      "Muse Wonder Full": 97.46504077097974,
+      "Muse Wonder": 84.73710170826173
+    }
+  },
+  "evidence_coverage": {
+    "Claude Opus 5.5": {
+      "benchmark_rows": 57,
+      "fraction_rows": 1.0,
+      "evaluators": [
+        "AA",
+        "ARC Prize",
+        "Arena",
+        "Cognition",
+        "Epoch",
+        "Mercor",
+        "Microsoft",
+        "Scale",
+        "Vals"
+      ]
+    },
+    "GPT-6 Astra": {
+      "benchmark_rows": 50,
+      "fraction_rows": 0.8771929824561403,
+      "evaluators": [
+        "AA",
+        "ARC Prize",
+        "Arena",
+        "Cognition",
+        "Epoch",
+        "Mercor",
+        "Microsoft",
+        "Scale",
+        "Vals"
+      ]
+    },
+    "GPT-6.1 Sol": {
+      "benchmark_rows": 47,
+      "fraction_rows": 0.8245614035087719,
+      "evaluators": [
+        "AA",
+        "ARC Prize",
+        "Arena",
+        "Epoch",
+        "Mercor",
+        "Scale",
+        "Vals"
+      ]
+    },
+    "Claude Fable 5.1": {
+      "benchmark_rows": 51,
+      "fraction_rows": 0.8947368421052632,
+      "evaluators": [
+        "AA",
+        "ARC Prize",
+        "Arena",
+        "Epoch",
+        "Mercor",
+        "Scale",
+        "Vals"
+      ]
+    },
+    "Claude Sonnet 5.5": {
+      "benchmark_rows": 45,
+      "fraction_rows": 0.7894736842105263,
+      "evaluators": [
+        "AA",
+        "Arena",
+        "Cognition",
+        "Epoch",
+        "Mercor",
+        "Vals"
+      ]
+    },
+    "Gemini 4 Argon": {
+      "benchmark_rows": 34,
+      "fraction_rows": 0.5964912280701754,
+      "evaluators": [
+        "AA",
+        "Arena",
+        "Mercor",
+        "Vals"
+      ]
+    },
+    "Muse Wonder Full": {
+      "benchmark_rows": 10,
+      "fraction_rows": 0.17543859649122806,
+      "evaluators": [
+        "AA"
+      ]
+    },
+    "Muse Wonder": {
+      "benchmark_rows": 10,
+      "fraction_rows": 0.17543859649122806,
+      "evaluators": [
+        "AA"
+      ]
+    }
+  },
+  "limitations": [
+    "New-model scores currently come only from Artificial Analysis; no independent evaluator diversity for Meta variants",
+    "Re-estimated scores across eight models; not directly comparable with previous index releases",
+    "Different models/harnesses/reasoning efforts. No equal compute or paired task-level uncertainty.",
+    "AA composite Intelligence Index and Coding Agents Index excluded from scoring"
+  ]
+}

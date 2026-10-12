@@ -1,0 +1,25 @@
+method,rank,model,score,observed_benchmark_rows,distinct_evaluators
+Equal families,1,Claude Opus 5.5,100.0,57,9
+Equal families,2,Muse Wonder Full,98.6708,10,1
+Equal families,3,Gemini 4 Argon,96.27201,34,4
+Equal families,4,Claude Sonnet 5.5,94.70819,45,6
+Equal families,5,GPT-6 Astra,92.88499,50,9
+Equal families,6,Claude Fable 5.1,91.7393,51,7
+Equal families,7,GPT-6.1 Sol,87.60442,47,7
+Equal families,8,Muse Wonder,85.68304,10,1
+Equal domains,1,Muse Wonder Full,102.71085,10,1
+Equal domains,2,Claude Opus 5.5,100.0,57,9
+Equal domains,3,GPT-6 Astra,98.59611,50,9
+Equal domains,4,Claude Sonnet 5.5,93.90564,45,6
+Equal domains,5,GPT-6.1 Sol,93.37773,47,7
+Equal domains,6,Claude Fable 5.1,92.3462,51,7
+Equal domains,7,Muse Wonder,91.17177,10,1
+Equal domains,8,Gemini 4 Argon,91.05313,34,4
+Super-Aggregate v4.2,1,Claude Opus 5.5,100.0,57,9
+Super-Aggregate v4.2,2,Muse Wonder Full,97.46504,10,1
+Super-Aggregate v4.2,3,Claude Sonnet 5.5,93.91151,45,6
+Super-Aggregate v4.2,4,GPT-6 Astra,92.31394,50,9
+Super-Aggregate v4.2,5,Gemini 4 Argon,92.02313,34,4
+Super-Aggregate v4.2,6,Claude Fable 5.1,91.49819,51,7
+Super-Aggregate v4.2,7,GPT-6.1 Sol,88.50993,47,7
+Super-Aggregate v4.2,8,Muse Wonder,84.7371,10,1

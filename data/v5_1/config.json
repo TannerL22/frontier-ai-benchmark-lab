@@ -1,0 +1,27 @@
+{
+  "version": "v5.1-aa-2026-10-12",
+  "frozen_baseline": "v4.2 unchanged; 8-model extension in data/v5_1",
+  "baseline_models": [
+    "Claude Opus 5.5",
+    "GPT-6 Astra",
+    "GPT-6.1 Sol",
+    "Claude Fable 5.1",
+    "Claude Sonnet 5.5",
+    "Gemini 4 Argon",
+    "Muse Wonder Full",
+    "Muse Wonder"
+  ],
+  "domain_weights": {
+    "Professional": 0.25,
+    "Coding": 0.2,
+    "Science": 0.2,
+    "Knowledge": 0.15,
+    "Context": 0.1,
+    "Multimodal": 0.07,
+    "Games": 0.03
+  },
+  "display_anchor": "Claude Opus 5.5",
+  "scale_factor": 20,
+  "as_of": "2026-10-12",
+  "note": "Eight-model extension from ten original AA constituent scores per Muse model; recalibrated eight-model joint graph; NOT a calibrated probability of first place or comparable score level to v4.2; six-model frozen snapshot preserved."
+}

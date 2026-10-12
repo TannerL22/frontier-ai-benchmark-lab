@@ -1,0 +1,25 @@
+{
+  "version": "v5.0-milestone1",
+  "frozen_baseline": "v4.2",
+  "baseline_models": [
+    "Claude Opus 5.5",
+    "GPT-6 Astra",
+    "GPT-6.1 Sol",
+    "Claude Fable 5.1",
+    "Claude Sonnet 5.5",
+    "Gemini 4 Argon"
+  ],
+  "domain_weights": {
+    "Professional": 0.25,
+    "Coding": 0.2,
+    "Science": 0.2,
+    "Knowledge": 0.15,
+    "Context": 0.1,
+    "Multimodal": 0.07,
+    "Games": 0.03
+  },
+  "display_anchor": "Claude Opus 5.5",
+  "scale_factor": 20,
+  "as_of": "2026-10-12",
+  "note": "Candidate models are excluded until matched primary-evaluator task scores and exact configurations are reconciled."
+}
