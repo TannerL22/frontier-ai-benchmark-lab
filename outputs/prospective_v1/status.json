@@ -1,0 +1,425 @@
+{
+  "status": "no_eligible_non_tied_pairs",
+  "accepted_outcome_count": 0,
+  "observed_tied_pair_count": 0,
+  "model_counts": [
+    {
+      "method": "Equal families",
+      "model_id": "claude-opus-5-5",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Equal families",
+      "model_id": "gpt-6-astra",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Equal families",
+      "model_id": "gpt-6-1-sol",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Equal families",
+      "model_id": "claude-fable-5-1",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Equal families",
+      "model_id": "claude-sonnet-5-5",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Equal families",
+      "model_id": "gemini-4-argon",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Equal families",
+      "model_id": "muse-wonder-full",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Equal families",
+      "model_id": "muse-wonder",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Equal domains",
+      "model_id": "claude-opus-5-5",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Equal domains",
+      "model_id": "gpt-6-astra",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Equal domains",
+      "model_id": "gpt-6-1-sol",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Equal domains",
+      "model_id": "claude-fable-5-1",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Equal domains",
+      "model_id": "claude-sonnet-5-5",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Equal domains",
+      "model_id": "gemini-4-argon",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Equal domains",
+      "model_id": "muse-wonder-full",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Equal domains",
+      "model_id": "muse-wonder",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Super-Aggregate v4.2",
+      "model_id": "claude-opus-5-5",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Super-Aggregate v4.2",
+      "model_id": "gpt-6-astra",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Super-Aggregate v4.2",
+      "model_id": "gpt-6-1-sol",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Super-Aggregate v4.2",
+      "model_id": "claude-fable-5-1",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Super-Aggregate v4.2",
+      "model_id": "claude-sonnet-5-5",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Super-Aggregate v4.2",
+      "model_id": "gemini-4-argon",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Super-Aggregate v4.2",
+      "model_id": "muse-wonder-full",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Super-Aggregate v4.2",
+      "model_id": "muse-wonder",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Pair direction vote",
+      "model_id": "claude-opus-5-5",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Pair direction vote",
+      "model_id": "gpt-6-astra",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Pair direction vote",
+      "model_id": "gpt-6-1-sol",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Pair direction vote",
+      "model_id": "claude-fable-5-1",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Pair direction vote",
+      "model_id": "claude-sonnet-5-5",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Pair direction vote",
+      "model_id": "gemini-4-argon",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Pair direction vote",
+      "model_id": "muse-wonder-full",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Pair direction vote",
+      "model_id": "muse-wonder",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Same-domain pair vote",
+      "model_id": "claude-opus-5-5",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Same-domain pair vote",
+      "model_id": "gpt-6-astra",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Same-domain pair vote",
+      "model_id": "gpt-6-1-sol",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Same-domain pair vote",
+      "model_id": "claude-fable-5-1",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Same-domain pair vote",
+      "model_id": "claude-sonnet-5-5",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Same-domain pair vote",
+      "model_id": "gemini-4-argon",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Same-domain pair vote",
+      "model_id": "muse-wonder-full",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Same-domain pair vote",
+      "model_id": "muse-wonder",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Random direction reference",
+      "model_id": "claude-opus-5-5",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Random direction reference",
+      "model_id": "gpt-6-astra",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Random direction reference",
+      "model_id": "gpt-6-1-sol",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Random direction reference",
+      "model_id": "claude-fable-5-1",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Random direction reference",
+      "model_id": "claude-sonnet-5-5",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Random direction reference",
+      "model_id": "gemini-4-argon",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Random direction reference",
+      "model_id": "muse-wonder-full",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "Random direction reference",
+      "model_id": "muse-wonder",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "AA pair direction vote",
+      "model_id": "claude-opus-5-5",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "AA pair direction vote",
+      "model_id": "gpt-6-astra",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "AA pair direction vote",
+      "model_id": "gpt-6-1-sol",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "AA pair direction vote",
+      "model_id": "claude-fable-5-1",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "AA pair direction vote",
+      "model_id": "claude-sonnet-5-5",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "AA pair direction vote",
+      "model_id": "gemini-4-argon",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "AA pair direction vote",
+      "model_id": "muse-wonder-full",
+      "attempted": 0,
+      "abstained": 0
+    },
+    {
+      "method": "AA pair direction vote",
+      "model_id": "muse-wonder",
+      "attempted": 0,
+      "abstained": 0
+    }
+  ],
+  "summaries": [
+    {
+      "method": "Equal families",
+      "family_count": 0,
+      "attempted": 0,
+      "predicted": 0,
+      "abstained": 0,
+      "family_macro_accuracy_abstention_half": null,
+      "family_macro_brier": null,
+      "conditional_pair_accuracy": null
+    },
+    {
+      "method": "Equal domains",
+      "family_count": 0,
+      "attempted": 0,
+      "predicted": 0,
+      "abstained": 0,
+      "family_macro_accuracy_abstention_half": null,
+      "family_macro_brier": null,
+      "conditional_pair_accuracy": null
+    },
+    {
+      "method": "Super-Aggregate v4.2",
+      "family_count": 0,
+      "attempted": 0,
+      "predicted": 0,
+      "abstained": 0,
+      "family_macro_accuracy_abstention_half": null,
+      "family_macro_brier": null,
+      "conditional_pair_accuracy": null
+    },
+    {
+      "method": "Pair direction vote",
+      "family_count": 0,
+      "attempted": 0,
+      "predicted": 0,
+      "abstained": 0,
+      "family_macro_accuracy_abstention_half": null,
+      "family_macro_brier": null,
+      "conditional_pair_accuracy": null
+    },
+    {
+      "method": "Same-domain pair vote",
+      "family_count": 0,
+      "attempted": 0,
+      "predicted": 0,
+      "abstained": 0,
+      "family_macro_accuracy_abstention_half": null,
+      "family_macro_brier": null,
+      "conditional_pair_accuracy": null
+    },
+    {
+      "method": "Random direction reference",
+      "family_count": 0,
+      "attempted": 0,
+      "predicted": 0,
+      "abstained": 0,
+      "family_macro_accuracy_abstention_half": null,
+      "family_macro_brier": null,
+      "conditional_pair_accuracy": null
+    },
+    {
+      "method": "AA pair direction vote",
+      "family_count": 0,
+      "attempted": 0,
+      "predicted": 0,
+      "abstained": 0,
+      "family_macro_accuracy_abstention_half": null,
+      "family_macro_brier": null,
+      "conditional_pair_accuracy": null
+    }
+  ],
+  "rejected_outcomes": [],
+  "predictions": [],
+  "qualification": "Clustered by registered family. No confidence intervals from correlated model pairs. Selection and publication biases remain possible.",
+  "public_registered_at": "2026-10-13T20:43:02Z",
+  "collection_ends_at": "2027-04-11T20:43:02.000Z",
+  "registration_url": "https://github.com/TannerL22/frontier-ai-benchmark-lab/issues/5",
+  "proposal_count": 0,
+  "acquisition_ledger": [],
+  "independent_reviewer_id": "TannerL22",
+  "study_status": "awaiting_future_outcomes"
+}

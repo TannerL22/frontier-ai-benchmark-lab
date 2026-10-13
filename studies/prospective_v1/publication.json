@@ -1,0 +1,17 @@
+{
+  "study_id": "prospective_v1",
+  "status": "publicly_registered_awaiting_future_outcomes",
+  "registration_url": "https://github.com/TannerL22/frontier-ai-benchmark-lab/issues/5",
+  "registration_issue_number": 5,
+  "public_registered_at": "2026-10-13T20:43:02Z",
+  "collection_ends_at": "2027-04-11T20:43:02.000Z",
+  "bundle_path": "studies/prospective_v1/registered",
+  "frozen_input_commit": "56641f0b394841bb30f4fa1397ae1acfd4fb0315",
+  "scoring_rules_commit": "1c2be41faa61aa5aaac093a4aa7c575eb8e82e64",
+  "forecast_sha256": "6225622aaa2d3858faba410b758c6309445420ae4c4e35bc0f7387a801455bd1",
+  "forecast_count": 1372,
+  "independent_reviewer_id": "TannerL22",
+  "acquired_future_outcomes": 0,
+  "publication_type": "Public GitHub issue with server timestamp and immutable commit links; not external registry acceptance",
+  "source_revision_rule": "v5.3 revisions never retune the frozen v5.2 forecasts"
+}

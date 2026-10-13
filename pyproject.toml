@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "frontier-ai-benchmark-lab"
-version = "5.2.0a1"
+version = "5.3.0a1"
 description = "Auditable frontier AI benchmark evidence and historical validation"
 requires-python = ">=3.11"
 dependencies = ["numpy>=2.4,<3", "scipy>=1.17,<2"]

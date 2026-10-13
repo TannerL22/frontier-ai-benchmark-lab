@@ -27,6 +27,7 @@ def main():
     shutil.copytree(old, target)
     review = json.loads((ROOT / "reviews/source_review_2026_10_13.json").read_text())
     checked = {(r["benchmark_id"], r["model_id"]): r for r in review["observations"]}
+    identities = {r["model_id"]: r["model_name"] for r in csv.DictReader((target / "model_identities.csv").open())}
     artifacts = {r["source_id"]: r for r in review["sources"]}
     observations = [json.loads(line) for line in (target / "observations.jsonl").read_text().splitlines()]
     sources = {r["source_id"]: r for r in map(json.loads, (target / "sources.jsonl").read_text().splitlines())}
@@ -56,7 +57,7 @@ def main():
                       original_html_sha256="not_captured", source_review_id=review["review_id"],
                       qualification="Curated numeric transcription with source-reader or visible-table capture digest. Full reader captures are local; this is not original HTML or exact run verification.")
         source["transcribed_values"] = {"benchmark_id": obs["benchmark_id"],
-                                       "model_name": source["transcribed_values"].get("model_name") or obs["model_id"],
+                                       "model_name": identities[obs["model_id"]],
                                        "score": obs["score"]}
         source["transcription_sha256"] = hashlib.sha256(json.dumps(source["transcribed_values"], sort_keys=True).encode()).hexdigest()
         if result.get("reported_plus_minus") is not None:
@@ -92,6 +93,9 @@ def main():
                   evidence_cutoff="2026-10-13", note="All 153 inherited observations investigated: 148 matching numbers, four AA revisions, one uncorroborated historical Arena population. No exact-run or equal-budget certification. Frozen forecasts continue to use v5.2.")
     json_file(target / "config.json", config)
     decisions = json.loads((target / "decisions.json").read_text())
+    for decision in decisions:
+        if decision["id"] in {"D001", "D002"}:
+            decision["review_status"] = "Published through PR #4 after internal numeric/configuration review; no independent run certification"
     decisions.append({"id": "D005", "date": "2026-10-13", "decision": "Apply four dated AA Elo revisions in a new release",
                       "basis": corrections, "review_status": "Internal primary-source numeric check; project owner authorized publication"})
     decisions.append({"id": "D006", "date": "2026-10-13", "decision": "Retain Astra Arena Oct 8 value as individually uncorroborated",

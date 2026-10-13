@@ -4,14 +4,14 @@
     "date": "2026-10-13",
     "decision": "Restore Fable 5.1 and GPT-6.1 Sol FrontierCode Main Scores (50.9 and 50.2)",
     "basis": "Independent audit's original Cognition table transcription",
-    "review_status": "Proposed release; review in pull request"
+    "review_status": "Published through PR #4 after internal numeric/configuration review; no independent run certification"
   },
   {
     "id": "D002",
     "date": "2026-10-13",
     "decision": "Retain Opus High 13.93; disclose Max 17.29 as excluded alternative",
     "basis": "Different observational session populations; frozen-system scope replaces best-available wording",
-    "review_status": "Proposed release; review in pull request"
+    "review_status": "Published through PR #4 after internal numeric/configuration review; no independent run certification"
   },
   {
     "id": "D003",
