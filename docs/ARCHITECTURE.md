@@ -1,41 +1,11 @@
-# System architecture
+# Architecture
 
-```text
-Original evaluator publications
-           │
-           ▼
-Versioned CSV evidence + source audit (data/)
-           │
-           ▼
-Single Python analysis engine (src/frontierlab/)
-       ┌───┴───────────────────┐
-       ▼                       ▼
-Release scoring             Historical validation
-       │                       │
-       └───┬───────────────────┘
-           ▼
- Streamlit dashboard (app.py) + generated exports (outputs/)
-           │
-           ▼
- GitHub automated tests (CI) and independent source review
-```
+The app and command-line exports share a small Python calculation library and versioned local CSV/JSON evidence. No database or service rewrite is needed for this portfolio.
 
-## Data is the source of truth
+`core.py` validates historical calculation schemas and solves sparse comparison graphs. `catalog.py` enforces new stable record relationships and source/observation agreement. `analysis.py` contains coverage, simple pair baselines, contribution and deletion/genealogy scenarios. `integrity.py` handles portable hashes. `presentation.py` provides shared exports and historical-detail fallbacks. `validation.py` retains nested historical probability calibration.
 
-`data/` is the **immutable frozen six-model baseline**. `data/v5_1/` is the versioned expansion containing Meta's two distinct Muse variants. Each observation has a benchmark ID, model identity and numeric score. Metadata records original publisher, domain, family, units, provenance, configuration and source URL. `snapshots/` preserves previous numerical results.
+`app.py` presents seven generic release-aware pages. Coverage and co-recorded results come first; exact source/system detail and release decisions follow. Retrospective validation exposes conditional accuracy and abstention. Aggregation is explicitly optional. Research protocols are downloadable. Caches include release and selected evidence keys, so sensitivity uses the same row selection as the displayed experiment.
 
-Avoid modifying the legacy evidence in place. New scores belong in a separately named release dataset and must have a source-audit record. Never infer missing scores, overwrite historical results, or insert composite benchmarks into constituent-level scoring.
+`study.py` seals immutable forecast drafts and validates future outcome eligibility; `pilot.py` generates public fixture tasks and grades submitted artifacts. Neither calls a provider. Task or forecast tampering fails verification. Future public registration and independent task/eligibility review are research actions, not features fabricated by the software.
 
-## Computation
-
-`frontierlab.core.Evidence` reads observations and computes a connected model comparison graph. `frontierlab.validation` implements holdout validation and optional probability calibration. `app.py` is presentation only; it does not own a second scoring formula. `scripts/reproduce_v51.py` generates reproducible release results and exports.
-
-## Quality gates
-
-The tests check source counts, exact Meta benchmark vectors, no model-benchmark duplicates, no composite scores, model-graph connectivity, unchanged v4.2 reference outputs and historical cross-validation numbers.
-
-The model currently targets publicly reported *best-available system* performance, not matched hardware, matched inference budget or identical agent harnesses. The statistical model and coverage limitations are documented in [METHODOLOGY.md](METHODOLOGY.md).
-
-## Planned future architecture
-
-As the project grows, add append-only evidence revisions, reviewer-approved ingestion, timed source snapshots and a properly pre-registered prospective evaluation dataset. DuckDB/Parquet can replace flat files later without requiring changes to the scoring API. Do not introduce an operational database until file-based evidence becomes a practical bottleneck.
+CI installs the complete dependency resolution, checks contracts/seals, runs the full suite including slow calibration, reproduces all releases, exercises all app pages and archives computations. A new database, API, ingestion service or public front end should follow an actual history-querying, collaboration or usability need. Source monitoring should propose changes for review rather than silently publish observations.

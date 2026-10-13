@@ -1,0 +1,154 @@
+benchmark_id,model,repository_score,source_score,status,source_url,accessed_on,qualification
+B006,Claude Opus 5.5,1807.0,1807,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,"Original comparison table identifies Max, Default Fallback"
+B007,Claude Opus 5.5,1866.0,1866,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,"Original comparison table identifies Max, Default Fallback"
+B008,Claude Opus 5.5,70.0,70,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,"Original comparison table identifies Max, Default Fallback"
+B009,Claude Opus 5.5,60.0,60,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,"Original comparison table identifies Max, Default Fallback"
+B010,Claude Opus 5.5,67.0,67,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,"Original comparison table identifies Max, Default Fallback"
+B011,Claude Opus 5.5,61.0,61,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,"Original comparison table identifies Max, Default Fallback"
+B012,Claude Opus 5.5,26.0,26,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,"Original comparison table identifies Max, Default Fallback"
+B013,Claude Opus 5.5,32.0,32,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,"Original comparison table identifies Max, Default Fallback"
+B014,Claude Opus 5.5,46.0,46,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,"Original comparison table identifies Max, Default Fallback"
+B015,Claude Opus 5.5,85.0,85,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,"Original comparison table identifies Max, Default Fallback"
+B006,Muse Wonder Full,1729.0,1729,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,Original comparison table identifies Max; all ten launch values match
+B007,Muse Wonder Full,1857.0,1857,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,Original comparison table identifies Max; all ten launch values match
+B008,Muse Wonder Full,71.0,71,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,Original comparison table identifies Max; all ten launch values match
+B009,Muse Wonder Full,57.0,57,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,Original comparison table identifies Max; all ten launch values match
+B010,Muse Wonder Full,63.0,63,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,Original comparison table identifies Max; all ten launch values match
+B011,Muse Wonder Full,54.0,54,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,Original comparison table identifies Max; all ten launch values match
+B012,Muse Wonder Full,33.0,33,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,Original comparison table identifies Max; all ten launch values match
+B013,Muse Wonder Full,33.0,33,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,Original comparison table identifies Max; all ten launch values match
+B014,Muse Wonder Full,30.0,30,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,Original comparison table identifies Max; all ten launch values match
+B015,Muse Wonder Full,84.0,84,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,Original comparison table identifies Max; all ten launch values match
+B006,Muse Wonder,1659.0,1659,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,Original comparison table identifies Max; all ten launch values match
+B007,Muse Wonder,1770.0,1770,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,Original comparison table identifies Max; all ten launch values match
+B008,Muse Wonder,68.0,68,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,Original comparison table identifies Max; all ten launch values match
+B009,Muse Wonder,52.0,52,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,Original comparison table identifies Max; all ten launch values match
+B010,Muse Wonder,60.0,60,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,Original comparison table identifies Max; all ten launch values match
+B011,Muse Wonder,50.0,50,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,Original comparison table identifies Max; all ten launch values match
+B012,Muse Wonder,31.0,31,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,Original comparison table identifies Max; all ten launch values match
+B013,Muse Wonder,28.0,28,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,Original comparison table identifies Max; all ten launch values match
+B014,Muse Wonder,25.0,25,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,Original comparison table identifies Max; all ten launch values match
+B015,Muse Wonder,81.0,81,numeric_match,"https://artificialanalysis.ai/models/comparisons?compare=muse-wonder,claude-opus-5-5,muse-wonder-full",2026-10-12,Original comparison table identifies Max; all ten launch values match
+B016,Claude Opus 5.5,66.65,66.65,numeric_match,https://www.vals.ai/models/anthropic_claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B017,Claude Opus 5.5,55.36,55.36,numeric_match,https://www.vals.ai/models/anthropic_claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B018,Claude Opus 5.5,75.94,75.94,numeric_match,https://www.vals.ai/models/anthropic_claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B019,Claude Opus 5.5,58.59,58.59,numeric_match,https://www.vals.ai/models/anthropic_claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B020,Claude Opus 5.5,50.48,50.48,numeric_match,https://www.vals.ai/models/anthropic_claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B021,Claude Opus 5.5,49.8,49.8,numeric_match,https://www.vals.ai/models/anthropic_claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B022,Claude Opus 5.5,91.43,91.43,numeric_match,https://www.vals.ai/models/anthropic_claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B023,Claude Opus 5.5,49.55,49.55,numeric_match,https://www.vals.ai/models/anthropic_claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B024,Claude Opus 5.5,100.0,100,numeric_match,https://www.vals.ai/models/anthropic_claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B025,Claude Opus 5.5,45.83,45.83,numeric_match,https://www.vals.ai/models/anthropic_claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B026,Claude Opus 5.5,33.59,33.59,numeric_match,https://www.vals.ai/models/anthropic_claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B027,Claude Opus 5.5,45.57,45.57,numeric_match,https://www.vals.ai/models/anthropic_claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B028,Claude Opus 5.5,90.29,90.29,numeric_match,https://www.vals.ai/models/anthropic_claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B029,Claude Opus 5.5,3.75,3.75,numeric_match,https://www.vals.ai/models/anthropic_claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B030,Claude Opus 5.5,18.5,18.5,numeric_match,https://www.vals.ai/models/anthropic_claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B031,Claude Opus 5.5,47.14,47.14,numeric_match,https://www.vals.ai/models/anthropic_claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B051,Claude Opus 5.5,95.06,95.06,numeric_match,https://www.vals.ai/models/anthropic_claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B052,Claude Opus 5.5,70.64,70.64,numeric_match,https://www.vals.ai/models/anthropic_claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B053,Claude Opus 5.5,14.0,14,numeric_match,https://www.vals.ai/models/anthropic_claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B054,Claude Opus 5.5,91.33,91.33,numeric_match,https://www.vals.ai/models/anthropic_claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B033,Claude Opus 5.5,73.5,73.5,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B033,Claude Fable 5.1,68.6,68.6,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B033,Claude Sonnet 5.5,75.5,75.5,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B033,Gemini 4 Argon,82.4,82.4,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B034,Claude Opus 5.5,61.8,61.8,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B034,GPT-6 Astra,57.9,57.9,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B034,Claude Fable 5.1,61.0,61,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B035,Claude Opus 5.5,67.6,67.6,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B035,Claude Fable 5.1,63.6,63.6,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B035,Claude Sonnet 5.5,66.4,66.4,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B037,Claude Opus 5.5,55.0,55,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B037,Claude Fable 5.1,54.0,54,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B037,Claude Sonnet 5.5,54.0,54,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B038,Claude Opus 5.5,60.5,60.5,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B038,GPT-6.1 Sol,67.7,67.7,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B038,Claude Fable 5.1,63.3,63.3,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B038,Claude Sonnet 5.5,73.0,73,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B039,Claude Opus 5.5,84.7,84.7,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B039,GPT-6 Astra,85.1,85.1,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B039,GPT-6.1 Sol,85.1,85.1,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B055,Claude Opus 5.5,75.8,75.8,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B055,Claude Fable 5.1,68.7,68.7,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B055,Claude Sonnet 5.5,70.9,70.9,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B056,Claude Opus 5.5,71.2,71.2,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B056,GPT-6.1 Sol,64.7,64.7,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B056,Claude Fable 5.1,66.0,66,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B057,Claude Opus 5.5,51.0,51,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B057,GPT-6 Astra,60.0,60,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B057,GPT-6.1 Sol,61.3,61.3,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B058,Claude Opus 5.5,43.3,43.3,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B058,Claude Fable 5.1,38.0,38,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B058,Claude Sonnet 5.5,44.7,44.7,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B059,Claude Opus 5.5,47.5,47.5,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B059,GPT-6.1 Sol,45.8,45.8,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B059,Claude Sonnet 5.5,45.5,45.5,numeric_match,https://www.mercor.com/apex/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B060,Claude Opus 5.5,73.1,73.1,numeric_match,https://www.mercor.com/apex/apex-v1-leaderboard/investment-banking-analyst/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B060,GPT-6 Astra,70.3,70.3,numeric_match,https://www.mercor.com/apex/apex-v1-leaderboard/investment-banking-analyst/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B060,GPT-6.1 Sol,70.2,70.2,numeric_match,https://www.mercor.com/apex/apex-v1-leaderboard/investment-banking-analyst/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B060,Claude Fable 5.1,71.1,71.1,numeric_match,https://www.mercor.com/apex/apex-v1-leaderboard/investment-banking-analyst/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B060,Claude Sonnet 5.5,64.4,64.4,numeric_match,https://www.mercor.com/apex/apex-v1-leaderboard/investment-banking-analyst/,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B042,Claude Opus 5.5,71.0,71,numeric_match,https://epoch.ai/models/gpt-6-1-sol,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B043,Claude Opus 5.5,71.0,71,numeric_match,https://epoch.ai/models/gpt-6-1-sol,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B044,Claude Opus 5.5,91.0,91,numeric_match,https://epoch.ai/models/gpt-6-1-sol,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B045,Claude Opus 5.5,95.0,95,numeric_match,https://epoch.ai/models/gpt-6-1-sol,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B046,Claude Opus 5.5,83.0,83,numeric_match,https://epoch.ai/models/gpt-6-1-sol,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B047,Claude Opus 5.5,91.0,91,numeric_match,https://epoch.ai/models/gpt-6-1-sol,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B049,Claude Opus 5.5,72.0,72,numeric_match,https://epoch.ai/models/gpt-6-1-sol,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B042,GPT-6 Astra,76.0,76,numeric_match,https://epoch.ai/models/gpt-6-1-sol,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B043,GPT-6 Astra,84.0,84,numeric_match,https://epoch.ai/models/gpt-6-1-sol,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B044,GPT-6 Astra,94.0,94,numeric_match,https://epoch.ai/models/gpt-6-1-sol,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B045,GPT-6 Astra,98.0,98,numeric_match,https://epoch.ai/models/gpt-6-1-sol,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B046,GPT-6 Astra,80.0,80,numeric_match,https://epoch.ai/models/gpt-6-1-sol,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B047,GPT-6 Astra,96.0,96,numeric_match,https://epoch.ai/models/gpt-6-1-sol,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B049,GPT-6 Astra,76.0,76,numeric_match,https://epoch.ai/models/gpt-6-1-sol,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B042,GPT-6.1 Sol,54.0,54,numeric_match,https://epoch.ai/models/gpt-6-1-sol,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B043,GPT-6.1 Sol,80.0,80,numeric_match,https://epoch.ai/models/gpt-6-1-sol,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B044,GPT-6.1 Sol,94.0,94,numeric_match,https://epoch.ai/models/gpt-6-1-sol,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B045,GPT-6.1 Sol,100.0,100,numeric_match,https://epoch.ai/models/gpt-6-1-sol,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B046,GPT-6.1 Sol,80.0,80,numeric_match,https://epoch.ai/models/gpt-6-1-sol,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B047,GPT-6.1 Sol,95.0,95,numeric_match,https://epoch.ai/models/gpt-6-1-sol,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B049,GPT-6.1 Sol,74.0,74,numeric_match,https://epoch.ai/models/gpt-6-1-sol,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B043,Claude Fable 5.1,58.0,58,numeric_match,https://epoch.ai/models/claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B044,Claude Fable 5.1,90.0,90,numeric_match,https://epoch.ai/models/claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B045,Claude Fable 5.1,88.0,88,numeric_match,https://epoch.ai/models/claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B046,Claude Fable 5.1,70.0,70,numeric_match,https://epoch.ai/models/claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B048,Claude Fable 5.1,73.0,73,numeric_match,https://epoch.ai/models/claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B049,Claude Fable 5.1,71.0,71,numeric_match,https://epoch.ai/models/claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B048,Claude Opus 5.5,77.0,77,numeric_match,https://epoch.ai/models/claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B048,GPT-6 Astra,47.0,47,numeric_match,https://epoch.ai/models/claude-opus-5-5,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B050,Claude Opus 5.5,93.3,93.3,numeric_match,https://arcprize.org/leaderboard,2026-10-12,ARC-AGI-2 table explicitly selected; model effort verified against benchmark metadata
+B050,GPT-6 Astra,95.0,95,numeric_match,https://arcprize.org/leaderboard,2026-10-12,ARC-AGI-2 table explicitly selected; model effort verified against benchmark metadata
+B050,GPT-6.1 Sol,94.2,94.2,numeric_match,https://arcprize.org/leaderboard,2026-10-12,ARC-AGI-2 table explicitly selected; model effort verified against benchmark metadata
+B050,Claude Fable 5.1,90.0,90,numeric_match,https://arcprize.org/leaderboard,2026-10-12,ARC-AGI-2 table explicitly selected; model effort verified against benchmark metadata
+B040,Claude Opus 5.5,21.25,21.25,numeric_match,https://labs.scale.com/leaderboard/rli,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B040,GPT-6 Astra,20.83,20.83,numeric_match,https://labs.scale.com/leaderboard/rli,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B040,Claude Fable 5.1,17.92,17.92,numeric_match,https://labs.scale.com/leaderboard/rli,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B041,Claude Opus 5.5,44.6,44.6,numeric_match,https://labs.scale.com/leaderboard/hss,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B041,GPT-6 Astra,53.6,53.6,numeric_match,https://labs.scale.com/leaderboard/hss,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B041,GPT-6.1 Sol,46.6,46.6,numeric_match,https://labs.scale.com/leaderboard/hss,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B041,Claude Fable 5.1,40.8,40.8,numeric_match,https://labs.scale.com/leaderboard/hss,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B061,Claude Opus 5.5,67.16,67.16,numeric_match,https://huggingface.co/blog/microsoft/thinkingbox,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B061,GPT-6 Astra,58.31,58.31,numeric_match,https://huggingface.co/blog/microsoft/thinkingbox,2026-10-12,Numeric value corroborated; run configuration needs a frozen source record
+B032,Claude Opus 5.5,13.93,13.93,numeric_match,https://canary.arena.ai/leaderboard/agent,2026-10-12,"Recorded Opus High value matches; a separate Max result 17.29 is available, so selection policy needs review"
+B032,GPT-6 Astra,12.13,12.13,numeric_match,https://canary.arena.ai/leaderboard/agent,2026-10-12,"Recorded Opus High value matches; a separate Max result 17.29 is available, so selection policy needs review"
+B032,GPT-6.1 Sol,14.74,14.74,numeric_match,https://canary.arena.ai/leaderboard/agent,2026-10-12,"Recorded Opus High value matches; a separate Max result 17.29 is available, so selection policy needs review"
+B032,Claude Fable 5.1,16.19,16.19,numeric_match,https://canary.arena.ai/leaderboard/agent,2026-10-12,"Recorded Opus High value matches; a separate Max result 17.29 is available, so selection policy needs review"
+B032,Claude Sonnet 5.5,15.83,15.83,numeric_match,https://canary.arena.ai/leaderboard/agent,2026-10-12,"Recorded Opus High value matches; a separate Max result 17.29 is available, so selection policy needs review"
+B032,Gemini 4 Argon,15.64,15.64,numeric_match,https://canary.arena.ai/leaderboard/agent,2026-10-12,"Recorded Opus High value matches; a separate Max result 17.29 is available, so selection policy needs review"
+B062,Claude Opus 5.5,1515.0,1515,numeric_match,https://arena.ai/leaderboard/chat/text?scoring=raw,2026-10-12,Current published row corroborates value; preliminary Argon and varying efforts retained
+B062,GPT-6.1 Sol,1447.0,1447,numeric_match,https://arena.ai/leaderboard/chat/text?scoring=raw,2026-10-12,Current published row corroborates value; preliminary Argon and varying efforts retained
+B062,Claude Fable 5.1,1510.0,1510,numeric_match,https://arena.ai/leaderboard/chat/text?scoring=raw,2026-10-12,Current published row corroborates value; preliminary Argon and varying efforts retained
+B062,Claude Sonnet 5.5,1471.0,1471,numeric_match,https://arena.ai/leaderboard/chat/text?scoring=raw,2026-10-12,Current published row corroborates value; preliminary Argon and varying efforts retained
+B062,Gemini 4 Argon,1534.0,1534,numeric_match,https://arena.ai/leaderboard/chat/text?scoring=raw,2026-10-12,Current published row corroborates value; preliminary Argon and varying efforts retained
+B036,Claude Opus 5.5,54.6,54.6,numeric_match,https://cognition.com/frontiercode,2026-10-12,"FrontierCode 1.1 Main Score (weighted rubric aggregate), best reasoning mode; different harnesses"
+B036,GPT-6 Astra,53.3,53.3,numeric_match,https://cognition.com/frontiercode,2026-10-12,"FrontierCode 1.1 Main Score (weighted rubric aggregate), best reasoning mode; different harnesses"
+B036,Claude Sonnet 5.5,52.1,52.1,numeric_match,https://cognition.com/frontiercode,2026-10-12,"FrontierCode 1.1 Main Score (weighted rubric aggregate), best reasoning mode; different harnesses"
+B036,Claude Fable 5.1,,50.9,missing_in_repository,https://cognition.com/frontiercode,2026-10-12,"FrontierCode 1.1 Main Score (weighted rubric aggregate), best reasoning mode; different harnesses"
+B036,GPT-6.1 Sol,,50.2,missing_in_repository,https://cognition.com/frontiercode,2026-10-12,"FrontierCode 1.1 Main Score (weighted rubric aggregate), best reasoning mode; different harnesses"
+B033,GPT-6 Astra,64.666667,64.66666666666667,numeric_match,https://www.mercor.com/apex/apex-agents-leaderboard/corporate-lawyer-agent/ | https://www.mercor.com/apex/apex-agents-leaderboard/management-consultant-agent/ | https://www.mercor.com/apex/apex-agents-leaderboard/investment-banking-analyst-agent/,2026-10-12,"Derived arithmetic corroborated from displayed rounded sub-scores [73.4, 64.7, 55.9]; each role 80 tasks / each SWE category 100 tasks; does not restore lost rounding precision"
+B033,GPT-6.1 Sol,59.966667,59.96666666666667,numeric_match,https://www.mercor.com/apex/apex-agents-leaderboard/corporate-lawyer-agent/ | https://www.mercor.com/apex/apex-agents-leaderboard/management-consultant-agent/ | https://www.mercor.com/apex/apex-agents-leaderboard/investment-banking-analyst-agent/,2026-10-12,"Derived arithmetic corroborated from displayed rounded sub-scores [63.4, 58.4, 58.1]; each role 80 tasks / each SWE category 100 tasks; does not restore lost rounding precision"
+B035,GPT-6 Astra,50.0,50.0,numeric_match,https://www.mercor.com/apex/apex-swe-leaderboard/integration-swe/ | https://www.mercor.com/apex/apex-swe-leaderboard/observability-swe/,2026-10-12,"Derived arithmetic corroborated from displayed rounded sub-scores [62, 38]; each role 80 tasks / each SWE category 100 tasks; does not restore lost rounding precision"
+B035,GPT-6.1 Sol,46.9,46.9,numeric_match,https://www.mercor.com/apex/apex-swe-leaderboard/integration-swe/ | https://www.mercor.com/apex/apex-swe-leaderboard/observability-swe/,2026-10-12,"Derived arithmetic corroborated from displayed rounded sub-scores [61.5, 32.3]; each role 80 tasks / each SWE category 100 tasks; does not restore lost rounding precision"
+B035,Gemini 4 Argon,49.3,49.3,numeric_match,https://www.mercor.com/apex/apex-swe-leaderboard/integration-swe/ | https://www.mercor.com/apex/apex-swe-leaderboard/observability-swe/,2026-10-12,"Derived arithmetic corroborated from displayed rounded sub-scores [71.3, 27.3]; each role 80 tasks / each SWE category 100 tasks; does not restore lost rounding precision"

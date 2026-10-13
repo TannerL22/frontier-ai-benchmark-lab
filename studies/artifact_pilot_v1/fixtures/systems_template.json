@@ -1,0 +1,16 @@
+{
+  "systems": [
+    {
+      "system_id": "replace_with_actual_system_id",
+      "model_snapshot": "unknown",
+      "endpoint": "unknown",
+      "reasoning_effort": "unknown",
+      "harness": "manual_json_artifact_submission",
+      "fallback_policy": "none_declared",
+      "resource_budget": "declare_token_time_and_spend_caps_before_runs",
+      "repeated_attempts": 3,
+      "evaluation_date": "unknown",
+      "data_class": "configuration_template_not_a_model_run"
+    }
+  ]
+}

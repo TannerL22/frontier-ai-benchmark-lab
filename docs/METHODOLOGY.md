@@ -1,52 +1,31 @@
-# Methodology and limitations
+# Measurement scope and research methods
 
-## Research question
+## What the evidence describes
 
-Which aggregation method generalises best to **unseen benchmark families**, and what do available original evaluations say about comparative frontier-model capabilities?
+The target is the selected reported system configuration on a specified task: snapshot/endpoint, reasoning, harness/tools, fallback/retries and resource budget. A canonical model display name is a grouping identity, not proof that those conditions match across sources. Unknown conditions remain explicit. The portfolio is a curated selection, not a sample from a defined universe of intelligence tasks.
 
-This project compares **reported benchmark systems**, not model weights evaluated under universally identical compute, tool budgets or agent implementations.
+Raw co-recorded metrics are the primary comparison. Equal task names alone do not imply matched populations, judges, harnesses or compute. Preserve published uncertainty definitions; unavailable intervals stay unavailable. The v5.2 ledger has not reconstructed paired task-level uncertainty. Extra digits in reconstructed means are calculation precision, not measurement precision.
 
-## Observation unit and provenance
+## Optional graph experiments
 
-The primary scored observation is one model's score on one independently published benchmark execution. Benchmarks belong to families and evaluators, with domain and configuration metadata. Two evaluations from the same benchmark family must not be treated as two independent families. Publisher-generated composite indices are not direct scoring votes.
+For an observed model pair, orient higher/lower metrics and divide its difference by a declared denominator, clip to [-2, 2], then solve a weighted least-squares graph. Each row contributes its nominal weight divided by the number of possible pairs in the release roster. Missing comparisons receive no pair weight; their weight is not redistributed. With k observed models among M, observed comparison mass is `w * C(k,2)/C(M,2)`.
 
-## Three predeclared estimators
+Historical v4.2/v5.1 denominators remain `max(floor, population SD of observed roster scores)`. v5.2 fixes every denominator to the separately frozen six-model v4.2 reference. This stops new roster entries from redefining the ruler. The floors, reference SD, clipping and display multiplier remain experimental conventions, not uncertainty estimates or calibrated capability units. Fixed normalization does not remove roster or configuration effects, and values are not interchangeable across releases.
 
-- **Equal benchmark families:** each unique benchmark family receives the same total weight, shared among its recorded evaluations.
-- **Equal domains:** evidence is balanced across capability domains rather than allowing densely measured domains to dominate.
-- **Super-Aggregate v4.2:** an experimental evaluator-aware, sparse-coverage-adjusted estimator.
+Equal families balances fine family IDs; Equal domains gives each active domain equal mass and balances its families. The historical Super-Aggregate uses declared domain weights, evaluator saturation/coverage heuristics and an Arena Knowledge discount. None has been established as objectively optimal or a reliability estimator. The advanced method is retained for reproduction and comparison, with contributions visible.
 
-Each benchmark's model scores are normalised by the maximum of the observed population standard deviation and a predeclared scale floor; extreme relative differences are clipped. The joint estimator fits differences on a common comparison graph, using only model pairs with **both scores observed**. Missing pairs get zero influence rather than receiving an imputed value or redistributed weight.
+The old display convention is `100 + 20*(theta - theta_Opus)`. The new optional plot shows rounded differences from that reference, without rank positions. It does not express percentage intelligence. A joint whole-roster result requires a connected comparison graph. Cross-component predictions abstain; identifiable comparisons within a connected component can still be predicted.
 
-The display scale, anchored to Opus = 100, is arbitrary:
+## Retrospective tests
 
-```text
-Index(model) = 100 + 20 × (latent_value(model) − latent_value(Opus))
-```
+Withhold an entire fine family, evaluator, domain, or broader ancestry group before fitting. Group-macro directional accuracy averages held-out group accuracies; ties in predictions receive half credit, and exact observed ties are excluded. Optional normalized-margin exclusions are sensitivities, not statistical significance rules. Report attempted, predicted, abstained, excluded ties/margins and group/model coverage; conditional accuracy can improve when hard cases abstain.
 
-It is **not** a percent intelligence, a measurement of absolute ability, or a calibrated probability.
+Pair direction vote uses family-balanced signs for the directly observed model pair. Same-domain vote restricts training to the held-out task's domain. Both abstain without shared evidence. Random direction has expected accuracy 50%. Compare methods on coverage and the same cases before claiming an advantage. Historical results on selected identities are not prospective validation or unseen-model prediction.
 
-## Historical validation
+GDP-related and Terminal-related ancestry groups are alternative dependence assumptions. They do not prove duplicated tasks. Removal scenarios and genealogy regrouping expose sensitivity; neither creates confidence intervals. Fine family IDs are not a guarantee of statistical independence. Correlated pair counts and shared training folds preclude naïve binomial uncertainty.
 
-For each benchmark family (then evaluator and domain), remove all its rows, refit the ranking models without the withheld evidence, and predict held-out pairwise rank directions. Comparisons are averaged **within** the held-out family/evaluator before macro-averaging across groups. Benchmarks with tied observed outcomes do not identify a winning direction.
+## Future research
 
-The v4.4 six-model cross-validation found 61.0% accuracy for equal-family weighting, 56.1% for equal-domain weighting and 57.3% for the complex index. This did **not** establish a benefit from complex weighting. The nested probability calibration gave Brier scores of 0.2433 (equal families), 0.2447 (equal domains) and 0.2411 (advanced), a very small, uncertain difference.
+The locally sealed protocol tests frozen predictions on reviewed future families for the fixed roster. Publish the bundle before acquiring outcomes; retain proposed exclusions and deviations. Forecast probabilities are fixed uncalibrated mappings being tested, not confidence labels. The study does not forecast new model identities. Published-source and domain baselines use the same sealed information cutoff.
 
-### Important statistical cautions
-
-- Multiple pairwise predictions from one benchmark are correlated, so **pair counts are not independent sample sizes**.
-- Historical cross-validation is not an uncontaminated prospective test: evaluation selection and some methodological decisions were informed by the existing landscape.
-- The earlier four-family external holdout was narrow and mostly retrospective.
-- Differences of less than one percentage point on observed tasks may not represent stable true differences.
-- Publisher weights, domain definitions and standardisation assumptions remain contestable.
-- An external publisher's composite such as the AA Intelligence Index cannot be scored as if it were a leave-one-family-out baseline when it already includes some test families.
-
-## Why Muse rankings are provisional
-
-Muse Wonder Full and Muse Wonder each have **ten original AA constituent scores** in v5.1, against as many as 57 observations for the established models. There is no independently verified Muse coverage from the other eight evaluator groups in the current release. Their estimated positions are substantially sensitive to domain weighting. The dataset records the AA original scores and publication information in `data/v5_1/source_audit.csv`.
-
-Do not claim an eight-model universal winner based on a 10-versus-57 coverage imbalance. Track future independent evaluations under a new evidence release and retain historical outputs unchanged.
-
-## Next scientific milestone
-
-Pre-register predictions on genuinely **future independent benchmark releases** without altering the frozen estimators after observing results. Assess calibration and direction by truly independent benchmark family, version and evaluator; extend model coverage and configuration documentation first.
+The original artifact pilot is prepared without paid calls. Public synthetic fixtures test grading mechanics. Expert task review, independent/private tasks, real configurations and repeated paired trials are outstanding prerequisites to capability claims. Cost, time, correctness, human quality and recovery should remain distinct outcomes. No original model performance has been reported by this release.

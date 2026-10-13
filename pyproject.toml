@@ -4,14 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "frontier-ai-benchmark-lab"
-version = "5.1.0a1"
+version = "5.2.0a1"
 description = "Auditable frontier AI benchmark evidence and historical validation"
-requires-python = ">=3.10"
-dependencies = ["numpy>=1.24", "scipy>=1.10"]
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.4,<3", "scipy>=1.17,<2"]
 
 [project.optional-dependencies]
-app = ["streamlit>=1.30", "plotly>=5"]
-dev = ["pytest>=7"]
+app = ["streamlit>=1.57,<2", "plotly>=6.7,<7", "pandas>=3,<4"]
+dev = ["pytest>=9,<10"]
 
 [tool.setuptools]
 package-dir = {"" = "src"}

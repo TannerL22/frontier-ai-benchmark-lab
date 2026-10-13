@@ -1,0 +1,14 @@
+{
+  "id": "v5.2",
+  "status": "reviewable_draft",
+  "created_on": "2026-10-13",
+  "evidence_cutoff": "2026-10-12",
+  "scope": "Selected, frozen reported system configurations; descriptive evidence portfolio",
+  "included_observations": 306,
+  "excluded_alternatives": 1,
+  "numerically_corroborated_in_audit": 153,
+  "not_individually_rechecked_in_audit": 153,
+  "exact_run_metadata": "incomplete",
+  "original_webpage_archives": "not captured; source records distinguish transcriptions from inherited links",
+  "historical_data": "data/ and data/v5_1/ are unchanged"
+}

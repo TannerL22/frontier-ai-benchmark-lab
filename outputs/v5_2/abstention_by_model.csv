@@ -1,0 +1,193 @@
+holdout,method,model,attempted,predicted,abstained
+family,Equal families,Claude Opus 5.5,242,242,0
+family,Equal families,GPT-6 Astra,216,216,0
+family,Equal families,GPT-6.1 Sol,218,218,0
+family,Equal families,Claude Fable 5.1,230,230,0
+family,Equal families,Claude Sonnet 5.5,213,213,0
+family,Equal families,Gemini 4 Argon,180,180,0
+family,Equal families,Muse Wonder Full,68,68,0
+family,Equal families,Muse Wonder,65,65,0
+family,Equal domains,Claude Opus 5.5,242,242,0
+family,Equal domains,GPT-6 Astra,216,216,0
+family,Equal domains,GPT-6.1 Sol,218,218,0
+family,Equal domains,Claude Fable 5.1,230,230,0
+family,Equal domains,Claude Sonnet 5.5,213,213,0
+family,Equal domains,Gemini 4 Argon,180,180,0
+family,Equal domains,Muse Wonder Full,68,68,0
+family,Equal domains,Muse Wonder,65,65,0
+family,Super-Aggregate v4.2,Claude Opus 5.5,242,242,0
+family,Super-Aggregate v4.2,GPT-6 Astra,216,216,0
+family,Super-Aggregate v4.2,GPT-6.1 Sol,218,218,0
+family,Super-Aggregate v4.2,Claude Fable 5.1,230,230,0
+family,Super-Aggregate v4.2,Claude Sonnet 5.5,213,213,0
+family,Super-Aggregate v4.2,Gemini 4 Argon,180,180,0
+family,Super-Aggregate v4.2,Muse Wonder Full,68,68,0
+family,Super-Aggregate v4.2,Muse Wonder,65,65,0
+family,Pair direction vote,Claude Opus 5.5,242,242,0
+family,Pair direction vote,GPT-6 Astra,216,216,0
+family,Pair direction vote,GPT-6.1 Sol,218,218,0
+family,Pair direction vote,Claude Fable 5.1,230,230,0
+family,Pair direction vote,Claude Sonnet 5.5,213,213,0
+family,Pair direction vote,Gemini 4 Argon,180,180,0
+family,Pair direction vote,Muse Wonder Full,68,68,0
+family,Pair direction vote,Muse Wonder,65,65,0
+family,Same-domain pair vote,Claude Opus 5.5,242,238,4
+family,Same-domain pair vote,GPT-6 Astra,216,212,4
+family,Same-domain pair vote,GPT-6.1 Sol,218,214,4
+family,Same-domain pair vote,Claude Fable 5.1,230,226,4
+family,Same-domain pair vote,Claude Sonnet 5.5,213,203,10
+family,Same-domain pair vote,Gemini 4 Argon,180,178,2
+family,Same-domain pair vote,Muse Wonder Full,68,61,7
+family,Same-domain pair vote,Muse Wonder,65,58,7
+family,Random direction reference,Claude Opus 5.5,242,242,0
+family,Random direction reference,GPT-6 Astra,216,216,0
+family,Random direction reference,GPT-6.1 Sol,218,218,0
+family,Random direction reference,Claude Fable 5.1,230,230,0
+family,Random direction reference,Claude Sonnet 5.5,213,213,0
+family,Random direction reference,Gemini 4 Argon,180,180,0
+family,Random direction reference,Muse Wonder Full,68,68,0
+family,Random direction reference,Muse Wonder,65,65,0
+evaluator,Equal families,Claude Opus 5.5,242,222,20
+evaluator,Equal families,GPT-6 Astra,216,199,17
+evaluator,Equal families,GPT-6.1 Sol,218,199,19
+evaluator,Equal families,Claude Fable 5.1,230,212,18
+evaluator,Equal families,Claude Sonnet 5.5,213,193,20
+evaluator,Equal families,Gemini 4 Argon,180,161,19
+evaluator,Equal families,Muse Wonder Full,68,0,68
+evaluator,Equal families,Muse Wonder,65,0,65
+evaluator,Equal domains,Claude Opus 5.5,242,222,20
+evaluator,Equal domains,GPT-6 Astra,216,199,17
+evaluator,Equal domains,GPT-6.1 Sol,218,199,19
+evaluator,Equal domains,Claude Fable 5.1,230,212,18
+evaluator,Equal domains,Claude Sonnet 5.5,213,193,20
+evaluator,Equal domains,Gemini 4 Argon,180,161,19
+evaluator,Equal domains,Muse Wonder Full,68,0,68
+evaluator,Equal domains,Muse Wonder,65,0,65
+evaluator,Super-Aggregate v4.2,Claude Opus 5.5,242,222,20
+evaluator,Super-Aggregate v4.2,GPT-6 Astra,216,199,17
+evaluator,Super-Aggregate v4.2,GPT-6.1 Sol,218,199,19
+evaluator,Super-Aggregate v4.2,Claude Fable 5.1,230,212,18
+evaluator,Super-Aggregate v4.2,Claude Sonnet 5.5,213,193,20
+evaluator,Super-Aggregate v4.2,Gemini 4 Argon,180,161,19
+evaluator,Super-Aggregate v4.2,Muse Wonder Full,68,0,68
+evaluator,Super-Aggregate v4.2,Muse Wonder,65,0,65
+evaluator,Pair direction vote,Claude Opus 5.5,242,222,20
+evaluator,Pair direction vote,GPT-6 Astra,216,199,17
+evaluator,Pair direction vote,GPT-6.1 Sol,218,199,19
+evaluator,Pair direction vote,Claude Fable 5.1,230,212,18
+evaluator,Pair direction vote,Claude Sonnet 5.5,213,193,20
+evaluator,Pair direction vote,Gemini 4 Argon,180,161,19
+evaluator,Pair direction vote,Muse Wonder Full,68,0,68
+evaluator,Pair direction vote,Muse Wonder,65,0,65
+evaluator,Same-domain pair vote,Claude Opus 5.5,242,209,33
+evaluator,Same-domain pair vote,GPT-6 Astra,216,184,32
+evaluator,Same-domain pair vote,GPT-6.1 Sol,218,183,35
+evaluator,Same-domain pair vote,Claude Fable 5.1,230,199,31
+evaluator,Same-domain pair vote,Claude Sonnet 5.5,213,178,35
+evaluator,Same-domain pair vote,Gemini 4 Argon,180,145,35
+evaluator,Same-domain pair vote,Muse Wonder Full,68,0,68
+evaluator,Same-domain pair vote,Muse Wonder,65,0,65
+evaluator,Random direction reference,Claude Opus 5.5,242,242,0
+evaluator,Random direction reference,GPT-6 Astra,216,216,0
+evaluator,Random direction reference,GPT-6.1 Sol,218,218,0
+evaluator,Random direction reference,Claude Fable 5.1,230,230,0
+evaluator,Random direction reference,Claude Sonnet 5.5,213,213,0
+evaluator,Random direction reference,Gemini 4 Argon,180,180,0
+evaluator,Random direction reference,Muse Wonder Full,68,68,0
+evaluator,Random direction reference,Muse Wonder,65,65,0
+domain,Equal families,Claude Opus 5.5,242,242,0
+domain,Equal families,GPT-6 Astra,216,216,0
+domain,Equal families,GPT-6.1 Sol,218,218,0
+domain,Equal families,Claude Fable 5.1,230,230,0
+domain,Equal families,Claude Sonnet 5.5,213,213,0
+domain,Equal families,Gemini 4 Argon,180,180,0
+domain,Equal families,Muse Wonder Full,68,68,0
+domain,Equal families,Muse Wonder,65,65,0
+domain,Equal domains,Claude Opus 5.5,242,242,0
+domain,Equal domains,GPT-6 Astra,216,216,0
+domain,Equal domains,GPT-6.1 Sol,218,218,0
+domain,Equal domains,Claude Fable 5.1,230,230,0
+domain,Equal domains,Claude Sonnet 5.5,213,213,0
+domain,Equal domains,Gemini 4 Argon,180,180,0
+domain,Equal domains,Muse Wonder Full,68,68,0
+domain,Equal domains,Muse Wonder,65,65,0
+domain,Super-Aggregate v4.2,Claude Opus 5.5,242,242,0
+domain,Super-Aggregate v4.2,GPT-6 Astra,216,216,0
+domain,Super-Aggregate v4.2,GPT-6.1 Sol,218,218,0
+domain,Super-Aggregate v4.2,Claude Fable 5.1,230,230,0
+domain,Super-Aggregate v4.2,Claude Sonnet 5.5,213,213,0
+domain,Super-Aggregate v4.2,Gemini 4 Argon,180,180,0
+domain,Super-Aggregate v4.2,Muse Wonder Full,68,68,0
+domain,Super-Aggregate v4.2,Muse Wonder,65,65,0
+domain,Pair direction vote,Claude Opus 5.5,242,242,0
+domain,Pair direction vote,GPT-6 Astra,216,216,0
+domain,Pair direction vote,GPT-6.1 Sol,218,218,0
+domain,Pair direction vote,Claude Fable 5.1,230,230,0
+domain,Pair direction vote,Claude Sonnet 5.5,213,213,0
+domain,Pair direction vote,Gemini 4 Argon,180,180,0
+domain,Pair direction vote,Muse Wonder Full,68,68,0
+domain,Pair direction vote,Muse Wonder,65,65,0
+domain,Same-domain pair vote,Claude Opus 5.5,242,0,242
+domain,Same-domain pair vote,GPT-6 Astra,216,0,216
+domain,Same-domain pair vote,GPT-6.1 Sol,218,0,218
+domain,Same-domain pair vote,Claude Fable 5.1,230,0,230
+domain,Same-domain pair vote,Claude Sonnet 5.5,213,0,213
+domain,Same-domain pair vote,Gemini 4 Argon,180,0,180
+domain,Same-domain pair vote,Muse Wonder Full,68,0,68
+domain,Same-domain pair vote,Muse Wonder,65,0,65
+domain,Random direction reference,Claude Opus 5.5,242,242,0
+domain,Random direction reference,GPT-6 Astra,216,216,0
+domain,Random direction reference,GPT-6.1 Sol,218,218,0
+domain,Random direction reference,Claude Fable 5.1,230,230,0
+domain,Random direction reference,Claude Sonnet 5.5,213,213,0
+domain,Random direction reference,Gemini 4 Argon,180,180,0
+domain,Random direction reference,Muse Wonder Full,68,68,0
+domain,Random direction reference,Muse Wonder,65,65,0
+genealogy,Equal families,Claude Opus 5.5,242,242,0
+genealogy,Equal families,GPT-6 Astra,216,216,0
+genealogy,Equal families,GPT-6.1 Sol,218,218,0
+genealogy,Equal families,Claude Fable 5.1,230,230,0
+genealogy,Equal families,Claude Sonnet 5.5,213,213,0
+genealogy,Equal families,Gemini 4 Argon,180,180,0
+genealogy,Equal families,Muse Wonder Full,68,68,0
+genealogy,Equal families,Muse Wonder,65,65,0
+genealogy,Equal domains,Claude Opus 5.5,242,242,0
+genealogy,Equal domains,GPT-6 Astra,216,216,0
+genealogy,Equal domains,GPT-6.1 Sol,218,218,0
+genealogy,Equal domains,Claude Fable 5.1,230,230,0
+genealogy,Equal domains,Claude Sonnet 5.5,213,213,0
+genealogy,Equal domains,Gemini 4 Argon,180,180,0
+genealogy,Equal domains,Muse Wonder Full,68,68,0
+genealogy,Equal domains,Muse Wonder,65,65,0
+genealogy,Super-Aggregate v4.2,Claude Opus 5.5,242,242,0
+genealogy,Super-Aggregate v4.2,GPT-6 Astra,216,216,0
+genealogy,Super-Aggregate v4.2,GPT-6.1 Sol,218,218,0
+genealogy,Super-Aggregate v4.2,Claude Fable 5.1,230,230,0
+genealogy,Super-Aggregate v4.2,Claude Sonnet 5.5,213,213,0
+genealogy,Super-Aggregate v4.2,Gemini 4 Argon,180,180,0
+genealogy,Super-Aggregate v4.2,Muse Wonder Full,68,68,0
+genealogy,Super-Aggregate v4.2,Muse Wonder,65,65,0
+genealogy,Pair direction vote,Claude Opus 5.5,242,242,0
+genealogy,Pair direction vote,GPT-6 Astra,216,216,0
+genealogy,Pair direction vote,GPT-6.1 Sol,218,218,0
+genealogy,Pair direction vote,Claude Fable 5.1,230,230,0
+genealogy,Pair direction vote,Claude Sonnet 5.5,213,213,0
+genealogy,Pair direction vote,Gemini 4 Argon,180,180,0
+genealogy,Pair direction vote,Muse Wonder Full,68,68,0
+genealogy,Pair direction vote,Muse Wonder,65,65,0
+genealogy,Same-domain pair vote,Claude Opus 5.5,242,238,4
+genealogy,Same-domain pair vote,GPT-6 Astra,216,212,4
+genealogy,Same-domain pair vote,GPT-6.1 Sol,218,214,4
+genealogy,Same-domain pair vote,Claude Fable 5.1,230,226,4
+genealogy,Same-domain pair vote,Claude Sonnet 5.5,213,203,10
+genealogy,Same-domain pair vote,Gemini 4 Argon,180,178,2
+genealogy,Same-domain pair vote,Muse Wonder Full,68,61,7
+genealogy,Same-domain pair vote,Muse Wonder,65,58,7
+genealogy,Random direction reference,Claude Opus 5.5,242,242,0
+genealogy,Random direction reference,GPT-6 Astra,216,216,0
+genealogy,Random direction reference,GPT-6.1 Sol,218,218,0
+genealogy,Random direction reference,Claude Fable 5.1,230,230,0
+genealogy,Random direction reference,Claude Sonnet 5.5,213,213,0
+genealogy,Random direction reference,Gemini 4 Argon,180,180,0
+genealogy,Random direction reference,Muse Wonder Full,68,68,0
+genealogy,Random direction reference,Muse Wonder,65,65,0

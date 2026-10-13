@@ -1,0 +1,9 @@
+{
+  "seed": 20261013,
+  "task_count": 12,
+  "sha256": {
+    "tasks.jsonl": "1ba8a657a67e2f2c0da4c091dde188036b56634d9ea0b6febda819f6a8857df3",
+    "oracle_answers.json": "11e581c03eef67863646fa5cdca1798eddd8f5a45681fce0df4b48b33d4832a6"
+  },
+  "qualification": "Public synthetic evaluator fixtures; expert task review and private holdouts are still required for an original model study."
+}

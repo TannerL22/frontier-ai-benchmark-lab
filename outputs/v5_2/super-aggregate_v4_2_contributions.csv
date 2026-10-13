@@ -1,0 +1,58 @@
+Benchmark,Evaluator,Domain,Family,Nominal weight,Observed comparison mass,Normalizer,Floor
+AA-Briefcase v1.1,AA,Professional,aa-briefcase_v1.1,0.026442637648750888,0.026442637648750888,126.77363904043914,100.0
+GDPval-AA v2.1,AA,Professional,gdpval-aa_v2.1,0.026442637648750888,0.026442637648750888,117.35653179757638,100.0
+AutomationBench-AA,AA,Professional,automationbench-aa,0.026442637648750888,0.026442637648750888,5.878397362849466,5.0
+EMB,Vals,Professional,emb,0.013824306434125513,0.007405878446852953,5.0,5.0
+Finance Agent (v2),Vals,Professional,finance_agent_(v2),0.013824306434125513,0.007405878446852953,5.0,5.0
+Legal Research Bench,Vals,Professional,legal_research_bench,0.013824306434125513,0.007405878446852953,6.707579460746046,5.0
+Tax Agent Bench,Vals,Professional,tax_agent_bench,0.013824306434125513,0.007405878446852953,11.553402697425936,5.0
+Harvey Legal Agent,Vals,Professional,harvey_legal_agent,0.013824306434125513,0.007405878446852953,5.628065584392404,5.0
+Agent Arena — Confirmed Success,Arena,Professional,arena-agent-confirmed,0.03225671501295953,0.017280383042656892,5.0,5.0
+APEX-Agents — pass@1,Mercor,Professional,apex-agents,0.009307910073392083,0.004986380396460045,7.3456818152479375,5.0
+APEX-Accounting,Mercor,Professional,apex-accounting,0.009307910073392083,0.000997276079292009,5.0,5.0
+τ³-Banking,Mercor,Professional,tau3-banking,0.009307910073392083,0.000997276079292009,5.0,5.0
+GDPval Extended — private Mercor tasks,Mercor,Professional,mercor_gdpval_ext_private,0.009307910073392083,0.000997276079292009,5.0,5.0
+APEX-1 Investment Banking Analyst,Mercor,Professional,mercor_apex1_investment_banking,0.009307910073392083,0.00332425359764003,5.0,5.0
+Remote Labor Index,Scale,Professional,rli,0.014425641499963102,0.001545604446424618,5.0,5.0
+ThinkingBox-Bench — terminal state pass@1,Microsoft,Professional,thinkingbox-507,0.008328648003236733,0.0002974517144013119,5.0,5.0
+Terminal-Bench 4.0,AA,Coding,terminal-bench_4.0,0.030170326499072503,0.030170326499072503,5.0,5.0
+SciCode,AA,Coding,scicode,0.030170326499072503,0.030170326499072503,5.0,5.0
+Code Migration,Vals,Coding,code_migration,0.01104120893674722,0.005914933358971725,5.013736685901599,5.0
+CyberBench v1.1,Vals,Coding,cyberbench_v1.1,0.01104120893674722,0.005914933358971725,14.092402996729204,5.0
+SRE Bench,Vals,Coding,sre_bench,0.01104120893674722,0.005914933358971725,11.893785025054985,5.0
+Vibe Code Bench v1.1,Vals,Coding,vibe_code_bench_v1.1,0.01104120893674722,0.005914933358971725,5.0,5.0
+ProgramBench,Vals,Coding,programbench,0.01104120893674722,0.005914933358971725,5.3359368645273735,5.0
+"IOI (v2, OpenCode harness)",Vals,Coding,ioi_v2,0.01104120893674722,0.005914933358971725,5.930060192686823,5.0
+APEX-SWE,Mercor,Coding,apex-swe,0.012068130599629,0.006465069964086965,8.699042092859038,5.0
+SWE Atlas Codebase Q&A Extended — private,Mercor,Coding,mercor_swe_atlas_private,0.012068130599629,0.001293013992817393,5.0,5.0
+Terminal-Bench 2.1 Extended — private,Mercor,Coding,mercor_tb21_private,0.012068130599629,0.001293013992817393,5.0,5.0
+FrontierCode,Cognition,Coding,frontiercode,0.02404029158976735,0.008585818424916911,5.0,5.0
+MirrorCode,Epoch,Coding,mirrorcode,0.01316740999271731,0.0014107939277911406,13.299958228840001,5.0
+Humanity's Last Exam,AA,Science,humanity's_last_exam,0.03674526264804459,0.0367452626480446,5.0,5.0
+CritPt,AA,Science,critpt,0.03674526264804459,0.0367452626480446,5.0,5.0
+MysteryMechanism,Vals,Science,mysterymechanism,0.021515822699243837,0.011526333588880626,5.0,5.0
+ProofBench v1.1,Vals,Science,proofbench_v1.1,0.021515822699243837,0.011526333588880626,5.0,5.0
+Terminal-Bench Science,Vals,Science,terminal-bench_science,0.021515822699243837,0.011526333588880626,7.351308273588677,5.0
+FrontierMath Tiers 1–3 (v2),Epoch,Science,frontiermath-v2,0.00982058452971462,0.0035073516177552212,5.0,5.0
+FrontierMath Tier 4 (v2),Epoch,Science,frontiermath-v2,0.00982058452971462,0.0035073516177552212,7.332121111929344,5.0
+GPQA Diamond — Epoch evaluation,Epoch,Science,gpqa-diamond,0.01964116905942924,0.004208821941306265,5.0,5.0
+ARC-AGI-2 Semi-Private,ARC Prize,Science,arcagi-2,0.022679668487320833,0.0048599289615687494,5.0,5.0
+GDP.pdf,AA,Context,gdp.pdf,0.05,0.05,5.0,5.0
+AA-LCR v1.1,AA,Context,aa-lcr_v1.1,0.05,0.05,5.0,5.0
+AA-Omniscience,AA,Knowledge,aa-omniscience,0.03918478245707517,0.03918478245707517,5.0,5.0
+MedCode,Vals,Knowledge,medcode,0.013729659849360608,0.007355174919300325,5.0,5.0
+MedScribe,Vals,Knowledge,medscribe,0.013729659849360608,0.007355174919300325,5.0,5.0
+SAGE,Vals,Knowledge,sage,0.013729659849360608,0.007355174919300325,5.0,5.0
+Public Benefits Bench v1.1,Vals,Knowledge,public_benefits_v1.1,0.013729659849360608,0.004903449946200218,5.15090516317278,5.0
+BrowseComp Extended — new private tasks,Mercor,Knowledge,browsecomp-extended,0.01813902960198753,0.0038869349147116136,5.0,5.0
+SimpleQA Verified,Epoch,Knowledge,simpleqa-verified,0.02341738652162035,0.008363352329150125,10.639548862616309,5.0
+"Arena Text — Overall human preference (Oct 8, 2026)",Arena,Knowledge,arena-text-overall-20261008,0.014340162021874525,0.007682229654575638,100.0,100.0
+CharXiv Extended — new private tasks,Mercor,Multimodal,charxiv-extended,0.008333407043106256,0.0008928650403328131,5.0,5.0
+MedXpertQA Extended — private tasks,Mercor,Multimodal,mercor_medxpert_private,0.008333407043106256,0.0008928650403328131,5.0,5.0
+MMMU-Pro Extended — private tasks,Mercor,Multimodal,mercor_mmmupro_private,0.008333407043106256,0.0008928650403328131,5.0,5.0
+Humanity's Sixth Sense,Scale,Multimodal,hss,0.01964202876856056,0.004209006164691549,5.0,5.0
+Furniture Assembly Benchmark,Epoch,Multimodal,furniture-assembly,0.025357750102120675,0.009056339322185955,5.0,5.0
+Earthborne Rangers (EBR-bench),Epoch,Games,ebr,0.00803847577293368,0.001722530522771503,9.233092656309694,5.0
+Mystery Game Puzzles,Epoch,Games,mystery-game,0.00803847577293368,0.0028708842046191716,9.520504188329523,5.0
+CUA-bench six games,Vals,Games,cua_games,0.006961524227066318,0.0014917551915142112,5.139904546779055,5.0
+Time Horizon Index KSP,Vals,Games,time_horizon_ksp,0.006961524227066318,0.0014917551915142112,16.940992444364056,5.0

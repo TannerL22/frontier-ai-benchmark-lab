@@ -1,0 +1,21 @@
+{
+  "study_id": "prospective_v1",
+  "status": "prepared_draft_no_outcomes_collected",
+  "estimand": "Predict the direction of reported task-score differences for the fixed v5.2 model roster on future, independently reviewed benchmark families.",
+  "information_cutoff": "All inputs are the sealed v5.2 release; source publications were inspected through 2026-10-12. The local seal records the later registration timestamp.",
+  "eligibility": [
+    "Publish the sealed bundle before collecting outcomes. Local hashes alone are not independent registration.",
+    "Published after the seal; never previously inspected by the research team; no existing fine family or broader ancestry. Record this assessment and reasons.",
+    "At least two registered model IDs; no new model forecasting; one explicit metric direction and domain selected before scoring.",
+    "Record source URL, publication time, system conditions and unknowns. An independent reviewer accepts eligibility and comparability scope.",
+    "Log every proposed outcome and every exclusion. Collect consecutively eligible publications for 180 days after public registration; target 20 new families; report whatever accrues without significance-based stopping."
+  ],
+  "methods": ["Equal families", "Equal domains", "Super-Aggregate v4.2", "Pair direction vote", "Same-domain pair vote", "Random direction reference", "AA pair direction vote"],
+  "method_definitions": "Three graph fits use fixed v4.2 normalizers, clipping and historical weights on all v5.2 included rows, including explicitly provisional evidence. Pair votes use family-balanced signs. AA baseline uses only AA rows at the identical cutoff. No estimator is retuned after sealing.",
+  "primary_loss": "Equal-family macro directional accuracy over all observed non-tied pairs. Abstentions and zero predictions receive 0.5. Also report conditional accuracy, attempted, predicted and abstained cases per family and model.",
+  "secondary_loss": "Equal-family macro Brier score. Graph probabilities use fixed sigmoid slope 1; vote probabilities use (vote+1)/2; abstentions use 0.5. These are uncalibrated forecasts whose validity is being tested.",
+  "ties": "Exclude exact observed ties from directional and Brier scoring; disclose tie counts. No normalized-margin filtering in the primary analysis.",
+  "uncertainty": "Publish family-level outcomes and paired method differences. Fewer than 20 families: descriptive only. Any later interval analysis must respect family dependence and be labelled secondary; raw pairs are not independent trials.",
+  "scope": "Reported systems, not equal-compute intrinsic models or a universal intelligence measure. Missing outcomes are not failures or zeros. Publication bias and unknown configuration differences remain limitations.",
+  "amendments": "Create a new study version and seal; never overwrite registered forecasts. Disclose deviations separately."
+}

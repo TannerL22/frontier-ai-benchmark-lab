@@ -1,0 +1,9 @@
+Model,Recorded results,Evaluators,Source coverage,Missing domains,Scope,Professional,Coding,Science,Knowledge,Context,Multimodal,Games
+Claude Opus 5.5,57,9,"AA, ARC Prize, Arena, Cognition, Epoch, Mercor, Microsoft, Scale, Vals",None in this portfolio,Selected multi-evaluator evidence,16,13,9,8,2,5,4
+GPT-6 Astra,50,9,"AA, ARC Prize, Arena, Cognition, Epoch, Mercor, Microsoft, Scale, Vals",None in this portfolio,Selected multi-evaluator evidence,14,11,9,6,2,4,4
+GPT-6.1 Sol,48,8,"AA, ARC Prize, Arena, Cognition, Epoch, Mercor, Scale, Vals",None in this portfolio,Selected multi-evaluator evidence,11,11,9,8,2,5,2
+Claude Fable 5.1,52,8,"AA, ARC Prize, Arena, Cognition, Epoch, Mercor, Scale, Vals",None in this portfolio,Selected multi-evaluator evidence,15,12,8,8,2,3,4
+Claude Sonnet 5.5,45,6,"AA, Arena, Cognition, Epoch, Mercor, Vals",None in this portfolio,Selected multi-evaluator evidence,13,12,8,8,2,1,1
+Gemini 4 Argon,34,4,"AA, Arena, Mercor, Vals",Multimodal,Selected multi-evaluator evidence,10,9,5,6,2,0,2
+Muse Wonder Full,10,1,AA,"Multimodal, Games",Single-evaluator evidence,3,2,2,1,2,0,0
+Muse Wonder,10,1,AA,"Multimodal, Games",Single-evaluator evidence,3,2,2,1,2,0,0
