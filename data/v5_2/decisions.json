@@ -1,0 +1,30 @@
+[
+  {
+    "id": "D001",
+    "date": "2026-10-13",
+    "decision": "Restore Fable 5.1 and GPT-6.1 Sol FrontierCode Main Scores (50.9 and 50.2)",
+    "basis": "Independent audit's original Cognition table transcription",
+    "review_status": "Proposed release; review in pull request"
+  },
+  {
+    "id": "D002",
+    "date": "2026-10-13",
+    "decision": "Retain Opus High 13.93; disclose Max 17.29 as excluded alternative",
+    "basis": "Different observational session populations; frozen-system scope replaces best-available wording",
+    "review_status": "Proposed release; review in pull request"
+  },
+  {
+    "id": "D003",
+    "date": "2026-10-13",
+    "decision": "Fix experimental normalizers to v4.2 reference",
+    "basis": "Prevent roster changes from redefining the ruler; does not make index a capability measure or scores comparable across releases",
+    "review_status": "Declared experimental convention"
+  },
+  {
+    "id": "D004",
+    "date": "2026-10-13",
+    "decision": "Expose provisional tasks and broader genealogy sensitivity",
+    "basis": "AA labels SciCode/CritPt under review; ancestry grouping is a sensitivity assumption",
+    "review_status": "Does not establish task duplication"
+  }
+]

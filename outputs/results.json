@@ -1,0 +1,4987 @@
+{
+  "version": "v5.0-milestone1",
+  "frozen_training_data": "v4.2",
+  "models": [
+    "Claude Opus 5.5",
+    "GPT-6 Astra",
+    "GPT-6.1 Sol",
+    "Claude Fable 5.1",
+    "Claude Sonnet 5.5",
+    "Gemini 4 Argon"
+  ],
+  "included_benchmark_rows": 57,
+  "distinct_benchmark_families": 56,
+  "evaluators": 9,
+  "baseline_index_by_method": {
+    "Equal families": {
+      "Claude Opus 5.5": 100.0,
+      "GPT-6 Astra": 93.61079101770953,
+      "GPT-6.1 Sol": 88.16524656980222,
+      "Claude Fable 5.1": 92.21738402195803,
+      "Claude Sonnet 5.5": 94.49209708962394,
+      "Gemini 4 Argon": 97.43434089651103
+    },
+    "Equal domains": {
+      "Claude Opus 5.5": 100.0,
+      "GPT-6 Astra": 99.1053975375434,
+      "GPT-6.1 Sol": 93.25528065032745,
+      "Claude Fable 5.1": 92.18407722175735,
+      "Claude Sonnet 5.5": 93.64396244593839,
+      "Gemini 4 Argon": 92.06404331212218
+    },
+    "Super-Aggregate v4.2": {
+      "Claude Opus 5.5": 100.0,
+      "GPT-6 Astra": 94.03496806172136,
+      "GPT-6.1 Sol": 90.07602379030799,
+      "Claude Fable 5.1": 92.69957415094083,
+      "Claude Sonnet 5.5": 94.03850175047157,
+      "Gemini 4 Argon": 94.42979822104911
+    }
+  },
+  "cross_validation": [
+    {
+      "fold_type": "family",
+      "method": "Equal families",
+      "margin_threshold": 0,
+      "macro": 0.6102169603579378,
+      "micro": 0.6006825938566553,
+      "fold_count": 56,
+      "pair_count": 586,
+      "attempted_fold_count": 56,
+      "attempted_pair_count": 586,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 0,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "aa-briefcase_v1.1",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.5333333333333333
+        },
+        {
+          "fold": "gdpval-aa_v2.1",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "automationbench-aa",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.8
+        },
+        {
+          "fold": "terminal-bench_4.0",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.7333333333333333
+        },
+        {
+          "fold": "scicode",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.8
+        },
+        {
+          "fold": "humanity's_last_exam",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.7857142857142857
+        },
+        {
+          "fold": "gdp.pdf",
+          "attempted": 11,
+          "predicted": 11,
+          "abstained": 0,
+          "accuracy": 0.18181818181818182
+        },
+        {
+          "fold": "critpt",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.4166666666666667
+        },
+        {
+          "fold": "aa-omniscience",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6153846153846154
+        },
+        {
+          "fold": "aa-lcr_v1.1",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.46153846153846156
+        },
+        {
+          "fold": "code_migration",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "cyberbench_v1.1",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "emb",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "finance_agent_(v2)",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.7333333333333333
+        },
+        {
+          "fold": "legal_research_bench",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "medcode",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "medscribe",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "mysterymechanism",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "proofbench_v1.1",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "sage",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.5333333333333333
+        },
+        {
+          "fold": "sre_bench",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.4666666666666667
+        },
+        {
+          "fold": "tax_agent_bench",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "vibe_code_bench_v1.1",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.7333333333333333
+        },
+        {
+          "fold": "harvey_legal_agent",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.42857142857142855
+        },
+        {
+          "fold": "programbench",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "terminal-bench_science",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.4666666666666667
+        },
+        {
+          "fold": "arena-agent-confirmed",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.4
+        },
+        {
+          "fold": "apex-agents",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.8
+        },
+        {
+          "fold": "apex-accounting",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "apex-swe",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "frontiercode",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "tau3-banking",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "browsecomp-extended",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.3333333333333333
+        },
+        {
+          "fold": "charxiv-extended",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 0.0
+        },
+        {
+          "fold": "rli",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "hss",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "ebr",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.8333333333333334
+        },
+        {
+          "fold": "mystery-game",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "frontiermath-v2",
+          "attempted": 19,
+          "predicted": 19,
+          "abstained": 0,
+          "accuracy": 0.3157894736842105
+        },
+        {
+          "fold": "furniture-assembly",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "gpqa-diamond",
+          "attempted": 5,
+          "predicted": 5,
+          "abstained": 0,
+          "accuracy": 0.4
+        },
+        {
+          "fold": "mirrorcode",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "simpleqa-verified",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.4
+        },
+        {
+          "fold": "arcagi-2",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "ioi_v2",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "public_benefits_v1.1",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.7
+        },
+        {
+          "fold": "cua_games",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "time_horizon_ksp",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "mercor_gdpval_ext_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "mercor_medxpert_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "mercor_mmmupro_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.0
+        },
+        {
+          "fold": "mercor_swe_atlas_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "mercor_tb21_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "mercor_apex1_investment_banking",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "thinkingbox-507",
+          "attempted": 1,
+          "predicted": 1,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "arena-text-overall-20261008",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.7333333333333333
+        }
+      ]
+    },
+    {
+      "fold_type": "family",
+      "method": "Equal families",
+      "margin_threshold": 0.1,
+      "macro": 0.6331807533242939,
+      "micro": 0.6108108108108108,
+      "fold_count": 55,
+      "pair_count": 555,
+      "attempted_fold_count": 55,
+      "attempted_pair_count": 555,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 31,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "aa-briefcase_v1.1",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.5333333333333333
+        },
+        {
+          "fold": "gdpval-aa_v2.1",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "automationbench-aa",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.8
+        },
+        {
+          "fold": "terminal-bench_4.0",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.7333333333333333
+        },
+        {
+          "fold": "scicode",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.8
+        },
+        {
+          "fold": "humanity's_last_exam",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.7857142857142857
+        },
+        {
+          "fold": "gdp.pdf",
+          "attempted": 11,
+          "predicted": 11,
+          "abstained": 0,
+          "accuracy": 0.18181818181818182
+        },
+        {
+          "fold": "critpt",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.4166666666666667
+        },
+        {
+          "fold": "aa-omniscience",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6153846153846154
+        },
+        {
+          "fold": "aa-lcr_v1.1",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.46153846153846156
+        },
+        {
+          "fold": "code_migration",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.6428571428571429
+        },
+        {
+          "fold": "cyberbench_v1.1",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "emb",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6923076923076923
+        },
+        {
+          "fold": "finance_agent_(v2)",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.7692307692307693
+        },
+        {
+          "fold": "legal_research_bench",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.7142857142857143
+        },
+        {
+          "fold": "medcode",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.6428571428571429
+        },
+        {
+          "fold": "medscribe",
+          "attempted": 11,
+          "predicted": 11,
+          "abstained": 0,
+          "accuracy": 0.7272727272727273
+        },
+        {
+          "fold": "mysterymechanism",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.5714285714285714
+        },
+        {
+          "fold": "proofbench_v1.1",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "sage",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.5714285714285714
+        },
+        {
+          "fold": "sre_bench",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.4666666666666667
+        },
+        {
+          "fold": "tax_agent_bench",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6923076923076923
+        },
+        {
+          "fold": "vibe_code_bench_v1.1",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.7692307692307693
+        },
+        {
+          "fold": "harvey_legal_agent",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.42857142857142855
+        },
+        {
+          "fold": "programbench",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6923076923076923
+        },
+        {
+          "fold": "terminal-bench_science",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.4666666666666667
+        },
+        {
+          "fold": "arena-agent-confirmed",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.46153846153846156
+        },
+        {
+          "fold": "apex-agents",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.8
+        },
+        {
+          "fold": "apex-accounting",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "apex-swe",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.7142857142857143
+        },
+        {
+          "fold": "frontiercode",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "tau3-banking",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "browsecomp-extended",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.3333333333333333
+        },
+        {
+          "fold": "rli",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "hss",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "ebr",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.8333333333333334
+        },
+        {
+          "fold": "mystery-game",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "frontiermath-v2",
+          "attempted": 19,
+          "predicted": 19,
+          "abstained": 0,
+          "accuracy": 0.3157894736842105
+        },
+        {
+          "fold": "furniture-assembly",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "gpqa-diamond",
+          "attempted": 5,
+          "predicted": 5,
+          "abstained": 0,
+          "accuracy": 0.4
+        },
+        {
+          "fold": "mirrorcode",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "simpleqa-verified",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.3333333333333333
+        },
+        {
+          "fold": "arcagi-2",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "ioi_v2",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "public_benefits_v1.1",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.7
+        },
+        {
+          "fold": "cua_games",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "time_horizon_ksp",
+          "attempted": 5,
+          "predicted": 5,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "mercor_gdpval_ext_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "mercor_medxpert_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "mercor_mmmupro_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.0
+        },
+        {
+          "fold": "mercor_swe_atlas_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "mercor_tb21_private",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "mercor_apex1_investment_banking",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.5555555555555556
+        },
+        {
+          "fold": "thinkingbox-507",
+          "attempted": 1,
+          "predicted": 1,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "arena-text-overall-20261008",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.7692307692307693
+        }
+      ]
+    },
+    {
+      "fold_type": "family",
+      "method": "Equal families",
+      "margin_threshold": 0.25,
+      "macro": 0.6228726847206316,
+      "micro": 0.6133056133056133,
+      "fold_count": 53,
+      "pair_count": 481,
+      "attempted_fold_count": 53,
+      "attempted_pair_count": 481,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 105,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "aa-briefcase_v1.1",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.5384615384615384
+        },
+        {
+          "fold": "gdpval-aa_v2.1",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6923076923076923
+        },
+        {
+          "fold": "automationbench-aa",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.8
+        },
+        {
+          "fold": "terminal-bench_4.0",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6923076923076923
+        },
+        {
+          "fold": "scicode",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.8461538461538461
+        },
+        {
+          "fold": "humanity's_last_exam",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.7857142857142857
+        },
+        {
+          "fold": "gdp.pdf",
+          "attempted": 11,
+          "predicted": 11,
+          "abstained": 0,
+          "accuracy": 0.18181818181818182
+        },
+        {
+          "fold": "critpt",
+          "attempted": 8,
+          "predicted": 8,
+          "abstained": 0,
+          "accuracy": 0.375
+        },
+        {
+          "fold": "aa-omniscience",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "aa-lcr_v1.1",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "code_migration",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6923076923076923
+        },
+        {
+          "fold": "cyberbench_v1.1",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.6428571428571429
+        },
+        {
+          "fold": "emb",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.7777777777777778
+        },
+        {
+          "fold": "finance_agent_(v2)",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.8333333333333334
+        },
+        {
+          "fold": "legal_research_bench",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6923076923076923
+        },
+        {
+          "fold": "medcode",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "medscribe",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.7
+        },
+        {
+          "fold": "mysterymechanism",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6153846153846154
+        },
+        {
+          "fold": "sage",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "sre_bench",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.4666666666666667
+        },
+        {
+          "fold": "tax_agent_bench",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "vibe_code_bench_v1.1",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.8
+        },
+        {
+          "fold": "harvey_legal_agent",
+          "attempted": 11,
+          "predicted": 11,
+          "abstained": 0,
+          "accuracy": 0.36363636363636365
+        },
+        {
+          "fold": "programbench",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "terminal-bench_science",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.46153846153846156
+        },
+        {
+          "fold": "arena-agent-confirmed",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.4444444444444444
+        },
+        {
+          "fold": "apex-agents",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.8
+        },
+        {
+          "fold": "apex-accounting",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "apex-swe",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6923076923076923
+        },
+        {
+          "fold": "frontiercode",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "browsecomp-extended",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.3333333333333333
+        },
+        {
+          "fold": "rli",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "hss",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "ebr",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.8333333333333334
+        },
+        {
+          "fold": "mystery-game",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "frontiermath-v2",
+          "attempted": 17,
+          "predicted": 17,
+          "abstained": 0,
+          "accuracy": 0.29411764705882354
+        },
+        {
+          "fold": "furniture-assembly",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "gpqa-diamond",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.0
+        },
+        {
+          "fold": "mirrorcode",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "simpleqa-verified",
+          "attempted": 7,
+          "predicted": 7,
+          "abstained": 0,
+          "accuracy": 0.2857142857142857
+        },
+        {
+          "fold": "arcagi-2",
+          "attempted": 4,
+          "predicted": 4,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "ioi_v2",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "public_benefits_v1.1",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "cua_games",
+          "attempted": 5,
+          "predicted": 5,
+          "abstained": 0,
+          "accuracy": 0.4
+        },
+        {
+          "fold": "time_horizon_ksp",
+          "attempted": 5,
+          "predicted": 5,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "mercor_gdpval_ext_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "mercor_medxpert_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "mercor_mmmupro_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.0
+        },
+        {
+          "fold": "mercor_swe_atlas_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "mercor_tb21_private",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "mercor_apex1_investment_banking",
+          "attempted": 7,
+          "predicted": 7,
+          "abstained": 0,
+          "accuracy": 0.5714285714285714
+        },
+        {
+          "fold": "thinkingbox-507",
+          "attempted": 1,
+          "predicted": 1,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "arena-text-overall-20261008",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.8
+        }
+      ]
+    },
+    {
+      "fold_type": "family",
+      "method": "Equal domains",
+      "margin_threshold": 0,
+      "macro": 0.5605481402473884,
+      "micro": 0.515358361774744,
+      "fold_count": 56,
+      "pair_count": 586,
+      "attempted_fold_count": 56,
+      "attempted_pair_count": 586,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 0,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "aa-briefcase_v1.1",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "gdpval-aa_v2.1",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.5333333333333333
+        },
+        {
+          "fold": "automationbench-aa",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.5333333333333333
+        },
+        {
+          "fold": "terminal-bench_4.0",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "scicode",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.4666666666666667
+        },
+        {
+          "fold": "humanity's_last_exam",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.5714285714285714
+        },
+        {
+          "fold": "gdp.pdf",
+          "attempted": 11,
+          "predicted": 11,
+          "abstained": 0,
+          "accuracy": 0.5454545454545454
+        },
+        {
+          "fold": "critpt",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.8333333333333334
+        },
+        {
+          "fold": "aa-omniscience",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6153846153846154
+        },
+        {
+          "fold": "aa-lcr_v1.1",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.5384615384615384
+        },
+        {
+          "fold": "code_migration",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.5333333333333333
+        },
+        {
+          "fold": "cyberbench_v1.1",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.26666666666666666
+        },
+        {
+          "fold": "emb",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.4666666666666667
+        },
+        {
+          "fold": "finance_agent_(v2)",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.3333333333333333
+        },
+        {
+          "fold": "legal_research_bench",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.4
+        },
+        {
+          "fold": "medcode",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.13333333333333333
+        },
+        {
+          "fold": "medscribe",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.5333333333333333
+        },
+        {
+          "fold": "mysterymechanism",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.7333333333333333
+        },
+        {
+          "fold": "proofbench_v1.1",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "sage",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.06666666666666667
+        },
+        {
+          "fold": "sre_bench",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "tax_agent_bench",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.4
+        },
+        {
+          "fold": "vibe_code_bench_v1.1",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.4666666666666667
+        },
+        {
+          "fold": "harvey_legal_agent",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.14285714285714285
+        },
+        {
+          "fold": "programbench",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "terminal-bench_science",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.7333333333333333
+        },
+        {
+          "fold": "arena-agent-confirmed",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.26666666666666666
+        },
+        {
+          "fold": "apex-agents",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.4
+        },
+        {
+          "fold": "apex-accounting",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "apex-swe",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "frontiercode",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "tau3-banking",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "browsecomp-extended",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "charxiv-extended",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 0.0
+        },
+        {
+          "fold": "rli",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "hss",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "ebr",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "mystery-game",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "frontiermath-v2",
+          "attempted": 19,
+          "predicted": 19,
+          "abstained": 0,
+          "accuracy": 0.5263157894736842
+        },
+        {
+          "fold": "furniture-assembly",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.8888888888888888
+        },
+        {
+          "fold": "gpqa-diamond",
+          "attempted": 5,
+          "predicted": 5,
+          "abstained": 0,
+          "accuracy": 0.4
+        },
+        {
+          "fold": "mirrorcode",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "simpleqa-verified",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "arcagi-2",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "ioi_v2",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.42857142857142855
+        },
+        {
+          "fold": "public_benefits_v1.1",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.3
+        },
+        {
+          "fold": "cua_games",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "time_horizon_ksp",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.8333333333333334
+        },
+        {
+          "fold": "mercor_gdpval_ext_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "mercor_medxpert_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "mercor_mmmupro_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.0
+        },
+        {
+          "fold": "mercor_swe_atlas_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "mercor_tb21_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "mercor_apex1_investment_banking",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "thinkingbox-507",
+          "attempted": 1,
+          "predicted": 1,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "arena-text-overall-20261008",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.3333333333333333
+        }
+      ]
+    },
+    {
+      "fold_type": "family",
+      "method": "Equal domains",
+      "margin_threshold": 0.1,
+      "macro": 0.5680708764919291,
+      "micro": 0.5099099099099099,
+      "fold_count": 55,
+      "pair_count": 555,
+      "attempted_fold_count": 55,
+      "attempted_pair_count": 555,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 31,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "aa-briefcase_v1.1",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "gdpval-aa_v2.1",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.5333333333333333
+        },
+        {
+          "fold": "automationbench-aa",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.5333333333333333
+        },
+        {
+          "fold": "terminal-bench_4.0",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "scicode",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.4666666666666667
+        },
+        {
+          "fold": "humanity's_last_exam",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.5714285714285714
+        },
+        {
+          "fold": "gdp.pdf",
+          "attempted": 11,
+          "predicted": 11,
+          "abstained": 0,
+          "accuracy": 0.5454545454545454
+        },
+        {
+          "fold": "critpt",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.8333333333333334
+        },
+        {
+          "fold": "aa-omniscience",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6153846153846154
+        },
+        {
+          "fold": "aa-lcr_v1.1",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.5384615384615384
+        },
+        {
+          "fold": "code_migration",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.5714285714285714
+        },
+        {
+          "fold": "cyberbench_v1.1",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.26666666666666666
+        },
+        {
+          "fold": "emb",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.38461538461538464
+        },
+        {
+          "fold": "finance_agent_(v2)",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.3076923076923077
+        },
+        {
+          "fold": "legal_research_bench",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.35714285714285715
+        },
+        {
+          "fold": "medcode",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.14285714285714285
+        },
+        {
+          "fold": "medscribe",
+          "attempted": 11,
+          "predicted": 11,
+          "abstained": 0,
+          "accuracy": 0.45454545454545453
+        },
+        {
+          "fold": "mysterymechanism",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.7142857142857143
+        },
+        {
+          "fold": "proofbench_v1.1",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "sage",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.07142857142857142
+        },
+        {
+          "fold": "sre_bench",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "tax_agent_bench",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.38461538461538464
+        },
+        {
+          "fold": "vibe_code_bench_v1.1",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.38461538461538464
+        },
+        {
+          "fold": "harvey_legal_agent",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.14285714285714285
+        },
+        {
+          "fold": "programbench",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6923076923076923
+        },
+        {
+          "fold": "terminal-bench_science",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.7333333333333333
+        },
+        {
+          "fold": "arena-agent-confirmed",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.23076923076923078
+        },
+        {
+          "fold": "apex-agents",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.4
+        },
+        {
+          "fold": "apex-accounting",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "apex-swe",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.5714285714285714
+        },
+        {
+          "fold": "frontiercode",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "tau3-banking",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "browsecomp-extended",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "rli",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "hss",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "ebr",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "mystery-game",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "frontiermath-v2",
+          "attempted": 19,
+          "predicted": 19,
+          "abstained": 0,
+          "accuracy": 0.5263157894736842
+        },
+        {
+          "fold": "furniture-assembly",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.8888888888888888
+        },
+        {
+          "fold": "gpqa-diamond",
+          "attempted": 5,
+          "predicted": 5,
+          "abstained": 0,
+          "accuracy": 0.4
+        },
+        {
+          "fold": "mirrorcode",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "simpleqa-verified",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.5555555555555556
+        },
+        {
+          "fold": "arcagi-2",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "ioi_v2",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.42857142857142855
+        },
+        {
+          "fold": "public_benefits_v1.1",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.3
+        },
+        {
+          "fold": "cua_games",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "time_horizon_ksp",
+          "attempted": 5,
+          "predicted": 5,
+          "abstained": 0,
+          "accuracy": 0.8
+        },
+        {
+          "fold": "mercor_gdpval_ext_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "mercor_medxpert_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "mercor_mmmupro_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.0
+        },
+        {
+          "fold": "mercor_swe_atlas_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "mercor_tb21_private",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "mercor_apex1_investment_banking",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.5555555555555556
+        },
+        {
+          "fold": "thinkingbox-507",
+          "attempted": 1,
+          "predicted": 1,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "arena-text-overall-20261008",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.3076923076923077
+        }
+      ]
+    },
+    {
+      "fold_type": "family",
+      "method": "Equal domains",
+      "margin_threshold": 0.25,
+      "macro": 0.5463023257418375,
+      "micro": 0.5031185031185031,
+      "fold_count": 53,
+      "pair_count": 481,
+      "attempted_fold_count": 53,
+      "attempted_pair_count": 481,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 105,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "aa-briefcase_v1.1",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6923076923076923
+        },
+        {
+          "fold": "gdpval-aa_v2.1",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.5384615384615384
+        },
+        {
+          "fold": "automationbench-aa",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.5333333333333333
+        },
+        {
+          "fold": "terminal-bench_4.0",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6923076923076923
+        },
+        {
+          "fold": "scicode",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.5384615384615384
+        },
+        {
+          "fold": "humanity's_last_exam",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.5714285714285714
+        },
+        {
+          "fold": "gdp.pdf",
+          "attempted": 11,
+          "predicted": 11,
+          "abstained": 0,
+          "accuracy": 0.5454545454545454
+        },
+        {
+          "fold": "critpt",
+          "attempted": 8,
+          "predicted": 8,
+          "abstained": 0,
+          "accuracy": 0.875
+        },
+        {
+          "fold": "aa-omniscience",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "aa-lcr_v1.1",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "code_migration",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6153846153846154
+        },
+        {
+          "fold": "cyberbench_v1.1",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.21428571428571427
+        },
+        {
+          "fold": "emb",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.3333333333333333
+        },
+        {
+          "fold": "finance_agent_(v2)",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.3333333333333333
+        },
+        {
+          "fold": "legal_research_bench",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.3076923076923077
+        },
+        {
+          "fold": "medcode",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.08333333333333333
+        },
+        {
+          "fold": "medscribe",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "mysterymechanism",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6923076923076923
+        },
+        {
+          "fold": "sage",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.08333333333333333
+        },
+        {
+          "fold": "sre_bench",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "tax_agent_bench",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.4166666666666667
+        },
+        {
+          "fold": "vibe_code_bench_v1.1",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.3
+        },
+        {
+          "fold": "harvey_legal_agent",
+          "attempted": 11,
+          "predicted": 11,
+          "abstained": 0,
+          "accuracy": 0.09090909090909091
+        },
+        {
+          "fold": "programbench",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.75
+        },
+        {
+          "fold": "terminal-bench_science",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6923076923076923
+        },
+        {
+          "fold": "arena-agent-confirmed",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.1111111111111111
+        },
+        {
+          "fold": "apex-agents",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.4
+        },
+        {
+          "fold": "apex-accounting",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "apex-swe",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.5384615384615384
+        },
+        {
+          "fold": "frontiercode",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "browsecomp-extended",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "rli",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "hss",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "ebr",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "mystery-game",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "frontiermath-v2",
+          "attempted": 17,
+          "predicted": 17,
+          "abstained": 0,
+          "accuracy": 0.5294117647058824
+        },
+        {
+          "fold": "furniture-assembly",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.8888888888888888
+        },
+        {
+          "fold": "gpqa-diamond",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.0
+        },
+        {
+          "fold": "mirrorcode",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "simpleqa-verified",
+          "attempted": 7,
+          "predicted": 7,
+          "abstained": 0,
+          "accuracy": 0.5714285714285714
+        },
+        {
+          "fold": "arcagi-2",
+          "attempted": 4,
+          "predicted": 4,
+          "abstained": 0,
+          "accuracy": 0.75
+        },
+        {
+          "fold": "ioi_v2",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.42857142857142855
+        },
+        {
+          "fold": "public_benefits_v1.1",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.2222222222222222
+        },
+        {
+          "fold": "cua_games",
+          "attempted": 5,
+          "predicted": 5,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "time_horizon_ksp",
+          "attempted": 5,
+          "predicted": 5,
+          "abstained": 0,
+          "accuracy": 0.8
+        },
+        {
+          "fold": "mercor_gdpval_ext_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "mercor_medxpert_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "mercor_mmmupro_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.0
+        },
+        {
+          "fold": "mercor_swe_atlas_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "mercor_tb21_private",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "mercor_apex1_investment_banking",
+          "attempted": 7,
+          "predicted": 7,
+          "abstained": 0,
+          "accuracy": 0.7142857142857143
+        },
+        {
+          "fold": "thinkingbox-507",
+          "attempted": 1,
+          "predicted": 1,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "arena-text-overall-20261008",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.3
+        }
+      ]
+    },
+    {
+      "fold_type": "family",
+      "method": "Super-Aggregate v4.2",
+      "margin_threshold": 0,
+      "macro": 0.573050456227148,
+      "micro": 0.5494880546075085,
+      "fold_count": 56,
+      "pair_count": 586,
+      "attempted_fold_count": 56,
+      "attempted_pair_count": 586,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 0,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "aa-briefcase_v1.1",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.5333333333333333
+        },
+        {
+          "fold": "gdpval-aa_v2.1",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "automationbench-aa",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "terminal-bench_4.0",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "scicode",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "humanity's_last_exam",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.6428571428571429
+        },
+        {
+          "fold": "gdp.pdf",
+          "attempted": 11,
+          "predicted": 11,
+          "abstained": 0,
+          "accuracy": 0.09090909090909091
+        },
+        {
+          "fold": "critpt",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "aa-omniscience",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.5384615384615384
+        },
+        {
+          "fold": "aa-lcr_v1.1",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.46153846153846156
+        },
+        {
+          "fold": "code_migration",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "cyberbench_v1.1",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.5333333333333333
+        },
+        {
+          "fold": "emb",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "finance_agent_(v2)",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "legal_research_bench",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "medcode",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.4
+        },
+        {
+          "fold": "medscribe",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "mysterymechanism",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "proofbench_v1.1",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.5555555555555556
+        },
+        {
+          "fold": "sage",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.4
+        },
+        {
+          "fold": "sre_bench",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.4666666666666667
+        },
+        {
+          "fold": "tax_agent_bench",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "vibe_code_bench_v1.1",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "harvey_legal_agent",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.35714285714285715
+        },
+        {
+          "fold": "programbench",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.5333333333333333
+        },
+        {
+          "fold": "terminal-bench_science",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.4666666666666667
+        },
+        {
+          "fold": "arena-agent-confirmed",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.4
+        },
+        {
+          "fold": "apex-agents",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.7333333333333333
+        },
+        {
+          "fold": "apex-accounting",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "apex-swe",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "frontiercode",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "tau3-banking",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "browsecomp-extended",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.3333333333333333
+        },
+        {
+          "fold": "charxiv-extended",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 0.0
+        },
+        {
+          "fold": "rli",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "hss",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "ebr",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.8333333333333334
+        },
+        {
+          "fold": "mystery-game",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "frontiermath-v2",
+          "attempted": 19,
+          "predicted": 19,
+          "abstained": 0,
+          "accuracy": 0.3157894736842105
+        },
+        {
+          "fold": "furniture-assembly",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "gpqa-diamond",
+          "attempted": 5,
+          "predicted": 5,
+          "abstained": 0,
+          "accuracy": 0.4
+        },
+        {
+          "fold": "mirrorcode",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "simpleqa-verified",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.4
+        },
+        {
+          "fold": "arcagi-2",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "ioi_v2",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.42857142857142855
+        },
+        {
+          "fold": "public_benefits_v1.1",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.7
+        },
+        {
+          "fold": "cua_games",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "time_horizon_ksp",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "mercor_gdpval_ext_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "mercor_medxpert_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "mercor_mmmupro_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.0
+        },
+        {
+          "fold": "mercor_swe_atlas_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "mercor_tb21_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "mercor_apex1_investment_banking",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "thinkingbox-507",
+          "attempted": 1,
+          "predicted": 1,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "arena-text-overall-20261008",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "fold_type": "family",
+      "method": "Super-Aggregate v4.2",
+      "margin_threshold": 0.1,
+      "macro": 0.5933592616846206,
+      "micro": 0.5567567567567567,
+      "fold_count": 55,
+      "pair_count": 555,
+      "attempted_fold_count": 55,
+      "attempted_pair_count": 555,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 31,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "aa-briefcase_v1.1",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.5333333333333333
+        },
+        {
+          "fold": "gdpval-aa_v2.1",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "automationbench-aa",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "terminal-bench_4.0",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "scicode",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "humanity's_last_exam",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.6428571428571429
+        },
+        {
+          "fold": "gdp.pdf",
+          "attempted": 11,
+          "predicted": 11,
+          "abstained": 0,
+          "accuracy": 0.09090909090909091
+        },
+        {
+          "fold": "critpt",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "aa-omniscience",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.5384615384615384
+        },
+        {
+          "fold": "aa-lcr_v1.1",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.46153846153846156
+        },
+        {
+          "fold": "code_migration",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.5714285714285714
+        },
+        {
+          "fold": "cyberbench_v1.1",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.5333333333333333
+        },
+        {
+          "fold": "emb",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6923076923076923
+        },
+        {
+          "fold": "finance_agent_(v2)",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6923076923076923
+        },
+        {
+          "fold": "legal_research_bench",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.6428571428571429
+        },
+        {
+          "fold": "medcode",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.42857142857142855
+        },
+        {
+          "fold": "medscribe",
+          "attempted": 11,
+          "predicted": 11,
+          "abstained": 0,
+          "accuracy": 0.6363636363636364
+        },
+        {
+          "fold": "mysterymechanism",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.5714285714285714
+        },
+        {
+          "fold": "proofbench_v1.1",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.5555555555555556
+        },
+        {
+          "fold": "sage",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.42857142857142855
+        },
+        {
+          "fold": "sre_bench",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.4666666666666667
+        },
+        {
+          "fold": "tax_agent_bench",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6153846153846154
+        },
+        {
+          "fold": "vibe_code_bench_v1.1",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6923076923076923
+        },
+        {
+          "fold": "harvey_legal_agent",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.35714285714285715
+        },
+        {
+          "fold": "programbench",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6153846153846154
+        },
+        {
+          "fold": "terminal-bench_science",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.4666666666666667
+        },
+        {
+          "fold": "arena-agent-confirmed",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.46153846153846156
+        },
+        {
+          "fold": "apex-agents",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.7333333333333333
+        },
+        {
+          "fold": "apex-accounting",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "apex-swe",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.7142857142857143
+        },
+        {
+          "fold": "frontiercode",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "tau3-banking",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "browsecomp-extended",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.3333333333333333
+        },
+        {
+          "fold": "rli",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "hss",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "ebr",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.8333333333333334
+        },
+        {
+          "fold": "mystery-game",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "frontiermath-v2",
+          "attempted": 19,
+          "predicted": 19,
+          "abstained": 0,
+          "accuracy": 0.3157894736842105
+        },
+        {
+          "fold": "furniture-assembly",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "gpqa-diamond",
+          "attempted": 5,
+          "predicted": 5,
+          "abstained": 0,
+          "accuracy": 0.4
+        },
+        {
+          "fold": "mirrorcode",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "simpleqa-verified",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.3333333333333333
+        },
+        {
+          "fold": "arcagi-2",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "ioi_v2",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.42857142857142855
+        },
+        {
+          "fold": "public_benefits_v1.1",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.7
+        },
+        {
+          "fold": "cua_games",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "time_horizon_ksp",
+          "attempted": 5,
+          "predicted": 5,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "mercor_gdpval_ext_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "mercor_medxpert_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "mercor_mmmupro_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.0
+        },
+        {
+          "fold": "mercor_swe_atlas_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "mercor_tb21_private",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "mercor_apex1_investment_banking",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.5555555555555556
+        },
+        {
+          "fold": "thinkingbox-507",
+          "attempted": 1,
+          "predicted": 1,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "arena-text-overall-20261008",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6923076923076923
+        }
+      ]
+    },
+    {
+      "fold_type": "family",
+      "method": "Super-Aggregate v4.2",
+      "margin_threshold": 0.25,
+      "macro": 0.5786284593443307,
+      "micro": 0.553014553014553,
+      "fold_count": 53,
+      "pair_count": 481,
+      "attempted_fold_count": 53,
+      "attempted_pair_count": 481,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 105,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "aa-briefcase_v1.1",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.5384615384615384
+        },
+        {
+          "fold": "gdpval-aa_v2.1",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6923076923076923
+        },
+        {
+          "fold": "automationbench-aa",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "terminal-bench_4.0",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.5384615384615384
+        },
+        {
+          "fold": "scicode",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6923076923076923
+        },
+        {
+          "fold": "humanity's_last_exam",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.6428571428571429
+        },
+        {
+          "fold": "gdp.pdf",
+          "attempted": 11,
+          "predicted": 11,
+          "abstained": 0,
+          "accuracy": 0.09090909090909091
+        },
+        {
+          "fold": "critpt",
+          "attempted": 8,
+          "predicted": 8,
+          "abstained": 0,
+          "accuracy": 0.375
+        },
+        {
+          "fold": "aa-omniscience",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.5555555555555556
+        },
+        {
+          "fold": "aa-lcr_v1.1",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.4166666666666667
+        },
+        {
+          "fold": "code_migration",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6153846153846154
+        },
+        {
+          "fold": "cyberbench_v1.1",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "emb",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.7777777777777778
+        },
+        {
+          "fold": "finance_agent_(v2)",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.75
+        },
+        {
+          "fold": "legal_research_bench",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6153846153846154
+        },
+        {
+          "fold": "medcode",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.4166666666666667
+        },
+        {
+          "fold": "medscribe",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "mysterymechanism",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6153846153846154
+        },
+        {
+          "fold": "sage",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "sre_bench",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.4666666666666667
+        },
+        {
+          "fold": "tax_agent_bench",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.5833333333333334
+        },
+        {
+          "fold": "vibe_code_bench_v1.1",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.7
+        },
+        {
+          "fold": "harvey_legal_agent",
+          "attempted": 11,
+          "predicted": 11,
+          "abstained": 0,
+          "accuracy": 0.2727272727272727
+        },
+        {
+          "fold": "programbench",
+          "attempted": 12,
+          "predicted": 12,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "terminal-bench_science",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.46153846153846156
+        },
+        {
+          "fold": "arena-agent-confirmed",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.4444444444444444
+        },
+        {
+          "fold": "apex-agents",
+          "attempted": 15,
+          "predicted": 15,
+          "abstained": 0,
+          "accuracy": 0.7333333333333333
+        },
+        {
+          "fold": "apex-accounting",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "apex-swe",
+          "attempted": 13,
+          "predicted": 13,
+          "abstained": 0,
+          "accuracy": 0.6923076923076923
+        },
+        {
+          "fold": "frontiercode",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "browsecomp-extended",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.3333333333333333
+        },
+        {
+          "fold": "rli",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "hss",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "ebr",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.8333333333333334
+        },
+        {
+          "fold": "mystery-game",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "frontiermath-v2",
+          "attempted": 17,
+          "predicted": 17,
+          "abstained": 0,
+          "accuracy": 0.29411764705882354
+        },
+        {
+          "fold": "furniture-assembly",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "gpqa-diamond",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.0
+        },
+        {
+          "fold": "mirrorcode",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "simpleqa-verified",
+          "attempted": 7,
+          "predicted": 7,
+          "abstained": 0,
+          "accuracy": 0.2857142857142857
+        },
+        {
+          "fold": "arcagi-2",
+          "attempted": 4,
+          "predicted": 4,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "ioi_v2",
+          "attempted": 14,
+          "predicted": 14,
+          "abstained": 0,
+          "accuracy": 0.42857142857142855
+        },
+        {
+          "fold": "public_benefits_v1.1",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "cua_games",
+          "attempted": 5,
+          "predicted": 5,
+          "abstained": 0,
+          "accuracy": 0.4
+        },
+        {
+          "fold": "time_horizon_ksp",
+          "attempted": 5,
+          "predicted": 5,
+          "abstained": 0,
+          "accuracy": 0.6
+        },
+        {
+          "fold": "mercor_gdpval_ext_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "mercor_medxpert_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "mercor_mmmupro_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.0
+        },
+        {
+          "fold": "mercor_swe_atlas_private",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "mercor_tb21_private",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "mercor_apex1_investment_banking",
+          "attempted": 7,
+          "predicted": 7,
+          "abstained": 0,
+          "accuracy": 0.5714285714285714
+        },
+        {
+          "fold": "thinkingbox-507",
+          "attempted": 1,
+          "predicted": 1,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "arena-text-overall-20261008",
+          "attempted": 10,
+          "predicted": 10,
+          "abstained": 0,
+          "accuracy": 0.7
+        }
+      ]
+    },
+    {
+      "fold_type": "evaluator",
+      "method": "Equal families",
+      "margin_threshold": 0,
+      "macro": 0.6172125125985657,
+      "micro": 0.5511945392491467,
+      "fold_count": 9,
+      "pair_count": 586,
+      "attempted_fold_count": 9,
+      "attempted_pair_count": 586,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 0,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "AA",
+          "attempted": 138,
+          "predicted": 138,
+          "abstained": 0,
+          "accuracy": 0.5507246376811594
+        },
+        {
+          "fold": "Vals",
+          "attempted": 269,
+          "predicted": 269,
+          "abstained": 0,
+          "accuracy": 0.5539033457249071
+        },
+        {
+          "fold": "Arena",
+          "attempted": 30,
+          "predicted": 30,
+          "abstained": 0,
+          "accuracy": 0.5666666666666667
+        },
+        {
+          "fold": "Mercor",
+          "attempted": 68,
+          "predicted": 68,
+          "abstained": 0,
+          "accuracy": 0.6470588235294118
+        },
+        {
+          "fold": "Cognition",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "Scale",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "Epoch",
+          "attempted": 62,
+          "predicted": 62,
+          "abstained": 0,
+          "accuracy": 0.4032258064516129
+        },
+        {
+          "fold": "ARC Prize",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "Microsoft",
+          "attempted": 1,
+          "predicted": 1,
+          "abstained": 0,
+          "accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "fold_type": "evaluator",
+      "method": "Equal families",
+      "margin_threshold": 0.1,
+      "macro": 0.6208861214103137,
+      "micro": 0.554954954954955,
+      "fold_count": 9,
+      "pair_count": 555,
+      "attempted_fold_count": 9,
+      "attempted_pair_count": 555,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 31,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "AA",
+          "attempted": 138,
+          "predicted": 138,
+          "abstained": 0,
+          "accuracy": 0.5507246376811594
+        },
+        {
+          "fold": "Vals",
+          "attempted": 249,
+          "predicted": 249,
+          "abstained": 0,
+          "accuracy": 0.5542168674698795
+        },
+        {
+          "fold": "Arena",
+          "attempted": 26,
+          "predicted": 26,
+          "abstained": 0,
+          "accuracy": 0.6153846153846154
+        },
+        {
+          "fold": "Mercor",
+          "attempted": 63,
+          "predicted": 63,
+          "abstained": 0,
+          "accuracy": 0.6825396825396826
+        },
+        {
+          "fold": "Cognition",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "Scale",
+          "attempted": 8,
+          "predicted": 8,
+          "abstained": 0,
+          "accuracy": 0.625
+        },
+        {
+          "fold": "Epoch",
+          "attempted": 61,
+          "predicted": 61,
+          "abstained": 0,
+          "accuracy": 0.39344262295081966
+        },
+        {
+          "fold": "ARC Prize",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "Microsoft",
+          "attempted": 1,
+          "predicted": 1,
+          "abstained": 0,
+          "accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "fold_type": "evaluator",
+      "method": "Equal families",
+      "margin_threshold": 0.25,
+      "macro": 0.653748710253875,
+      "micro": 0.5488565488565489,
+      "fold_count": 9,
+      "pair_count": 481,
+      "attempted_fold_count": 9,
+      "attempted_pair_count": 481,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 105,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "AA",
+          "attempted": 121,
+          "predicted": 121,
+          "abstained": 0,
+          "accuracy": 0.5454545454545454
+        },
+        {
+          "fold": "Vals",
+          "attempted": 214,
+          "predicted": 214,
+          "abstained": 0,
+          "accuracy": 0.5514018691588785
+        },
+        {
+          "fold": "Arena",
+          "attempted": 19,
+          "predicted": 19,
+          "abstained": 0,
+          "accuracy": 0.631578947368421
+        },
+        {
+          "fold": "Mercor",
+          "attempted": 57,
+          "predicted": 57,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "Cognition",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "Scale",
+          "attempted": 8,
+          "predicted": 8,
+          "abstained": 0,
+          "accuracy": 0.625
+        },
+        {
+          "fold": "Epoch",
+          "attempted": 55,
+          "predicted": 55,
+          "abstained": 0,
+          "accuracy": 0.36363636363636365
+        },
+        {
+          "fold": "ARC Prize",
+          "attempted": 4,
+          "predicted": 4,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "Microsoft",
+          "attempted": 1,
+          "predicted": 1,
+          "abstained": 0,
+          "accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "fold_type": "evaluator",
+      "method": "Equal domains",
+      "margin_threshold": 0,
+      "macro": 0.6569351058576749,
+      "micro": 0.5102389078498294,
+      "fold_count": 9,
+      "pair_count": 586,
+      "attempted_fold_count": 9,
+      "attempted_pair_count": 586,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 0,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "AA",
+          "attempted": 138,
+          "predicted": 138,
+          "abstained": 0,
+          "accuracy": 0.5579710144927537
+        },
+        {
+          "fold": "Vals",
+          "attempted": 269,
+          "predicted": 269,
+          "abstained": 0,
+          "accuracy": 0.45724907063197023
+        },
+        {
+          "fold": "Arena",
+          "attempted": 30,
+          "predicted": 30,
+          "abstained": 0,
+          "accuracy": 0.3
+        },
+        {
+          "fold": "Mercor",
+          "attempted": 68,
+          "predicted": 68,
+          "abstained": 0,
+          "accuracy": 0.5882352941176471
+        },
+        {
+          "fold": "Cognition",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "Scale",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.7777777777777778
+        },
+        {
+          "fold": "Epoch",
+          "attempted": 62,
+          "predicted": 62,
+          "abstained": 0,
+          "accuracy": 0.5645161290322581
+        },
+        {
+          "fold": "ARC Prize",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "Microsoft",
+          "attempted": 1,
+          "predicted": 1,
+          "abstained": 0,
+          "accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "fold_type": "evaluator",
+      "method": "Equal domains",
+      "margin_threshold": 0.1,
+      "macro": 0.647812683905022,
+      "micro": 0.5027027027027027,
+      "fold_count": 9,
+      "pair_count": 555,
+      "attempted_fold_count": 9,
+      "attempted_pair_count": 555,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 31,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "AA",
+          "attempted": 138,
+          "predicted": 138,
+          "abstained": 0,
+          "accuracy": 0.5579710144927537
+        },
+        {
+          "fold": "Vals",
+          "attempted": 249,
+          "predicted": 249,
+          "abstained": 0,
+          "accuracy": 0.44176706827309237
+        },
+        {
+          "fold": "Arena",
+          "attempted": 26,
+          "predicted": 26,
+          "abstained": 0,
+          "accuracy": 0.2692307692307692
+        },
+        {
+          "fold": "Mercor",
+          "attempted": 63,
+          "predicted": 63,
+          "abstained": 0,
+          "accuracy": 0.5873015873015873
+        },
+        {
+          "fold": "Cognition",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "Scale",
+          "attempted": 8,
+          "predicted": 8,
+          "abstained": 0,
+          "accuracy": 0.75
+        },
+        {
+          "fold": "Epoch",
+          "attempted": 61,
+          "predicted": 61,
+          "abstained": 0,
+          "accuracy": 0.5573770491803278
+        },
+        {
+          "fold": "ARC Prize",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "Microsoft",
+          "attempted": 1,
+          "predicted": 1,
+          "abstained": 0,
+          "accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "fold_type": "evaluator",
+      "method": "Equal domains",
+      "margin_threshold": 0.25,
+      "macro": 0.6465059755539566,
+      "micro": 0.49480249480249483,
+      "fold_count": 9,
+      "pair_count": 481,
+      "attempted_fold_count": 9,
+      "attempted_pair_count": 481,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 105,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "AA",
+          "attempted": 121,
+          "predicted": 121,
+          "abstained": 0,
+          "accuracy": 0.5537190082644629
+        },
+        {
+          "fold": "Vals",
+          "attempted": 214,
+          "predicted": 214,
+          "abstained": 0,
+          "accuracy": 0.42990654205607476
+        },
+        {
+          "fold": "Arena",
+          "attempted": 19,
+          "predicted": 19,
+          "abstained": 0,
+          "accuracy": 0.21052631578947367
+        },
+        {
+          "fold": "Mercor",
+          "attempted": 57,
+          "predicted": 57,
+          "abstained": 0,
+          "accuracy": 0.5789473684210527
+        },
+        {
+          "fold": "Cognition",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "Scale",
+          "attempted": 8,
+          "predicted": 8,
+          "abstained": 0,
+          "accuracy": 0.75
+        },
+        {
+          "fold": "Epoch",
+          "attempted": 55,
+          "predicted": 55,
+          "abstained": 0,
+          "accuracy": 0.5454545454545454
+        },
+        {
+          "fold": "ARC Prize",
+          "attempted": 4,
+          "predicted": 4,
+          "abstained": 0,
+          "accuracy": 0.75
+        },
+        {
+          "fold": "Microsoft",
+          "attempted": 1,
+          "predicted": 1,
+          "abstained": 0,
+          "accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "fold_type": "evaluator",
+      "method": "Super-Aggregate v4.2",
+      "margin_threshold": 0,
+      "macro": 0.619178731125523,
+      "micro": 0.5580204778156996,
+      "fold_count": 9,
+      "pair_count": 586,
+      "attempted_fold_count": 9,
+      "attempted_pair_count": 586,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 0,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "AA",
+          "attempted": 138,
+          "predicted": 138,
+          "abstained": 0,
+          "accuracy": 0.5507246376811594
+        },
+        {
+          "fold": "Vals",
+          "attempted": 269,
+          "predicted": 269,
+          "abstained": 0,
+          "accuracy": 0.5576208178438662
+        },
+        {
+          "fold": "Arena",
+          "attempted": 30,
+          "predicted": 30,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "Mercor",
+          "attempted": 68,
+          "predicted": 68,
+          "abstained": 0,
+          "accuracy": 0.6470588235294118
+        },
+        {
+          "fold": "Cognition",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "Scale",
+          "attempted": 9,
+          "predicted": 9,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "Epoch",
+          "attempted": 62,
+          "predicted": 62,
+          "abstained": 0,
+          "accuracy": 0.4838709677419355
+        },
+        {
+          "fold": "ARC Prize",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "Microsoft",
+          "attempted": 1,
+          "predicted": 1,
+          "abstained": 0,
+          "accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "fold_type": "evaluator",
+      "method": "Super-Aggregate v4.2",
+      "margin_threshold": 0.1,
+      "macro": 0.6210003516252747,
+      "micro": 0.5585585585585585,
+      "fold_count": 9,
+      "pair_count": 555,
+      "attempted_fold_count": 9,
+      "attempted_pair_count": 555,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 31,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "AA",
+          "attempted": 138,
+          "predicted": 138,
+          "abstained": 0,
+          "accuracy": 0.5507246376811594
+        },
+        {
+          "fold": "Vals",
+          "attempted": 249,
+          "predicted": 249,
+          "abstained": 0,
+          "accuracy": 0.5502008032128514
+        },
+        {
+          "fold": "Arena",
+          "attempted": 26,
+          "predicted": 26,
+          "abstained": 0,
+          "accuracy": 0.5384615384615384
+        },
+        {
+          "fold": "Mercor",
+          "attempted": 63,
+          "predicted": 63,
+          "abstained": 0,
+          "accuracy": 0.6825396825396826
+        },
+        {
+          "fold": "Cognition",
+          "attempted": 3,
+          "predicted": 3,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "Scale",
+          "attempted": 8,
+          "predicted": 8,
+          "abstained": 0,
+          "accuracy": 0.625
+        },
+        {
+          "fold": "Epoch",
+          "attempted": 61,
+          "predicted": 61,
+          "abstained": 0,
+          "accuracy": 0.47540983606557374
+        },
+        {
+          "fold": "ARC Prize",
+          "attempted": 6,
+          "predicted": 6,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "Microsoft",
+          "attempted": 1,
+          "predicted": 1,
+          "abstained": 0,
+          "accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "fold_type": "evaluator",
+      "method": "Super-Aggregate v4.2",
+      "margin_threshold": 0.25,
+      "macro": 0.6500769707237981,
+      "micro": 0.5467775467775468,
+      "fold_count": 9,
+      "pair_count": 481,
+      "attempted_fold_count": 9,
+      "attempted_pair_count": 481,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 105,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "AA",
+          "attempted": 121,
+          "predicted": 121,
+          "abstained": 0,
+          "accuracy": 0.5454545454545454
+        },
+        {
+          "fold": "Vals",
+          "attempted": 214,
+          "predicted": 214,
+          "abstained": 0,
+          "accuracy": 0.5327102803738317
+        },
+        {
+          "fold": "Arena",
+          "attempted": 19,
+          "predicted": 19,
+          "abstained": 0,
+          "accuracy": 0.5263157894736842
+        },
+        {
+          "fold": "Mercor",
+          "attempted": 57,
+          "predicted": 57,
+          "abstained": 0,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "fold": "Cognition",
+          "attempted": 2,
+          "predicted": 2,
+          "abstained": 0,
+          "accuracy": 1.0
+        },
+        {
+          "fold": "Scale",
+          "attempted": 8,
+          "predicted": 8,
+          "abstained": 0,
+          "accuracy": 0.625
+        },
+        {
+          "fold": "Epoch",
+          "attempted": 55,
+          "predicted": 55,
+          "abstained": 0,
+          "accuracy": 0.45454545454545453
+        },
+        {
+          "fold": "ARC Prize",
+          "attempted": 4,
+          "predicted": 4,
+          "abstained": 0,
+          "accuracy": 0.5
+        },
+        {
+          "fold": "Microsoft",
+          "attempted": 1,
+          "predicted": 1,
+          "abstained": 0,
+          "accuracy": 1.0
+        }
+      ]
+    },
+    {
+      "fold_type": "domain",
+      "method": "Equal families",
+      "margin_threshold": 0,
+      "macro": 0.4940711769393808,
+      "micro": 0.5409556313993175,
+      "fold_count": 7,
+      "pair_count": 586,
+      "attempted_fold_count": 7,
+      "attempted_pair_count": 586,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 0,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "Professional",
+          "attempted": 171,
+          "predicted": 171,
+          "abstained": 0,
+          "accuracy": 0.5263157894736842
+        },
+        {
+          "fold": "Coding",
+          "attempted": 146,
+          "predicted": 146,
+          "abstained": 0,
+          "accuracy": 0.6301369863013698
+        },
+        {
+          "fold": "Science",
+          "attempted": 95,
+          "predicted": 95,
+          "abstained": 0,
+          "accuracy": 0.47368421052631576
+        },
+        {
+          "fold": "Context",
+          "attempted": 24,
+          "predicted": 24,
+          "abstained": 0,
+          "accuracy": 0.3333333333333333
+        },
+        {
+          "fold": "Knowledge",
+          "attempted": 99,
+          "predicted": 99,
+          "abstained": 0,
+          "accuracy": 0.5959595959595959
+        },
+        {
+          "fold": "Multimodal",
+          "attempted": 23,
+          "predicted": 23,
+          "abstained": 0,
+          "accuracy": 0.43478260869565216
+        },
+        {
+          "fold": "Games",
+          "attempted": 28,
+          "predicted": 28,
+          "abstained": 0,
+          "accuracy": 0.4642857142857143
+        }
+      ]
+    },
+    {
+      "fold_type": "domain",
+      "method": "Equal families",
+      "margin_threshold": 0.1,
+      "macro": 0.5016994979786905,
+      "micro": 0.5477477477477477,
+      "fold_count": 7,
+      "pair_count": 555,
+      "attempted_fold_count": 7,
+      "attempted_pair_count": 555,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 31,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "Professional",
+          "attempted": 160,
+          "predicted": 160,
+          "abstained": 0,
+          "accuracy": 0.53125
+        },
+        {
+          "fold": "Coding",
+          "attempted": 139,
+          "predicted": 139,
+          "abstained": 0,
+          "accuracy": 0.6474820143884892
+        },
+        {
+          "fold": "Science",
+          "attempted": 94,
+          "predicted": 94,
+          "abstained": 0,
+          "accuracy": 0.46808510638297873
+        },
+        {
+          "fold": "Context",
+          "attempted": 24,
+          "predicted": 24,
+          "abstained": 0,
+          "accuracy": 0.3333333333333333
+        },
+        {
+          "fold": "Knowledge",
+          "attempted": 90,
+          "predicted": 90,
+          "abstained": 0,
+          "accuracy": 0.6111111111111112
+        },
+        {
+          "fold": "Multimodal",
+          "attempted": 21,
+          "predicted": 21,
+          "abstained": 0,
+          "accuracy": 0.47619047619047616
+        },
+        {
+          "fold": "Games",
+          "attempted": 27,
+          "predicted": 27,
+          "abstained": 0,
+          "accuracy": 0.4444444444444444
+        }
+      ]
+    },
+    {
+      "fold_type": "domain",
+      "method": "Equal families",
+      "margin_threshold": 0.25,
+      "macro": 0.4955632608891863,
+      "micro": 0.5426195426195426,
+      "fold_count": 7,
+      "pair_count": 481,
+      "attempted_fold_count": 7,
+      "attempted_pair_count": 481,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 105,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "Professional",
+          "attempted": 137,
+          "predicted": 137,
+          "abstained": 0,
+          "accuracy": 0.5328467153284672
+        },
+        {
+          "fold": "Coding",
+          "attempted": 127,
+          "predicted": 127,
+          "abstained": 0,
+          "accuracy": 0.6456692913385826
+        },
+        {
+          "fold": "Science",
+          "attempted": 72,
+          "predicted": 72,
+          "abstained": 0,
+          "accuracy": 0.4166666666666667
+        },
+        {
+          "fold": "Context",
+          "attempted": 23,
+          "predicted": 23,
+          "abstained": 0,
+          "accuracy": 0.34782608695652173
+        },
+        {
+          "fold": "Knowledge",
+          "attempted": 75,
+          "predicted": 75,
+          "abstained": 0,
+          "accuracy": 0.6266666666666667
+        },
+        {
+          "fold": "Multimodal",
+          "attempted": 21,
+          "predicted": 21,
+          "abstained": 0,
+          "accuracy": 0.47619047619047616
+        },
+        {
+          "fold": "Games",
+          "attempted": 26,
+          "predicted": 26,
+          "abstained": 0,
+          "accuracy": 0.4230769230769231
+        }
+      ]
+    },
+    {
+      "fold_type": "domain",
+      "method": "Equal domains",
+      "margin_threshold": 0,
+      "macro": 0.5148296851904441,
+      "micro": 0.4778156996587031,
+      "fold_count": 7,
+      "pair_count": 586,
+      "attempted_fold_count": 7,
+      "attempted_pair_count": 586,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 0,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "Professional",
+          "attempted": 171,
+          "predicted": 171,
+          "abstained": 0,
+          "accuracy": 0.3684210526315789
+        },
+        {
+          "fold": "Coding",
+          "attempted": 146,
+          "predicted": 146,
+          "abstained": 0,
+          "accuracy": 0.5136986301369864
+        },
+        {
+          "fold": "Science",
+          "attempted": 95,
+          "predicted": 95,
+          "abstained": 0,
+          "accuracy": 0.631578947368421
+        },
+        {
+          "fold": "Context",
+          "attempted": 24,
+          "predicted": 24,
+          "abstained": 0,
+          "accuracy": 0.4166666666666667
+        },
+        {
+          "fold": "Knowledge",
+          "attempted": 99,
+          "predicted": 99,
+          "abstained": 0,
+          "accuracy": 0.3939393939393939
+        },
+        {
+          "fold": "Multimodal",
+          "attempted": 23,
+          "predicted": 23,
+          "abstained": 0,
+          "accuracy": 0.5652173913043478
+        },
+        {
+          "fold": "Games",
+          "attempted": 28,
+          "predicted": 28,
+          "abstained": 0,
+          "accuracy": 0.7142857142857143
+        }
+      ]
+    },
+    {
+      "fold_type": "domain",
+      "method": "Equal domains",
+      "margin_threshold": 0.1,
+      "macro": 0.5140646377094301,
+      "micro": 0.4702702702702703,
+      "fold_count": 7,
+      "pair_count": 555,
+      "attempted_fold_count": 7,
+      "attempted_pair_count": 555,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 31,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "Professional",
+          "attempted": 160,
+          "predicted": 160,
+          "abstained": 0,
+          "accuracy": 0.35
+        },
+        {
+          "fold": "Coding",
+          "attempted": 139,
+          "predicted": 139,
+          "abstained": 0,
+          "accuracy": 0.5035971223021583
+        },
+        {
+          "fold": "Science",
+          "attempted": 94,
+          "predicted": 94,
+          "abstained": 0,
+          "accuracy": 0.6276595744680851
+        },
+        {
+          "fold": "Context",
+          "attempted": 24,
+          "predicted": 24,
+          "abstained": 0,
+          "accuracy": 0.4166666666666667
+        },
+        {
+          "fold": "Knowledge",
+          "attempted": 90,
+          "predicted": 90,
+          "abstained": 0,
+          "accuracy": 0.37777777777777777
+        },
+        {
+          "fold": "Multimodal",
+          "attempted": 21,
+          "predicted": 21,
+          "abstained": 0,
+          "accuracy": 0.6190476190476191
+        },
+        {
+          "fold": "Games",
+          "attempted": 27,
+          "predicted": 27,
+          "abstained": 0,
+          "accuracy": 0.7037037037037037
+        }
+      ]
+    },
+    {
+      "fold_type": "domain",
+      "method": "Equal domains",
+      "margin_threshold": 0.25,
+      "macro": 0.5058137748209159,
+      "micro": 0.46361746361746364,
+      "fold_count": 7,
+      "pair_count": 481,
+      "attempted_fold_count": 7,
+      "attempted_pair_count": 481,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 105,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "Professional",
+          "attempted": 137,
+          "predicted": 137,
+          "abstained": 0,
+          "accuracy": 0.3357664233576642
+        },
+        {
+          "fold": "Coding",
+          "attempted": 127,
+          "predicted": 127,
+          "abstained": 0,
+          "accuracy": 0.5039370078740157
+        },
+        {
+          "fold": "Science",
+          "attempted": 72,
+          "predicted": 72,
+          "abstained": 0,
+          "accuracy": 0.625
+        },
+        {
+          "fold": "Context",
+          "attempted": 23,
+          "predicted": 23,
+          "abstained": 0,
+          "accuracy": 0.391304347826087
+        },
+        {
+          "fold": "Knowledge",
+          "attempted": 75,
+          "predicted": 75,
+          "abstained": 0,
+          "accuracy": 0.37333333333333335
+        },
+        {
+          "fold": "Multimodal",
+          "attempted": 21,
+          "predicted": 21,
+          "abstained": 0,
+          "accuracy": 0.6190476190476191
+        },
+        {
+          "fold": "Games",
+          "attempted": 26,
+          "predicted": 26,
+          "abstained": 0,
+          "accuracy": 0.6923076923076923
+        }
+      ]
+    },
+    {
+      "fold_type": "domain",
+      "method": "Super-Aggregate v4.2",
+      "margin_threshold": 0,
+      "macro": 0.4927760575064511,
+      "micro": 0.5102389078498294,
+      "fold_count": 7,
+      "pair_count": 586,
+      "attempted_fold_count": 7,
+      "attempted_pair_count": 586,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 0,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "Professional",
+          "attempted": 171,
+          "predicted": 171,
+          "abstained": 0,
+          "accuracy": 0.43859649122807015
+        },
+        {
+          "fold": "Coding",
+          "attempted": 146,
+          "predicted": 146,
+          "abstained": 0,
+          "accuracy": 0.6164383561643836
+        },
+        {
+          "fold": "Science",
+          "attempted": 95,
+          "predicted": 95,
+          "abstained": 0,
+          "accuracy": 0.47368421052631576
+        },
+        {
+          "fold": "Context",
+          "attempted": 24,
+          "predicted": 24,
+          "abstained": 0,
+          "accuracy": 0.3333333333333333
+        },
+        {
+          "fold": "Knowledge",
+          "attempted": 99,
+          "predicted": 99,
+          "abstained": 0,
+          "accuracy": 0.5454545454545454
+        },
+        {
+          "fold": "Multimodal",
+          "attempted": 23,
+          "predicted": 23,
+          "abstained": 0,
+          "accuracy": 0.43478260869565216
+        },
+        {
+          "fold": "Games",
+          "attempted": 28,
+          "predicted": 28,
+          "abstained": 0,
+          "accuracy": 0.6071428571428571
+        }
+      ]
+    },
+    {
+      "fold_type": "domain",
+      "method": "Super-Aggregate v4.2",
+      "margin_threshold": 0.1,
+      "macro": 0.49418503335990926,
+      "micro": 0.5063063063063064,
+      "fold_count": 7,
+      "pair_count": 555,
+      "attempted_fold_count": 7,
+      "attempted_pair_count": 555,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 31,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "Professional",
+          "attempted": 160,
+          "predicted": 160,
+          "abstained": 0,
+          "accuracy": 0.41875
+        },
+        {
+          "fold": "Coding",
+          "attempted": 139,
+          "predicted": 139,
+          "abstained": 0,
+          "accuracy": 0.6258992805755396
+        },
+        {
+          "fold": "Science",
+          "attempted": 94,
+          "predicted": 94,
+          "abstained": 0,
+          "accuracy": 0.46808510638297873
+        },
+        {
+          "fold": "Context",
+          "attempted": 24,
+          "predicted": 24,
+          "abstained": 0,
+          "accuracy": 0.3333333333333333
+        },
+        {
+          "fold": "Knowledge",
+          "attempted": 90,
+          "predicted": 90,
+          "abstained": 0,
+          "accuracy": 0.5444444444444444
+        },
+        {
+          "fold": "Multimodal",
+          "attempted": 21,
+          "predicted": 21,
+          "abstained": 0,
+          "accuracy": 0.47619047619047616
+        },
+        {
+          "fold": "Games",
+          "attempted": 27,
+          "predicted": 27,
+          "abstained": 0,
+          "accuracy": 0.5925925925925926
+        }
+      ]
+    },
+    {
+      "fold_type": "domain",
+      "method": "Super-Aggregate v4.2",
+      "margin_threshold": 0.25,
+      "macro": 0.48414932547502104,
+      "micro": 0.4968814968814969,
+      "fold_count": 7,
+      "pair_count": 481,
+      "attempted_fold_count": 7,
+      "attempted_pair_count": 481,
+      "abstained_pair_count": 0,
+      "prediction_coverage": 1.0,
+      "excluded_near_tie_pair_count": 105,
+      "abstention_reasons": {},
+      "folds": [
+        {
+          "fold": "Professional",
+          "attempted": 137,
+          "predicted": 137,
+          "abstained": 0,
+          "accuracy": 0.41605839416058393
+        },
+        {
+          "fold": "Coding",
+          "attempted": 127,
+          "predicted": 127,
+          "abstained": 0,
+          "accuracy": 0.6220472440944882
+        },
+        {
+          "fold": "Science",
+          "attempted": 72,
+          "predicted": 72,
+          "abstained": 0,
+          "accuracy": 0.4166666666666667
+        },
+        {
+          "fold": "Context",
+          "attempted": 23,
+          "predicted": 23,
+          "abstained": 0,
+          "accuracy": 0.34782608695652173
+        },
+        {
+          "fold": "Knowledge",
+          "attempted": 75,
+          "predicted": 75,
+          "abstained": 0,
+          "accuracy": 0.5333333333333333
+        },
+        {
+          "fold": "Multimodal",
+          "attempted": 21,
+          "predicted": 21,
+          "abstained": 0,
+          "accuracy": 0.47619047619047616
+        },
+        {
+          "fold": "Games",
+          "attempted": 26,
+          "predicted": 26,
+          "abstained": 0,
+          "accuracy": 0.5769230769230769
+        }
+      ]
+    }
+  ],
+  "external_composites_excluded": true,
+  "candidate_models_excluded": [
+    "Muse Wonder Full",
+    "Muse Wonder"
+  ],
+  "notes": [
+    "No equal-compute claim",
+    "Historical cross-validation; not prospective validation",
+    "Rounded Artificial Analysis composites are external comparators, never added as underlying scores"
+  ],
+  "nested_calibration": [
+    {
+      "method": "Equal families",
+      "families": 56,
+      "pairs": 586,
+      "macro_brier": 0.24334529136878785,
+      "macro_logloss": 0.6802645835929771
+    },
+    {
+      "method": "Equal domains",
+      "families": 56,
+      "pairs": 586,
+      "macro_brier": 0.24474448973334934,
+      "macro_logloss": 0.6826831270341247
+    },
+    {
+      "method": "Super-Aggregate v4.2",
+      "families": 56,
+      "pairs": 586,
+      "macro_brier": 0.2411125547497217,
+      "macro_logloss": 0.6757511698884471
+    }
+  ]
+}

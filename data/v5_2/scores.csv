@@ -1,0 +1,307 @@
+benchmark_id,model_name,score,verified_source_url,evidence_status
+B006,Claude Opus 5.5,1807,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B006,GPT-6 Astra,1570,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B006,GPT-6.1 Sol,1557,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B006,Claude Fable 5.1,1675,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B006,Claude Sonnet 5.5,1823,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B006,Gemini 4 Argon,1488,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B007,Claude Opus 5.5,1866,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B007,GPT-6 Astra,1574,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B007,GPT-6.1 Sol,1592,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B007,Claude Fable 5.1,1756,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B007,Claude Sonnet 5.5,1838,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B007,Gemini 4 Argon,1624,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B008,Claude Opus 5.5,70,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B008,GPT-6 Astra,68,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B008,GPT-6.1 Sol,65,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B008,Claude Fable 5.1,59,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B008,Claude Sonnet 5.5,72,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B008,Gemini 4 Argon,78,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B009,Claude Opus 5.5,60,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B009,GPT-6 Astra,59,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B009,GPT-6.1 Sol,56,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B009,Claude Fable 5.1,52,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B009,Claude Sonnet 5.5,64,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B009,Gemini 4 Argon,57,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B010,Claude Opus 5.5,67,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B010,GPT-6 Astra,56,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B010,GPT-6.1 Sol,54,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B010,Claude Fable 5.1,63,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B010,Claude Sonnet 5.5,61,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B010,Gemini 4 Argon,62,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B011,Claude Opus 5.5,61,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B011,GPT-6 Astra,55,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B011,GPT-6.1 Sol,53,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B011,Claude Fable 5.1,59,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B011,Claude Sonnet 5.5,55,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B011,Gemini 4 Argon,57,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B012,Claude Opus 5.5,26,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B012,GPT-6 Astra,31,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B012,GPT-6.1 Sol,31,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B012,Claude Fable 5.1,26,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B012,Claude Sonnet 5.5,26,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B012,Gemini 4 Argon,22,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B013,Claude Opus 5.5,32,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B013,GPT-6 Astra,32,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B013,GPT-6.1 Sol,32,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B013,Claude Fable 5.1,30,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B013,Claude Sonnet 5.5,31,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B013,Gemini 4 Argon,27,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B014,Claude Opus 5.5,46,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B014,GPT-6 Astra,43,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B014,GPT-6.1 Sol,42,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B014,Claude Fable 5.1,43,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B014,Claude Sonnet 5.5,32,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B014,Gemini 4 Argon,42,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B015,Claude Opus 5.5,85,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B015,GPT-6 Astra,81,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B015,GPT-6.1 Sol,83,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B015,Claude Fable 5.1,85,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B015,Claude Sonnet 5.5,83,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B015,Gemini 4 Argon,80,https://artificialanalysis.ai/models/comparisons/claude-opus-5-5-vs-gpt-6-astra,legacy_included
+B016,Claude Opus 5.5,66.65,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B016,GPT-6 Astra,67.74,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B016,GPT-6.1 Sol,65.12,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B016,Claude Fable 5.1,54.61,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B016,Claude Sonnet 5.5,69.83,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B016,Gemini 4 Argon,68.17,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B017,Claude Opus 5.5,55.36,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B017,GPT-6 Astra,41.07,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B017,GPT-6.1 Sol,39.29,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B017,Claude Fable 5.1,70.42,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B017,Claude Sonnet 5.5,59.58,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B017,Gemini 4 Argon,77.86,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B018,Claude Opus 5.5,75.94,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B018,GPT-6 Astra,71.7,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B018,GPT-6.1 Sol,70.77,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B018,Claude Fable 5.1,76.67,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B018,Claude Sonnet 5.5,75.71,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B018,Gemini 4 Argon,75.24,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B019,Claude Opus 5.5,58.59,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B019,GPT-6 Astra,53.54,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B019,GPT-6.1 Sol,52.03,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B019,Claude Fable 5.1,58.88,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B019,Claude Sonnet 5.5,58.1,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B019,Gemini 4 Argon,65.4,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B020,Claude Opus 5.5,50.48,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B020,GPT-6 Astra,39.42,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B020,GPT-6.1 Sol,38.46,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B020,Claude Fable 5.1,55.29,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B020,Claude Sonnet 5.5,48.08,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B020,Gemini 4 Argon,54.81,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B021,Claude Opus 5.5,49.8,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B021,GPT-6 Astra,48.49,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B021,GPT-6.1 Sol,48.84,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B021,Claude Fable 5.1,53.51,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B021,Claude Sonnet 5.5,52.92,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B021,Gemini 4 Argon,58.8,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B022,Claude Opus 5.5,91.43,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B022,GPT-6 Astra,87.91,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B022,GPT-6.1 Sol,86.45,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B022,Claude Fable 5.1,91.29,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B022,Claude Sonnet 5.5,91.1,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B022,Gemini 4 Argon,87.43,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B023,Claude Opus 5.5,49.55,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B023,GPT-6 Astra,53.15,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B023,GPT-6.1 Sol,46.4,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B023,Claude Fable 5.1,47.75,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B023,Claude Sonnet 5.5,49.1,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B023,Gemini 4 Argon,45.49,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B024,Claude Opus 5.5,100,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B024,GPT-6 Astra,99,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B024,GPT-6.1 Sol,99,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B024,Claude Fable 5.1,100,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B024,Claude Sonnet 5.5,100,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B024,Gemini 4 Argon,99,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B025,Claude Opus 5.5,45.83,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B025,GPT-6 Astra,46.37,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B025,GPT-6.1 Sol,46.54,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B025,Claude Fable 5.1,48.53,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B025,Claude Sonnet 5.5,51.77,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B025,Gemini 4 Argon,53.65,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B026,Claude Opus 5.5,33.59,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B026,GPT-6 Astra,56.87,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B026,GPT-6.1 Sol,50.76,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B026,Claude Fable 5.1,22.9,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B026,Claude Sonnet 5.5,30.15,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B026,Gemini 4 Argon,44.27,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B027,Claude Opus 5.5,45.57,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B027,GPT-6 Astra,20.72,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B027,GPT-6.1 Sol,21.75,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B027,Claude Fable 5.1,49.19,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B027,Claude Sonnet 5.5,41.96,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B027,Gemini 4 Argon,44.56,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B028,Claude Opus 5.5,90.29,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B028,GPT-6 Astra,89.59,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B028,GPT-6.1 Sol,88.93,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B028,Claude Fable 5.1,90.26,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B028,Claude Sonnet 5.5,92.39,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B028,Gemini 4 Argon,91.91,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B029,Claude Opus 5.5,3.75,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B029,GPT-6 Astra,5.42,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B029,GPT-6.1 Sol,5.42,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B029,Claude Fable 5.1,6.67,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B029,Claude Sonnet 5.5,2.92,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B029,Gemini 4 Argon,19.58,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B030,Claude Opus 5.5,18.5,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B030,GPT-6 Astra,5.5,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B030,GPT-6.1 Sol,3,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B030,Claude Fable 5.1,7,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B030,Claude Sonnet 5.5,6.5,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B030,Gemini 4 Argon,2.5,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B031,Claude Opus 5.5,47.14,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B031,GPT-6 Astra,62.86,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B031,GPT-6.1 Sol,52.86,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B031,Claude Fable 5.1,40,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B031,Claude Sonnet 5.5,45.71,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B031,Gemini 4 Argon,44.29,https://www.vals.ai/models/anthropic_claude-opus-5-5,legacy_included
+B032,Claude Opus 5.5,13.93,https://canary.arena.ai/leaderboard/agent,legacy_included
+B032,GPT-6 Astra,12.13,https://canary.arena.ai/leaderboard/agent,legacy_included
+B032,GPT-6.1 Sol,14.74,https://canary.arena.ai/leaderboard/agent,legacy_included
+B032,Claude Fable 5.1,16.19,https://canary.arena.ai/leaderboard/agent,legacy_included
+B032,Claude Sonnet 5.5,15.83,https://canary.arena.ai/leaderboard/agent,legacy_included
+B032,Gemini 4 Argon,15.64,https://canary.arena.ai/leaderboard/agent,legacy_included
+B033,Claude Opus 5.5,73.5,https://www.mercor.com/apex/apex-agents-leaderboard/,legacy_included
+B033,GPT-6 Astra,64.666667,https://www.mercor.com/apex/apex-agents-leaderboard/,legacy_included
+B033,GPT-6.1 Sol,59.966667,https://www.mercor.com/apex/apex-agents-leaderboard/,legacy_included
+B033,Claude Fable 5.1,68.6,https://www.mercor.com/apex/apex-agents-leaderboard/,legacy_included
+B033,Claude Sonnet 5.5,75.5,https://www.mercor.com/apex/apex-agents-leaderboard/,legacy_included
+B033,Gemini 4 Argon,82.4,https://www.mercor.com/apex/apex-agents-leaderboard/,legacy_included
+B034,Claude Opus 5.5,61.8,https://www.mercor.com/apex/,legacy_included
+B034,GPT-6 Astra,57.9,https://www.mercor.com/apex/,legacy_included
+B034,Claude Fable 5.1,61,https://www.mercor.com/apex/,legacy_included
+B035,Claude Opus 5.5,67.6,https://www.mercor.com/apex/apex-swe-leaderboard/,legacy_included
+B035,GPT-6 Astra,50,https://www.mercor.com/apex/apex-swe-leaderboard/,legacy_included
+B035,GPT-6.1 Sol,46.9,https://www.mercor.com/apex/apex-swe-leaderboard/,legacy_included
+B035,Claude Fable 5.1,63.6,https://www.mercor.com/apex/apex-swe-leaderboard/,legacy_included
+B035,Claude Sonnet 5.5,66.4,https://www.mercor.com/apex/apex-swe-leaderboard/,legacy_included
+B035,Gemini 4 Argon,49.3,https://www.mercor.com/apex/apex-swe-leaderboard/,legacy_included
+B036,Claude Opus 5.5,54.6,https://cognition.com/frontiercode,legacy_included
+B036,GPT-6 Astra,53.3,https://cognition.com/frontiercode,legacy_included
+B036,Claude Sonnet 5.5,52.1,https://cognition.com/frontiercode,legacy_included
+B037,Claude Opus 5.5,55,https://www.mercor.com/apex/,legacy_included
+B037,Claude Fable 5.1,54,https://www.mercor.com/apex/,legacy_included
+B037,Claude Sonnet 5.5,54,https://www.mercor.com/apex/,legacy_included
+B038,Claude Opus 5.5,60.5,https://www.mercor.com/apex/,legacy_included
+B038,GPT-6.1 Sol,67.7,https://www.mercor.com/apex/,legacy_included
+B038,Claude Fable 5.1,63.3,https://www.mercor.com/apex/,legacy_included
+B038,Claude Sonnet 5.5,73,https://www.mercor.com/apex/,legacy_included
+B039,Claude Opus 5.5,84.7,https://www.mercor.com/apex/,legacy_included
+B039,GPT-6 Astra,85.1,https://www.mercor.com/apex/,legacy_included
+B039,GPT-6.1 Sol,85.1,https://www.mercor.com/apex/,legacy_included
+B040,Claude Opus 5.5,21.25,https://labs.scale.com/leaderboard/rli,legacy_included
+B040,GPT-6 Astra,20.83,https://labs.scale.com/leaderboard/rli,legacy_included
+B040,Claude Fable 5.1,17.92,https://labs.scale.com/leaderboard/rli,legacy_included
+B041,Claude Opus 5.5,44.6,https://labs.scale.com/leaderboard/hss,legacy_included
+B041,GPT-6 Astra,53.6,https://labs.scale.com/leaderboard/hss,legacy_included
+B041,GPT-6.1 Sol,46.6,https://labs.scale.com/leaderboard/hss,legacy_included
+B041,Claude Fable 5.1,40.8,https://labs.scale.com/leaderboard/hss,legacy_included
+B042,Claude Opus 5.5,71,https://epoch.ai/models/claude-opus-5-5,legacy_included
+B042,GPT-6 Astra,76,https://epoch.ai/models/claude-opus-5-5,legacy_included
+B042,GPT-6.1 Sol,54,https://epoch.ai/models/claude-opus-5-5,legacy_included
+B042,Claude Fable 5.1,57,https://epoch.ai/models/claude-opus-5-5,legacy_included
+B043,Claude Opus 5.5,71,https://epoch.ai/benchmarks/mystery-game-puzzles,legacy_included
+B043,GPT-6 Astra,84,https://epoch.ai/benchmarks/mystery-game-puzzles,legacy_included
+B043,GPT-6.1 Sol,80,https://epoch.ai/benchmarks/mystery-game-puzzles,legacy_included
+B043,Claude Fable 5.1,58,https://epoch.ai/benchmarks/mystery-game-puzzles,legacy_included
+B043,Claude Sonnet 5.5,65,https://epoch.ai/benchmarks/mystery-game-puzzles,legacy_included
+B044,Claude Opus 5.5,91,https://epoch.ai/models/gpt-6-1-sol,legacy_included
+B044,GPT-6 Astra,94,https://epoch.ai/models/gpt-6-1-sol,legacy_included
+B044,GPT-6.1 Sol,94,https://epoch.ai/models/gpt-6-1-sol,legacy_included
+B044,Claude Fable 5.1,90,https://epoch.ai/models/gpt-6-1-sol,legacy_included
+B044,Claude Sonnet 5.5,89,https://epoch.ai/models/gpt-6-1-sol,legacy_included
+B045,Claude Opus 5.5,95,https://epoch.ai/models/gpt-6-1-sol,legacy_included
+B045,GPT-6 Astra,98,https://epoch.ai/models/gpt-6-1-sol,legacy_included
+B045,GPT-6.1 Sol,100,https://epoch.ai/models/gpt-6-1-sol,legacy_included
+B045,Claude Fable 5.1,88,https://epoch.ai/models/gpt-6-1-sol,legacy_included
+B045,Claude Sonnet 5.5,80,https://epoch.ai/models/gpt-6-1-sol,legacy_included
+B046,Claude Opus 5.5,83,https://epoch.ai/benchmarks/furniture-assembly,legacy_included
+B046,GPT-6 Astra,80,https://epoch.ai/benchmarks/furniture-assembly,legacy_included
+B046,GPT-6.1 Sol,80,https://epoch.ai/benchmarks/furniture-assembly,legacy_included
+B046,Claude Fable 5.1,70,https://epoch.ai/benchmarks/furniture-assembly,legacy_included
+B046,Claude Sonnet 5.5,75,https://epoch.ai/benchmarks/furniture-assembly,legacy_included
+B047,Claude Opus 5.5,91,https://epoch.ai/models/gpt-6-1-sol,legacy_included
+B047,GPT-6 Astra,96,https://epoch.ai/models/gpt-6-1-sol,legacy_included
+B047,GPT-6.1 Sol,95,https://epoch.ai/models/gpt-6-1-sol,legacy_included
+B047,Claude Sonnet 5.5,96,https://epoch.ai/models/gpt-6-1-sol,legacy_included
+B048,Claude Opus 5.5,77,https://epoch.ai/models/claude-opus-5-5,legacy_included
+B048,GPT-6 Astra,47,https://epoch.ai/models/claude-opus-5-5,legacy_included
+B048,Claude Fable 5.1,73,https://epoch.ai/models/claude-opus-5-5,legacy_included
+B049,Claude Opus 5.5,72,https://epoch.ai/benchmarks/simple-qa-verified,legacy_included
+B049,GPT-6 Astra,76,https://epoch.ai/benchmarks/simple-qa-verified,legacy_included
+B049,GPT-6.1 Sol,74,https://epoch.ai/benchmarks/simple-qa-verified,legacy_included
+B049,Claude Fable 5.1,71,https://epoch.ai/benchmarks/simple-qa-verified,legacy_included
+B049,Claude Sonnet 5.5,47,https://epoch.ai/benchmarks/simple-qa-verified,legacy_included
+B050,Claude Opus 5.5,93.3,https://arcprize.org/leaderboard,legacy_included
+B050,GPT-6 Astra,95,https://arcprize.org/leaderboard,legacy_included
+B050,GPT-6.1 Sol,94.2,https://arcprize.org/leaderboard,legacy_included
+B050,Claude Fable 5.1,90,https://arcprize.org/leaderboard,legacy_included
+B051,Claude Opus 5.5,95.06,https://www.vals.ai/benchmarks/ioi,legacy_included
+B051,GPT-6 Astra,100,https://www.vals.ai/benchmarks/ioi,legacy_included
+B051,GPT-6.1 Sol,96.89,https://www.vals.ai/benchmarks/ioi,legacy_included
+B051,Claude Fable 5.1,90.78,https://www.vals.ai/benchmarks/ioi,legacy_included
+B051,Claude Sonnet 5.5,83.06,https://www.vals.ai/benchmarks/ioi,legacy_included
+B051,Gemini 4 Argon,100,https://www.vals.ai/benchmarks/ioi,legacy_included
+B052,Claude Opus 5.5,70.64,https://www.vals.ai/benchmarks/public-benefits-bench,legacy_included
+B052,GPT-6.1 Sol,59.34,https://www.vals.ai/benchmarks/public-benefits-bench,legacy_included
+B052,Claude Fable 5.1,74.9,https://www.vals.ai/benchmarks/public-benefits-bench,legacy_included
+B052,Claude Sonnet 5.5,67.19,https://www.vals.ai/benchmarks/public-benefits-bench,legacy_included
+B052,Gemini 4 Argon,69.76,https://www.vals.ai/benchmarks/public-benefits-bench,legacy_included
+B053,Claude Opus 5.5,14,https://www.vals.ai/benchmarks/cua_bench,legacy_included
+B053,GPT-6 Astra,19.17,https://www.vals.ai/benchmarks/cua_bench,legacy_included
+B053,Claude Fable 5.1,13.17,https://www.vals.ai/benchmarks/cua_bench,legacy_included
+B053,Gemini 4 Argon,4.83,https://www.vals.ai/benchmarks/cua_bench,legacy_included
+B054,Claude Opus 5.5,91.33,https://www.vals.ai/benchmarks/time_horizon_index,legacy_included
+B054,GPT-6 Astra,90.5,https://www.vals.ai/benchmarks/time_horizon_index,legacy_included
+B054,Claude Fable 5.1,63.33,https://www.vals.ai/benchmarks/time_horizon_index,legacy_included
+B054,Gemini 4 Argon,52.5,https://www.vals.ai/benchmarks/time_horizon_index,legacy_included
+B055,Claude Opus 5.5,75.8,https://www.mercor.com/apex/,legacy_included
+B055,Claude Fable 5.1,68.7,https://www.mercor.com/apex/,legacy_included
+B055,Claude Sonnet 5.5,70.9,https://www.mercor.com/apex/,legacy_included
+B056,Claude Opus 5.5,71.2,https://www.mercor.com/apex/,legacy_included
+B056,GPT-6.1 Sol,64.7,https://www.mercor.com/apex/,legacy_included
+B056,Claude Fable 5.1,66,https://www.mercor.com/apex/,legacy_included
+B057,Claude Opus 5.5,51,https://www.mercor.com/apex/,legacy_included
+B057,GPT-6 Astra,60,https://www.mercor.com/apex/,legacy_included
+B057,GPT-6.1 Sol,61.3,https://www.mercor.com/apex/,legacy_included
+B058,Claude Opus 5.5,43.3,https://www.mercor.com/apex/,legacy_included
+B058,Claude Fable 5.1,38,https://www.mercor.com/apex/,legacy_included
+B058,Claude Sonnet 5.5,44.7,https://www.mercor.com/apex/,legacy_included
+B059,Claude Opus 5.5,47.5,https://www.mercor.com/apex/,legacy_included
+B059,GPT-6.1 Sol,45.8,https://www.mercor.com/apex/,legacy_included
+B059,Claude Sonnet 5.5,45.5,https://www.mercor.com/apex/,legacy_included
+B060,Claude Opus 5.5,73.1,https://www.mercor.com/apex/apex-v1-leaderboard/investment-banking-analyst/,legacy_included
+B060,GPT-6 Astra,70.3,https://www.mercor.com/apex/apex-v1-leaderboard/investment-banking-analyst/,legacy_included
+B060,GPT-6.1 Sol,70.2,https://www.mercor.com/apex/apex-v1-leaderboard/investment-banking-analyst/,legacy_included
+B060,Claude Fable 5.1,71.1,https://www.mercor.com/apex/apex-v1-leaderboard/investment-banking-analyst/,legacy_included
+B060,Claude Sonnet 5.5,64.4,https://www.mercor.com/apex/apex-v1-leaderboard/investment-banking-analyst/,legacy_included
+B061,Claude Opus 5.5,67.16,https://huggingface.co/blog/microsoft/thinkingbox,legacy_included
+B061,GPT-6 Astra,58.31,https://huggingface.co/blog/microsoft/thinkingbox,legacy_included
+B062,Claude Opus 5.5,1515,https://arena.ai/leaderboard/chat/text?scoring=raw,legacy_included
+B062,GPT-6 Astra,1440,https://arena.ai/leaderboard/chat/text?scoring=raw,legacy_included
+B062,GPT-6.1 Sol,1447,https://arena.ai/leaderboard/chat/text?scoring=raw,legacy_included
+B062,Claude Fable 5.1,1510,https://arena.ai/leaderboard/chat/text?scoring=raw,legacy_included
+B062,Claude Sonnet 5.5,1471,https://arena.ai/leaderboard/chat/text?scoring=raw,legacy_included
+B062,Gemini 4 Argon,1534,https://arena.ai/leaderboard/chat/text?scoring=raw,legacy_included
+B006,Muse Wonder Full,1729,https://artificialanalysis.ai/es/models/comparisons,independent_original_AA_2026_10_12_v4.3.2
+B007,Muse Wonder Full,1857,https://artificialanalysis.ai/es/models/comparisons,independent_original_AA_2026_10_12_v4.3.2
+B008,Muse Wonder Full,71,https://artificialanalysis.ai/es/models/comparisons,independent_original_AA_2026_10_12_v4.3.2
+B009,Muse Wonder Full,57,https://artificialanalysis.ai/es/models/comparisons,independent_original_AA_2026_10_12_v4.3.2
+B010,Muse Wonder Full,63,https://artificialanalysis.ai/es/models/comparisons,independent_original_AA_2026_10_12_v4.3.2
+B011,Muse Wonder Full,54,https://artificialanalysis.ai/es/models/comparisons,independent_original_AA_2026_10_12_v4.3.2
+B012,Muse Wonder Full,33,https://artificialanalysis.ai/es/models/comparisons,independent_original_AA_2026_10_12_v4.3.2
+B013,Muse Wonder Full,33,https://artificialanalysis.ai/es/models/comparisons,independent_original_AA_2026_10_12_v4.3.2
+B014,Muse Wonder Full,30,https://artificialanalysis.ai/es/models/comparisons,independent_original_AA_2026_10_12_v4.3.2
+B015,Muse Wonder Full,84,https://artificialanalysis.ai/es/models/comparisons,independent_original_AA_2026_10_12_v4.3.2
+B006,Muse Wonder,1659,https://artificialanalysis.ai/models/comparisons/muse-wonder-vs-claude-opus-5-5,independent_original_AA_2026_10_12_v4.3.2
+B007,Muse Wonder,1770,https://artificialanalysis.ai/models/comparisons/muse-wonder-vs-claude-opus-5-5,independent_original_AA_2026_10_12_v4.3.2
+B008,Muse Wonder,68,https://artificialanalysis.ai/models/comparisons/muse-wonder-vs-claude-opus-5-5,independent_original_AA_2026_10_12_v4.3.2
+B009,Muse Wonder,52,https://artificialanalysis.ai/models/comparisons/muse-wonder-vs-claude-opus-5-5,independent_original_AA_2026_10_12_v4.3.2
+B010,Muse Wonder,60,https://artificialanalysis.ai/models/comparisons/muse-wonder-vs-claude-opus-5-5,independent_original_AA_2026_10_12_v4.3.2
+B011,Muse Wonder,50,https://artificialanalysis.ai/models/comparisons/muse-wonder-vs-claude-opus-5-5,independent_original_AA_2026_10_12_v4.3.2
+B012,Muse Wonder,31,https://artificialanalysis.ai/models/comparisons/muse-wonder-vs-claude-opus-5-5,independent_original_AA_2026_10_12_v4.3.2
+B013,Muse Wonder,28,https://artificialanalysis.ai/models/comparisons/muse-wonder-vs-claude-opus-5-5,independent_original_AA_2026_10_12_v4.3.2
+B014,Muse Wonder,25,https://artificialanalysis.ai/models/comparisons/muse-wonder-vs-claude-opus-5-5,independent_original_AA_2026_10_12_v4.3.2
+B015,Muse Wonder,81,https://artificialanalysis.ai/models/comparisons/muse-wonder-vs-claude-opus-5-5,independent_original_AA_2026_10_12_v4.3.2
+B036,Claude Fable 5.1,50.9,https://cognition.com/frontiercode,numeric_corroborated_2026_10_12
+B036,GPT-6.1 Sol,50.2,https://cognition.com/frontiercode,numeric_corroborated_2026_10_12

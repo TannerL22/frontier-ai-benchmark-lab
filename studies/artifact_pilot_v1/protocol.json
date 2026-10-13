@@ -1,0 +1,13 @@
+{
+  "study_id": "artifact_pilot_v1",
+  "status": "prepared_no_paid_runs",
+  "scope": "A small professional data-reconciliation evaluator pilot, not a universal benchmark.",
+  "tasks": "12 seeded public synthetic fixtures: department totals, duplicate invoice detection, and account balances including overpayments. Publish prompts and deterministic exact-integer JSON checks.",
+  "before_model_runs": ["Expert review of realism, ambiguity and scorer validity", "Create a separately reviewed private or future task set; public fixtures do not establish contamination resistance", "Select actual endpoints and freeze snapshots, reasoning, tools, retry/fallback, token/time/cost budgets and evaluation dates", "Start with three independent attempts per task/system using the same task set and budgets; choose later task/trial counts after a variance pilot"],
+  "outcomes": "Deterministic correctness per artifact, missing submissions, repeated-attempt consistency, paired outcomes per task, failure category, elapsed time and actual cost when known. Human quality and recovery assessments require a later reviewed rubric.",
+  "grading": "Strict JSON artifact schema, exact integer cents, sorted duplicate IDs, no hidden tolerance or model judge. Invalid attempt identities or hashes reject the report. Missing registered attempts are retained as missing with zero correctness.",
+  "analysis": "Report category and task-level correctness with all attempts; do not treat repeated trials as independent tasks. Explain failures. Do not infer population precision from 12 synthetic fixtures.",
+  "spending": "Zero paid model calls in preparation. The oracle demonstration copies known answers solely to exercise the grader and is labelled as such.",
+  "task_rotation": "Future evaluation tasks require separate IDs, input hashes and expert approval; retain old versions and report exposure. Never silently replace a registered task.",
+  "response_schema": {"system_id": "actual_registry_id", "task_id": "department_totals-01", "task_sha256": "copy_from_task", "attempt": 1, "artifact": {"totals_cents": {"Research": 12345}}, "elapsed_seconds": null, "cost_usd": null}
+}

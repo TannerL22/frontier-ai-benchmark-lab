@@ -30,6 +30,7 @@ def main():
             'evaluators':len(ev.evaluators),'baseline_index_by_method':scores,'cross_validation':validation,
             'external_composites_excluded':True,'candidate_models_excluded':[r['model_name'] for r in ev.model_registry if r['status']!='baseline_v4_2'],
             'notes':['No equal-compute claim','Historical cross-validation; not prospective validation','Rounded Artificial Analysis composites are external comparators, never added as underlying scores']}
+    out=ROOT/'outputs';out.mkdir(exist_ok=True)
     if args.calibration:
         result['nested_calibration'],cals=nested_calibration(ev)
         dump_csv(ROOT/'outputs'/'calibrated_predictions.csv',cals)

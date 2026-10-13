@@ -1,36 +1,22 @@
-# Deploy the interactive app
+# Verification and deployment
 
-## Recommended: Streamlit Community Cloud
+The existing Streamlit entry point remains `app.py`. `requirements.txt` loads the complete `requirements-lock.txt` resolution. Use Python 3.12 for the declared Linux CI/deployment check, or the locally exercised Python 3.14.2 environment. The editable project supports Python 3.11+. Direct pins are also available in `constraints.txt`; updating any resolution requires a new clean install and checks. Starlette 0.49.3 is explicitly constrained: the unconstrained 1.8.0 resolver result changed response ordering used by Streamlit 1.57 media middleware. An HTTP-protocol regression test covers both gzip and identity media responses.
 
-The app includes Python calculations, SciPy and a Streamlit server. GitHub Pages serves static assets and **cannot run a Python server**. Streamlit Community Cloud is the suitable low-maintenance deployment choice.
-
-1. Sign in at **https://share.streamlit.io** with GitHub.
-2. Select **Create app** → **I have an app**.
-3. Enter repository `TannerL22/frontier-ai-benchmark-lab`, branch `main`, entrypoint `app.py`.
-4. Optionally select a memorable public subdomain.
-5. Deploy. The root-level `requirements.txt` installs `frontierlab`, `streamlit` and `plotly`.
-
-The app is a public research dashboard if deployed publicly. **Do not add private API keys or unpublished datasets to tracked files.** Community Cloud supports a private secrets interface if required later.
-
-### Verification
-
-Run locally before deployment:
+Before release, run:
 
 ```bash
-python -m pip install -e '.[app,dev]'
-python -m pytest -q -m 'not slow'
+python -m pip install -r requirements-lock.txt
+python -m pip check
+python scripts/check_release.py
+python scripts/prospective_study.py verify
+python -m pytest -q
+python scripts/reproduce.py --calibration
 python scripts/reproduce_v51.py
-streamlit run app.py
+python scripts/reproduce_v52.py
+python scripts/app_smoke.py
+python scripts/artifact_pilot.py oracle-demo
 ```
 
-If deployment fails, inspect the Community Cloud application logs. In particular, verify that `frontierlab` imports correctly: the `-e .` line in `requirements.txt` installs the package from `src/`.
+Local Windows checks place test temporary files in the workspace (`pytest --basetemp=.test-tmp-unique`) to avoid sandbox cleanup restrictions. The app smoke script exercises 21 page/release combinations and four material interactions. CI archives outputs and the clearly labelled free oracle demonstration for 90 days; retain milestone artifacts separately when longer preservation is needed.
 
-### What about GitHub Pages?
-
-Pages can host a **separate static summary, methodology guide or precomputed read-only chart**. It cannot host the interactive Python scoring/cross-validation engine. We deliberately avoid maintaining a second static leaderboard until there is a reliable export-and-publish pipeline to prevent stale or contradictory rankings.
-
-## GitHub Actions
-
-`.github/workflows/ci.yml` checks package installation, unit tests, and reproduction from both data releases on each push and pull request. GitHub actions are not a substitute for Streamlit hosting.
-
-Read: https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy
+For a preview, run `streamlit run app.py --server.address 127.0.0.1`. Review the draft branch and merge only after source/scientific decisions are accepted. An existing Streamlit deployment tracking main may redeploy upon merge; preparing a branch or pull request does not itself change the live app. No provider secrets or paid runs are required. This change does not create a monitoring automation or claim a deployment-security audit.

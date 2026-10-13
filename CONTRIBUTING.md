@@ -1,17 +1,9 @@
 # Contributing
 
-Thank you for helping improve reproducibility and source accuracy.
+Evidence changes belong in a new release. Preserve `data/` and `data/v5_1/` as historical snapshots. Supply the exact source/metric column, task-set version, named system, run conditions and original uncertainty definition; write explicit unknowns. Derived means require component values, task counts and source links. State every selection and alternative-exclusion reason. See the data contract and selection policy.
 
-## Evidence changes
+Curated transcriptions and original source artifacts are different records. Do not relabel inherited links as verified runs or hash a transcription while implying original HTML capture. Inspect source/configuration agreement before proposing stronger comparability claims.
 
-Please supply the original evaluator URL, tested model/version, benchmark identifier/version, reported score and unit, evaluation date, reasoning mode, harness and tool configuration where disclosed, and any overlap with a currently included benchmark. If a score is reconstructed from published sub-scores, state the formula and group sizes explicitly.
+Install the locked environment, run the full tests (including slow calibration), check canonical inputs and sealed study inputs, run all three reproduction scripts and app smoke checks. Add meaningful tests for changes to ingestion, mathematics or research tools. Do not tune weights or protocols to future outcomes; create and disclose an amended study instead. A manifest mismatch requires investigation, not an automatic refresh.
 
-Changes to research observations should be proposed in a **new versioned release dataset**; never overwrite the frozen `data/` baseline. Composite leaderboard indices should remain outside constituent-level scoring.
-
-## Code changes
-
-Install the package, run `python -m pytest -q -m 'not slow'` and both reproduction scripts. Add regression tests for any mathematical or data-processing changes. Explain methodology changes separately from new score observations; do not modify evaluation weights to improve historical holdout accuracy without a clearly labelled development/test split.
-
-## External contributions
-
-This repository has no open-source licence yet. Please do not submit copyrighted third-party benchmark datasets unless their redistribution is authorised. Cite original evaluator sources and do not commit credentials, tokens, personal data or confidential results.
+No open-source licence has been selected. Retain the existing licensing state; do not submit copyrighted third-party datasets without redistribution authority. Never commit credentials, confidential results or personal data. Paid provider runs and scientific publication require an explicitly scoped study; the prepared pilot makes no such calls.

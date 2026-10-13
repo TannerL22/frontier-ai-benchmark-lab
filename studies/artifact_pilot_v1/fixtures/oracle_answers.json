@@ -1,0 +1,102 @@
+{
+  "department_totals-01": {
+    "totals_cents": {
+      "Support": 91859,
+      "Research": 162393,
+      "Operations": 20864
+    }
+  },
+  "department_totals-02": {
+    "totals_cents": {
+      "Operations": 99446,
+      "Support": 105156,
+      "Research": 60570
+    }
+  },
+  "department_totals-03": {
+    "totals_cents": {
+      "Operations": 88857,
+      "Research": 19808,
+      "Support": 39582
+    }
+  },
+  "department_totals-04": {
+    "totals_cents": {
+      "Operations": 78945,
+      "Support": 109724,
+      "Research": 50372
+    }
+  },
+  "duplicate_invoices-01": {
+    "duplicate_ids": [
+      "INV-001",
+      "INV-006",
+      "INV-007"
+    ],
+    "unique_total_cents": 339670
+  },
+  "duplicate_invoices-02": {
+    "duplicate_ids": [
+      "INV-001",
+      "INV-004",
+      "INV-005"
+    ],
+    "unique_total_cents": 335305
+  },
+  "duplicate_invoices-03": {
+    "duplicate_ids": [
+      "INV-001",
+      "INV-003",
+      "INV-006"
+    ],
+    "unique_total_cents": 484113
+  },
+  "duplicate_invoices-04": {
+    "duplicate_ids": [
+      "INV-002",
+      "INV-004",
+      "INV-007"
+    ],
+    "unique_total_cents": 385276
+  },
+  "account_reconciliation-01": {
+    "balance_cents": {
+      "AC-00": 44892,
+      "AC-01": 27188,
+      "AC-02": 70249,
+      "AC-03": 68744,
+      "AC-04": 4750,
+      "AC-05": 4191
+    }
+  },
+  "account_reconciliation-02": {
+    "balance_cents": {
+      "AC-00": 29824,
+      "AC-01": 14188,
+      "AC-02": 16190,
+      "AC-03": 4823,
+      "AC-04": 262,
+      "AC-05": 1551
+    }
+  },
+  "account_reconciliation-03": {
+    "balance_cents": {
+      "AC-00": 29495,
+      "AC-01": 34076,
+      "AC-02": 4154,
+      "AC-03": 37517,
+      "AC-04": -3891,
+      "AC-05": 72128
+    }
+  },
+  "account_reconciliation-04": {
+    "balance_cents": {
+      "AC-00": -5272,
+      "AC-01": 15373,
+      "AC-02": 35897,
+      "AC-03": 64882,
+      "AC-04": 35005,
+      "AC-05": -4110
+    }
+  }
+}

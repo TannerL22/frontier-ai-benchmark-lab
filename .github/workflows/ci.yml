@@ -11,18 +11,37 @@ permissions:
 jobs:
   validation:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
           cache: 'pip'
       - name: Install package and test dependencies
-        run: python -m pip install -e '.[dev]'
+        run: python -m pip install -r requirements-lock.txt
+      - name: Verify release contracts, canonical inputs and sealed forecasts
+        run: |
+          python -m pip check
+          python scripts/check_release.py
+          python scripts/prospective_study.py verify
       - name: Test source integrity and historical regression
-        run: python -m pytest -q -m 'not slow'
+        run: python -m pytest -q
       - name: Reproduce frozen six-model validation
-        run: python scripts/reproduce.py
+        run: python scripts/reproduce.py --calibration
       - name: Reproduce expanded eight-model release
         run: python scripts/reproduce_v51.py
+      - name: Reproduce evidence review and exercise application
+        run: |
+          python scripts/reproduce_v52.py
+          python scripts/app_smoke.py
+          python scripts/artifact_pilot.py oracle-demo
+      - name: Archive validation computations and free pilot demonstration
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-release-computations
+          path: |
+            outputs/
+            pilot_runs/demo/
+          retention-days: 90

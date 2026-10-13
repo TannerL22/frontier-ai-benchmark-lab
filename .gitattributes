@@ -1,0 +1,10 @@
+* text=auto
+*.py text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.csv text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+outputs/** linguist-generated=true
+studies/prospective_v1/registered/forecasts.jsonl linguist-generated=true

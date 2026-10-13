@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-13",
+  "environment": "Windows / Python 3.14.2 / requirements-lock.txt",
+  "full_pytest": {"passed": 48, "seconds": 254.81, "includes_slow_calibration": true},
+  "application_checks": {"passed": 25, "page_release_combinations": 21, "additional_interactions": 4},
+  "canonical_input_hashes_verified": 32,
+  "sealed_forecasts_verified": 1372,
+  "reproductions": ["v4.2 with nested calibration", "v5.1", "v5.2"],
+  "dependency_check": "No broken requirements found",
+  "browser_verification": "Coverage matrix and primary page rendered after compatible media-middleware pin; no subsequent server exception observed",
+  "pilot": "12 public synthetic tasks prepared; oracle demonstration exercised locally; zero paid model calls",
+  "limitations": ["Linux / Python 3.12 is configured in CI; local verification was Windows / Python 3.14.2", "153 included observations remain individually unverified", "Exact historical run metadata remains incomplete", "No prospective outcomes or original model performance collected"]
+}

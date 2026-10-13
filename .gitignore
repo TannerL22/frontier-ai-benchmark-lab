@@ -2,6 +2,9 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
+.test-tmp*/
+.smoke-tmp*/
+pilot_runs/
 .ruff_cache/
 .mypy_cache/
 .coverage

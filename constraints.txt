@@ -1,0 +1,8 @@
+# Tested primary dependency versions; requirements-lock.txt records the complete resolution.
+numpy==2.4.2
+scipy==1.17.1
+streamlit==1.57.0
+plotly==6.7.0
+pandas==3.0.1
+pytest==9.0.3
+starlette==0.49.3
