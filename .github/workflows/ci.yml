@@ -26,8 +26,11 @@ jobs:
         run: |
           python -m pip check
           python scripts/check_release.py
-          python scripts/prospective_study.py verify
-          if [ -f studies/prospective_v1/publication.json ]; then python scripts/prospective_registry.py verify; fi
+          if [ -f studies/prospective_v1/publication.json ]; then
+            python scripts/prospective_registry.py verify
+          else
+            python scripts/prospective_study.py verify
+          fi
       - name: Test source integrity and historical regression
         run: python -m pytest -q
       - name: Reproduce frozen six-model validation

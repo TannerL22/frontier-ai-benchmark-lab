@@ -1,8 +1,8 @@
 {
   "scope": "Observatory UI overhaul; analytical engines, data contracts and private review decisions preserved",
   "full_pytest": {
-    "passed": 54,
-    "seconds": 99.97,
+    "passed": 55,
+    "seconds": 75.94,
     "includes_slow_calibration": true
   },
   "final_runtime_and_review_checks": {
@@ -19,6 +19,11 @@
   },
   "canonical_input_hashes_verified": 46,
   "new_dependencies": [],
+  "registered_study_release_checks": {
+    "targeted_tests_passed": 20,
+    "frozen_forecasts_verified": 1372,
+    "scope": "UI revisions preserve identical outcome scores; altered scoring inputs or sealed forecasts are rejected; published scoring uses the original Git snapshot"
+  },
   "browser_checks": [
     "Desktop observatory and holdout residual diagnostics",
     "Local private review split pane; no real review decisions saved",

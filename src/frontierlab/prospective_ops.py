@@ -1,9 +1,11 @@
 """Public registration cutoff, review gating and an explicit acquisition ledger."""
 from datetime import datetime, timedelta, timezone
+from contextlib import contextmanager
 import hashlib
 import json
 from pathlib import Path
 import subprocess
+import tempfile
 
 from .integrity import verify_manifest
 from .study import score_future, timestamp
@@ -38,9 +40,38 @@ def verify_publication(root, publication):
     return registration
 
 
+@contextmanager
+def registered_input_snapshot(root, publication, registration):
+    """Give the unchanged scorer its original inputs after unrelated UI updates.
+
+    Public registration verification has already checked the Git commitment.
+    Locally sealed preparation bundles continue to verify their current root.
+    """
+    commit = publication.get("frozen_input_commit")
+    if not commit:
+        yield Path(root)
+        return
+    # The UI is not a scoring dependency. Every other registered live input
+    # still has to match, preventing this adapter from permitting engine retuning.
+    verify_manifest(root, {"sha256": {path: expected for path, expected in registration["input_sha256"].items()
+                                     if path != "src/frontierlab/presentation.py"}})
+    with tempfile.TemporaryDirectory(prefix="frontier-registered-inputs-") as directory:
+        snapshot = Path(directory).resolve()
+        for relative in registration["input_sha256"]:
+            path = (snapshot / relative).resolve()
+            if not path.is_relative_to(snapshot):
+                raise ValueError("Registered input path escapes snapshot")
+            blob = subprocess.run(["git", "show", f"{commit}:{relative}"], cwd=root,
+                                  check=True, capture_output=True).stdout
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_bytes(blob)
+        verify_manifest(snapshot, {"sha256": registration["input_sha256"]})
+        yield snapshot
+
+
 def score_registered(root, publication, proposals, now=None):
     root = Path(root)
-    verify_publication(root, publication)
+    registration = verify_publication(root, publication)
     start, end = timestamp(publication["public_registered_at"]), timestamp(publication["collection_ends_at"])
     now = datetime.now(timezone.utc) if now is None else now
     eligible, dispositions = [], []
@@ -71,7 +102,8 @@ def score_registered(root, publication, proposals, now=None):
                              "source_url": row.get("source_url"), "status": "eligible_for_structural_checks" if not reason else "retained_not_scored",
                              "reason": reason})
     # Original method, forecast and scoring mappings are unchanged.
-    report = score_future(root, root / publication["bundle_path"], eligible)
+    with registered_input_snapshot(root, publication, registration) as inputs:
+        report = score_future(inputs, root / publication["bundle_path"], eligible)
     for rejection in report["rejected_outcomes"]:
         target = eligible[rejection["row"] - 1]
         for disposition in dispositions:
