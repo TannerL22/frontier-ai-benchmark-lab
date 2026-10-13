@@ -9,9 +9,9 @@ from frontierlab.presentation import csv_export
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def main():
-    evidence = Evidence(ROOT / "data/v5_2")
-    output = ROOT / "outputs/v5_2"
+def main(release="v5_2"):
+    evidence = Evidence(ROOT / "data" / release)
+    output = ROOT / "outputs" / release
     output.mkdir(parents=True, exist_ok=True)
     validation, predictions, model_counts = [], [], []
     for mode in ("family", "evaluator", "domain", "genealogy"):

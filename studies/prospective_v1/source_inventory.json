@@ -1,0 +1,14 @@
+{
+  "purpose": "Consecutive future-publication collection after actual public registration",
+  "information_rule": "Do not retune predictions or import v5.3 revisions into the frozen v5.2 estimators",
+  "sources": [
+    {"publisher": "Artificial Analysis", "url": "https://artificialanalysis.ai/evaluations"},
+    {"publisher": "Epoch AI", "url": "https://epoch.ai/benchmarks"},
+    {"publisher": "Vals AI", "url": "https://www.vals.ai/benchmarks"},
+    {"publisher": "Cognition", "url": "https://cognition.com/frontiercode"},
+    {"publisher": "Mercor", "url": "https://www.mercor.com/apex/"}
+  ],
+  "collector_scope": "Record proposals with publication/acquisition dates; retain unknown eligibility for independent review. Existing families and dated leaderboard updates are excluded from new-family scoring.",
+  "independent_reviewer_id": "TannerL22",
+  "acquired_future_outcomes": 0
+}

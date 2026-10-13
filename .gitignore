@@ -5,6 +5,7 @@ __pycache__/
 .test-tmp*/
 .smoke-tmp*/
 pilot_runs/
+private_pilot/
 .ruff_cache/
 .mypy_cache/
 .coverage

@@ -1,0 +1,9 @@
+model_name,developer,status,released_on,api_access,source_url
+Claude Opus 5.5,Anthropic,baseline_v4_2,,unknown,
+GPT-6 Astra,OpenAI,baseline_v4_2,,unknown,
+GPT-6.1 Sol,OpenAI,baseline_v4_2,,unknown,
+Claude Fable 5.1,Anthropic,baseline_v4_2,,unknown,
+Claude Sonnet 5.5,Anthropic,baseline_v4_2,,unknown,
+Gemini 4 Argon,Google,baseline_v4_2,,unknown,
+Muse Wonder Full,Meta,included_v5_1_release_batch,2026-10-12,Muse Code subscribers; no public API as launched,https://research.meta.ai/blog/muse-wonder
+Muse Wonder,Meta,included_v5_1_release_batch,2026-10-12,Meta Model API; Muse Code,https://research.meta.ai/blog/muse-wonder

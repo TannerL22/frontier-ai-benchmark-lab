@@ -1,0 +1,16 @@
+{
+  "holdout_id": "artifact_private_v1",
+  "prepared_at": "2026-10-13T20:32:28.425263+00:00",
+  "task_count": 24,
+  "per_category": 8,
+  "independent_oracle_checks": 24,
+  "sha256": {
+    "tasks.jsonl": "6026ba8b7d875c79aad45c912da07084d2290d59caa44b18dcf5552ad92ae3df",
+    "oracle_answers.json": "66716b17e24b2fff0708abfe36f706d27045bdf2407f19b548d67e06b836cc48"
+  },
+  "scope": "Private synthetic fixtures, generated with system randomness; not a validated population sample",
+  "independent_human_review": "pending TannerL22 review",
+  "execution_enabled": false,
+  "private_files": "Excluded from Git; review through the local pilot review app",
+  "actual_model_runs": 0
+}

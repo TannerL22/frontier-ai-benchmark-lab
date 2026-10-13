@@ -15,6 +15,7 @@ from frontierlab.presentation import csv_export, system_record
 
 ROOT = Path(__file__).resolve().parent
 RELEASES = {
+    "v5.3 · Source follow-up": ROOT / "data" / "v5_3",
     "v5.2 · Evidence review": ROOT / "data" / "v5_2",
     "v5.1 · Original eight-model release": ROOT / "data" / "v5_1",
     "v4.2 · Frozen six-model reference": ROOT / "data",
@@ -286,6 +287,16 @@ elif page == "Research programme":
     st.title("Testing what generalizes")
     st.write("The next scientific step is a time-stamped prediction study and a narrow original workflow pilot.")
     st.info("No prospective outcomes or paid model runs have been collected. The prepared local pilot exercises the evaluator; an oracle demonstration is not an AI performance result.")
+    publication = ROOT / "studies/prospective_v1/publication.json"
+    if publication.exists():
+        record = json.loads(publication.read_text())
+        st.success("Prospective forecasts publicly registered. Independent eligibility review remains with the project owner.")
+        st.link_button("Public study registration", record["registration_url"])
+        st.write("Outcome window:", record["public_registered_at"], "to", record["collection_ends_at"])
+    review_packet = ROOT / "studies/artifact_pilot_v1/REVIEW_PACKET.md"
+    if review_packet.exists():
+        st.download_button("Download independent pilot review packet", review_packet.read_text(encoding="utf-8"),
+                           "pilot_review_packet.md", "text/markdown")
     for name, path in [
         ("Prospective study protocol", ROOT / "studies" / "prospective_v1" / "protocol.json"),
         ("Original workflow pilot protocol", ROOT / "studies" / "artifact_pilot_v1" / "protocol.json"),

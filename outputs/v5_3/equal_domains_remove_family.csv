@@ -1,0 +1,449 @@
+Removed group,Model,Relative difference,Status
+aa-briefcase_v1.1,Claude Opus 5.5,0.0,Conditional experiment
+aa-briefcase_v1.1,GPT-6 Astra,-1.0657062341563233,Conditional experiment
+aa-briefcase_v1.1,GPT-6.1 Sol,-6.3867511244029345,Conditional experiment
+aa-briefcase_v1.1,Claude Fable 5.1,-7.524203800586378,Conditional experiment
+aa-briefcase_v1.1,Claude Sonnet 5.5,-6.484835967370373,Conditional experiment
+aa-briefcase_v1.1,Gemini 4 Argon,-8.230388703475896,Conditional experiment
+aa-briefcase_v1.1,Muse Wonder Full,2.4916854863578948,Conditional experiment
+aa-briefcase_v1.1,Muse Wonder,-8.974350438259805,Conditional experiment
+gdpval-aa_v2.1,Claude Opus 5.5,0.0,Conditional experiment
+gdpval-aa_v2.1,GPT-6 Astra,-0.9328550995835059,Conditional experiment
+gdpval-aa_v2.1,GPT-6.1 Sol,-6.3056018124819815,Conditional experiment
+gdpval-aa_v2.1,Claude Fable 5.1,-7.572883389792054,Conditional experiment
+gdpval-aa_v2.1,Claude Sonnet 5.5,-6.397253818036361,Conditional experiment
+gdpval-aa_v2.1,Gemini 4 Argon,-8.391636185566242,Conditional experiment
+gdpval-aa_v2.1,Muse Wonder Full,2.042477619523723,Conditional experiment
+gdpval-aa_v2.1,Muse Wonder,-9.339805703984595,Conditional experiment
+automationbench-aa,Claude Opus 5.5,0.0,Conditional experiment
+automationbench-aa,GPT-6 Astra,-1.4973601640283078,Conditional experiment
+automationbench-aa,GPT-6.1 Sol,-6.684059783210557,Conditional experiment
+automationbench-aa,Claude Fable 5.1,-7.302444375026255,Conditional experiment
+automationbench-aa,Claude Sonnet 5.5,-6.511062693632638,Conditional experiment
+automationbench-aa,Gemini 4 Argon,-9.553263625200344,Conditional experiment
+automationbench-aa,Muse Wonder Full,2.3422446872406084,Conditional experiment
+automationbench-aa,Muse Wonder,-9.161487668029395,Conditional experiment
+terminal-bench_4.0,Claude Opus 5.5,0.0,Conditional experiment
+terminal-bench_4.0,GPT-6 Astra,-1.466941696078976,Conditional experiment
+terminal-bench_4.0,GPT-6.1 Sol,-6.647043260069694,Conditional experiment
+terminal-bench_4.0,Claude Fable 5.1,-7.344659513979337,Conditional experiment
+terminal-bench_4.0,Claude Sonnet 5.5,-6.772709265437442,Conditional experiment
+terminal-bench_4.0,Gemini 4 Argon,-8.890620261393678,Conditional experiment
+terminal-bench_4.0,Muse Wonder Full,2.914667792852754,Conditional experiment
+terminal-bench_4.0,Muse Wonder,-8.184505127231091,Conditional experiment
+scicode,Claude Opus 5.5,0.0,Conditional experiment
+scicode,GPT-6 Astra,-0.7771250212473149,Conditional experiment
+scicode,GPT-6.1 Sol,-6.034527788132536,Conditional experiment
+scicode,Claude Fable 5.1,-7.684825250691233,Conditional experiment
+scicode,Claude Sonnet 5.5,-6.051061700624587,Conditional experiment
+scicode,Gemini 4 Argon,-8.862524607158107,Conditional experiment
+scicode,Muse Wonder Full,2.4995641234420276,Conditional experiment
+scicode,Muse Wonder,-8.954039176388648,Conditional experiment
+humanity's_last_exam,Claude Opus 5.5,0.0,Conditional experiment
+humanity's_last_exam,GPT-6 Astra,-0.5453268666392148,Conditional experiment
+humanity's_last_exam,GPT-6.1 Sol,-5.7896321666679995,Conditional experiment
+humanity's_last_exam,Claude Fable 5.1,-7.716185026840122,Conditional experiment
+humanity's_last_exam,Claude Sonnet 5.5,-5.767531197886598,Conditional experiment
+humanity's_last_exam,Gemini 4 Argon,-8.92146918247164,Conditional experiment
+humanity's_last_exam,Muse Wonder Full,4.198645524938016,Conditional experiment
+humanity's_last_exam,Muse Wonder,-7.031537164275633,Conditional experiment
+gdp.pdf,Claude Opus 5.5,0.0,Conditional experiment
+gdp.pdf,GPT-6 Astra,-5.362598508046673,Conditional experiment
+gdp.pdf,GPT-6.1 Sol,-9.795019229523191,Conditional experiment
+gdp.pdf,Claude Fable 5.1,-7.570535931012188,Conditional experiment
+gdp.pdf,Claude Sonnet 5.5,-7.004880713886067,Conditional experiment
+gdp.pdf,Gemini 4 Argon,-9.036995637247557,Conditional experiment
+gdp.pdf,Muse Wonder Full,-4.364184860983485,Conditional experiment
+gdp.pdf,Muse Wonder,-17.12501640993409,Conditional experiment
+critpt,Claude Opus 5.5,0.0,Conditional experiment
+critpt,GPT-6 Astra,-1.2801094758992804,Conditional experiment
+critpt,GPT-6.1 Sol,-6.814260372022005,Conditional experiment
+critpt,Claude Fable 5.1,-7.666240685144473,Conditional experiment
+critpt,Claude Sonnet 5.5,-6.411278771210021,Conditional experiment
+critpt,Gemini 4 Argon,-8.548204785902172,Conditional experiment
+critpt,Muse Wonder Full,2.10055034573881,Conditional experiment
+critpt,Muse Wonder,-8.730144507367285,Conditional experiment
+aa-omniscience,Claude Opus 5.5,0.0,Conditional experiment
+aa-omniscience,GPT-6 Astra,-1.261273312007944,Conditional experiment
+aa-omniscience,GPT-6.1 Sol,-6.621262430691559,Conditional experiment
+aa-omniscience,Claude Fable 5.1,-7.442833563673659,Conditional experiment
+aa-omniscience,Claude Sonnet 5.5,-5.001007270474304,Conditional experiment
+aa-omniscience,Gemini 4 Argon,-8.615245983822788,Conditional experiment
+aa-omniscience,Muse Wonder Full,5.889294902935561,Conditional experiment
+aa-omniscience,Muse Wonder,-5.870876888530802,Conditional experiment
+aa-lcr_v1.1,Claude Opus 5.5,0.0,Conditional experiment
+aa-lcr_v1.1,GPT-6 Astra,2.582151444772066,Conditional experiment
+aa-lcr_v1.1,GPT-6.1 Sol,-3.5697049352613277,Conditional experiment
+aa-lcr_v1.1,Claude Fable 5.1,-7.81016784926058,Conditional experiment
+aa-lcr_v1.1,Claude Sonnet 5.5,-5.6340872907050965,Conditional experiment
+aa-lcr_v1.1,Gemini 4 Argon,-8.944016179747507,Conditional experiment
+aa-lcr_v1.1,Muse Wonder Full,9.125885755167872,Conditional experiment
+aa-lcr_v1.1,Muse Wonder,-1.0130970542869306,Conditional experiment
+code_migration,Claude Opus 5.5,0.0,Conditional experiment
+code_migration,GPT-6 Astra,-1.5840141545107258,Conditional experiment
+code_migration,GPT-6.1 Sol,-6.8415228314090655,Conditional experiment
+code_migration,Claude Fable 5.1,-7.364265442781118,Conditional experiment
+code_migration,Claude Sonnet 5.5,-6.58837988388882,Conditional experiment
+code_migration,Gemini 4 Argon,-9.203082469683352,Conditional experiment
+code_migration,Muse Wonder Full,2.262938760327927,Conditional experiment
+code_migration,Muse Wonder,-9.216996910595242,Conditional experiment
+cyberbench_v1.1,Claude Opus 5.5,0.0,Conditional experiment
+cyberbench_v1.1,GPT-6 Astra,-1.2700552826353828,Conditional experiment
+cyberbench_v1.1,GPT-6.1 Sol,-6.6135859349584365,Conditional experiment
+cyberbench_v1.1,Claude Fable 5.1,-8.16858661791403,Conditional experiment
+cyberbench_v1.1,Claude Sonnet 5.5,-6.497218224398608,Conditional experiment
+cyberbench_v1.1,Gemini 4 Argon,-9.598694877169521,Conditional experiment
+cyberbench_v1.1,Muse Wonder Full,2.168459401194113,Conditional experiment
+cyberbench_v1.1,Muse Wonder,-9.31147626972907,Conditional experiment
+emb,Claude Opus 5.5,0.0,Conditional experiment
+emb,GPT-6 Astra,-1.398561073577497,Conditional experiment
+emb,GPT-6.1 Sol,-6.671390720673259,Conditional experiment
+emb,Claude Fable 5.1,-7.806964064070627,Conditional experiment
+emb,Claude Sonnet 5.5,-6.356395291005157,Conditional experiment
+emb,Gemini 4 Argon,-8.982068840886654,Conditional experiment
+emb,Muse Wonder Full,2.406108894134846,Conditional experiment
+emb,Muse Wonder,-9.0436259608162,Conditional experiment
+finance_agent_(v2),Claude Opus 5.5,0.0,Conditional experiment
+finance_agent_(v2),GPT-6 Astra,-1.3759653340294022,Conditional experiment
+finance_agent_(v2),GPT-6.1 Sol,-6.628800628853327,Conditional experiment
+finance_agent_(v2),Claude Fable 5.1,-7.788690437747789,Conditional experiment
+finance_agent_(v2),Claude Sonnet 5.5,-6.340563640792894,Conditional experiment
+finance_agent_(v2),Gemini 4 Argon,-9.378344651058697,Conditional experiment
+finance_agent_(v2),Muse Wonder Full,2.356611443756691,Conditional experiment
+finance_agent_(v2),Muse Wonder,-9.093123411194341,Conditional experiment
+legal_research_bench,Claude Opus 5.5,0.0,Conditional experiment
+legal_research_bench,GPT-6 Astra,-1.2443105570956874,Conditional experiment
+legal_research_bench,GPT-6.1 Sol,-6.531931413833263,Conditional experiment
+legal_research_bench,Claude Fable 5.1,-7.906149583961394,Conditional experiment
+legal_research_bench,Claude Sonnet 5.5,-6.282709170420333,Conditional experiment
+legal_research_bench,Gemini 4 Argon,-9.196619585207955,Conditional experiment
+legal_research_bench,Muse Wonder Full,2.4150521740839395,Conditional experiment
+legal_research_bench,Muse Wonder,-9.034682680867093,Conditional experiment
+medcode,Claude Opus 5.5,0.0,Conditional experiment
+medcode,GPT-6 Astra,-1.325155971318054,Conditional experiment
+medcode,GPT-6.1 Sol,-6.756239909371146,Conditional experiment
+medcode,Claude Fable 5.1,-7.958521613332351,Conditional experiment
+medcode,Claude Sonnet 5.5,-6.786044812514319,Conditional experiment
+medcode,Gemini 4 Argon,-9.919273575663624,Conditional experiment
+medcode,Muse Wonder Full,1.6887786541999645,Conditional experiment
+medcode,Muse Wonder,-9.720456213454526,Conditional experiment
+medscribe,Claude Opus 5.5,0.0,Conditional experiment
+medscribe,GPT-6 Astra,-1.1307341024907203,Conditional experiment
+medscribe,GPT-6.1 Sol,-6.399096977202646,Conditional experiment
+medscribe,Claude Fable 5.1,-7.605045282768657,Conditional experiment
+medscribe,Claude Sonnet 5.5,-6.4751628207735195,Conditional experiment
+medscribe,Gemini 4 Argon,-8.382265452417641,Conditional experiment
+medscribe,Muse Wonder Full,2.147600528624352,Conditional experiment
+medscribe,Muse Wonder,-9.261634339030138,Conditional experiment
+mysterymechanism,Claude Opus 5.5,0.0,Conditional experiment
+mysterymechanism,GPT-6 Astra,-1.6190417825002612,Conditional experiment
+mysterymechanism,GPT-6.1 Sol,-6.438182249922761,Conditional experiment
+mysterymechanism,Claude Fable 5.1,-7.688426740655743,Conditional experiment
+mysterymechanism,Claude Sonnet 5.5,-6.4398217231589,Conditional experiment
+mysterymechanism,Gemini 4 Argon,-8.788615526270661,Conditional experiment
+mysterymechanism,Muse Wonder Full,2.2304859968812423,Conditional experiment
+mysterymechanism,Muse Wonder,-9.34784330175755,Conditional experiment
+proofbench_v1.1,Claude Opus 5.5,0.0,Conditional experiment
+proofbench_v1.1,GPT-6 Astra,-1.1694419400735967,Conditional experiment
+proofbench_v1.1,GPT-6.1 Sol,-6.648448976740994,Conditional experiment
+proofbench_v1.1,Claude Fable 5.1,-7.862603851937706,Conditional experiment
+proofbench_v1.1,Claude Sonnet 5.5,-6.491655756806125,Conditional experiment
+proofbench_v1.1,Gemini 4 Argon,-9.176336658295838,Conditional experiment
+proofbench_v1.1,Muse Wonder Full,2.1680861366569246,Conditional experiment
+proofbench_v1.1,Muse Wonder,-9.410243161981867,Conditional experiment
+sage,Claude Opus 5.5,0.0,Conditional experiment
+sage,GPT-6 Astra,-1.4938607429219246,Conditional experiment
+sage,GPT-6.1 Sol,-6.919817461397798,Conditional experiment
+sage,Claude Fable 5.1,-7.855831715384909,Conditional experiment
+sage,Claude Sonnet 5.5,-7.085577444303169,Conditional experiment
+sage,Gemini 4 Argon,-9.742160906551248,Conditional experiment
+sage,Muse Wonder Full,1.6301099228067102,Conditional experiment
+sage,Muse Wonder,-9.77912494484778,Conditional experiment
+sre_bench,Claude Opus 5.5,0.0,Conditional experiment
+sre_bench,GPT-6 Astra,-2.0218911112462905,Conditional experiment
+sre_bench,GPT-6.1 Sol,-7.29340896556657,Conditional experiment
+sre_bench,Claude Fable 5.1,-7.671478595623711,Conditional experiment
+sre_bench,Claude Sonnet 5.5,-6.283191022106635,Conditional experiment
+sre_bench,Gemini 4 Argon,-9.355926824311368,Conditional experiment
+sre_bench,Muse Wonder Full,2.088833470897683,Conditional experiment
+sre_bench,Muse Wonder,-9.3911022000255,Conditional experiment
+tax_agent_bench,Claude Opus 5.5,0.0,Conditional experiment
+tax_agent_bench,GPT-6 Astra,-1.1428506482583032,Conditional experiment
+tax_agent_bench,GPT-6.1 Sol,-6.465004947904205,Conditional experiment
+tax_agent_bench,Claude Fable 5.1,-7.828679588463132,Conditional experiment
+tax_agent_bench,Claude Sonnet 5.5,-6.317540235487542,Conditional experiment
+tax_agent_bench,Gemini 4 Argon,-9.043453720768724,Conditional experiment
+tax_agent_bench,Muse Wonder Full,2.4757507023567342,Conditional experiment
+tax_agent_bench,Muse Wonder,-8.973984152594312,Conditional experiment
+vibe_code_bench_v1.1,Claude Opus 5.5,0.0,Conditional experiment
+vibe_code_bench_v1.1,GPT-6 Astra,-1.4855906806429715,Conditional experiment
+vibe_code_bench_v1.1,GPT-6.1 Sol,-6.825488695904781,Conditional experiment
+vibe_code_bench_v1.1,Claude Fable 5.1,-7.877967606267987,Conditional experiment
+vibe_code_bench_v1.1,Claude Sonnet 5.5,-6.535718243529885,Conditional experiment
+vibe_code_bench_v1.1,Gemini 4 Argon,-9.200584189580681,Conditional experiment
+vibe_code_bench_v1.1,Muse Wonder Full,2.2055913213857252,Conditional experiment
+vibe_code_bench_v1.1,Muse Wonder,-9.274344349537458,Conditional experiment
+harvey_legal_agent,Claude Opus 5.5,0.0,Conditional experiment
+harvey_legal_agent,GPT-6 Astra,-1.6375574553383672,Conditional experiment
+harvey_legal_agent,GPT-6.1 Sol,-6.949770476533928,Conditional experiment
+harvey_legal_agent,Claude Fable 5.1,-7.861999891838167,Conditional experiment
+harvey_legal_agent,Claude Sonnet 5.5,-6.300469776403332,Conditional experiment
+harvey_legal_agent,Gemini 4 Argon,-9.610564262455682,Conditional experiment
+harvey_legal_agent,Muse Wonder Full,2.21527858207547,Conditional experiment
+harvey_legal_agent,Muse Wonder,-9.234456272875562,Conditional experiment
+programbench,Claude Opus 5.5,0.0,Conditional experiment
+programbench,GPT-6 Astra,-1.0190693169072063,Conditional experiment
+programbench,GPT-6.1 Sol,-6.283022520381195,Conditional experiment
+programbench,Claude Fable 5.1,-7.438087001481236,Conditional experiment
+programbench,Claude Sonnet 5.5,-5.925671644198985,Conditional experiment
+programbench,Gemini 4 Argon,-8.363536238004684,Conditional experiment
+programbench,Muse Wonder Full,2.6882517705445537,Conditional experiment
+programbench,Muse Wonder,-8.791683900378615,Conditional experiment
+terminal-bench_science,Claude Opus 5.5,0.0,Conditional experiment
+terminal-bench_science,GPT-6 Astra,-2.114576367851072,Conditional experiment
+terminal-bench_science,GPT-6.1 Sol,-7.109475748793642,Conditional experiment
+terminal-bench_science,Claude Fable 5.1,-7.456233656534238,Conditional experiment
+terminal-bench_science,Claude Sonnet 5.5,-6.354617152923652,Conditional experiment
+terminal-bench_science,Gemini 4 Argon,-9.019432201511421,Conditional experiment
+terminal-bench_science,Muse Wonder Full,2.0504448126969663,Conditional experiment
+terminal-bench_science,Muse Wonder,-9.527884485941826,Conditional experiment
+arena-agent-confirmed,Claude Opus 5.5,0.0,Conditional experiment
+arena-agent-confirmed,GPT-6 Astra,-1.5011668062165313,Conditional experiment
+arena-agent-confirmed,GPT-6.1 Sol,-6.93979656400154,Conditional experiment
+arena-agent-confirmed,Claude Fable 5.1,-7.867929187895129,Conditional experiment
+arena-agent-confirmed,Claude Sonnet 5.5,-6.4446340883904725,Conditional experiment
+arena-agent-confirmed,Gemini 4 Argon,-9.082478083090919,Conditional experiment
+arena-agent-confirmed,Muse Wonder Full,2.302671437571277,Conditional experiment
+arena-agent-confirmed,Muse Wonder,-9.147063417379755,Conditional experiment
+apex-agents,Claude Opus 5.5,0.0,Conditional experiment
+apex-agents,GPT-6 Astra,-1.3373655423637842,Conditional experiment
+apex-agents,GPT-6.1 Sol,-6.531155325592692,Conditional experiment
+apex-agents,Claude Fable 5.1,-7.630204131908002,Conditional experiment
+apex-agents,Claude Sonnet 5.5,-6.444012616647711,Conditional experiment
+apex-agents,Gemini 4 Argon,-9.332577960823983,Conditional experiment
+apex-agents,Muse Wonder Full,2.396119629614347,Conditional experiment
+apex-agents,Muse Wonder,-9.053615225336685,Conditional experiment
+apex-accounting,Claude Opus 5.5,0.0,Conditional experiment
+apex-accounting,GPT-6 Astra,-1.494312731894695,Conditional experiment
+apex-accounting,GPT-6.1 Sol,-6.814712658024462,Conditional experiment
+apex-accounting,Claude Fable 5.1,-7.71102812885465,Conditional experiment
+apex-accounting,Claude Sonnet 5.5,-6.263740293846041,Conditional experiment
+apex-accounting,Gemini 4 Argon,-8.862165546629697,Conditional experiment
+apex-accounting,Muse Wonder Full,2.417678999295461,Conditional experiment
+apex-accounting,Muse Wonder,-9.032055855655585,Conditional experiment
+apex-swe,Claude Opus 5.5,0.0,Conditional experiment
+apex-swe,GPT-6 Astra,-0.9962155167294071,Conditional experiment
+apex-swe,GPT-6.1 Sol,-6.300078858468552,Conditional experiment
+apex-swe,Claude Fable 5.1,-7.793300593513976,Conditional experiment
+apex-swe,Claude Sonnet 5.5,-6.435085542626567,Conditional experiment
+apex-swe,Gemini 4 Argon,-8.446358979323449,Conditional experiment
+apex-swe,Muse Wonder Full,2.5313096422631105,Conditional experiment
+apex-swe,Muse Wonder,-8.948626028660058,Conditional experiment
+frontiercode,Claude Opus 5.5,0.0,Conditional experiment
+frontiercode,GPT-6 Astra,-1.4711893079833374,Conditional experiment
+frontiercode,GPT-6.1 Sol,-6.688611968358998,Conditional experiment
+frontiercode,Claude Fable 5.1,-7.695671053584789,Conditional experiment
+frontiercode,Claude Sonnet 5.5,-6.2725285248240255,Conditional experiment
+frontiercode,Gemini 4 Argon,-8.8826412079692,Conditional experiment
+frontiercode,Muse Wonder Full,2.3580425469200463,Conditional experiment
+frontiercode,Muse Wonder,-9.121893124003122,Conditional experiment
+tau3-banking,Claude Opus 5.5,0.0,Conditional experiment
+tau3-banking,GPT-6 Astra,-1.582754181899773,Conditional experiment
+tau3-banking,GPT-6.1 Sol,-6.841836151113242,Conditional experiment
+tau3-banking,Claude Fable 5.1,-7.704591071113768,Conditional experiment
+tau3-banking,Claude Sonnet 5.5,-6.292255833010884,Conditional experiment
+tau3-banking,Gemini 4 Argon,-8.889349433940552,Conditional experiment
+tau3-banking,Muse Wonder Full,2.3902077806573487,Conditional experiment
+tau3-banking,Muse Wonder,-9.059527074293698,Conditional experiment
+browsecomp-extended,Claude Opus 5.5,0.0,Conditional experiment
+browsecomp-extended,GPT-6 Astra,-1.8085464037589958,Conditional experiment
+browsecomp-extended,GPT-6.1 Sol,-7.229551165831708,Conditional experiment
+browsecomp-extended,Claude Fable 5.1,-7.666316357103881,Conditional experiment
+browsecomp-extended,Claude Sonnet 5.5,-7.18257481020359,Conditional experiment
+browsecomp-extended,Gemini 4 Argon,-8.969184305112876,Conditional experiment
+browsecomp-extended,Muse Wonder Full,1.6702891275647005,Conditional experiment
+browsecomp-extended,Muse Wonder,-9.73894574008979,Conditional experiment
+charxiv-extended,Claude Opus 5.5,0.0,Conditional experiment
+charxiv-extended,GPT-6 Astra,-1.1878505891570086,Conditional experiment
+charxiv-extended,GPT-6.1 Sol,-6.638217300095377,Conditional experiment
+charxiv-extended,Claude Fable 5.1,-7.986662990656271,Conditional experiment
+charxiv-extended,Claude Sonnet 5.5,-6.419114304286055,Conditional experiment
+charxiv-extended,Gemini 4 Argon,-9.021764130715269,Conditional experiment
+charxiv-extended,Muse Wonder Full,2.3507367971003816,Conditional experiment
+charxiv-extended,Muse Wonder,-9.09917038210233,Conditional experiment
+rli,Claude Opus 5.5,0.0,Conditional experiment
+rli,GPT-6 Astra,-1.5727109293060693,Conditional experiment
+rli,GPT-6.1 Sol,-6.821565950491745,Conditional experiment
+rli,Claude Fable 5.1,-7.654027906463213,Conditional experiment
+rli,Claude Sonnet 5.5,-6.269736662093351,Conditional experiment
+rli,Gemini 4 Argon,-8.868643496432554,Conditional experiment
+rli,Muse Wonder Full,2.4108914017058964,Conditional experiment
+rli,Muse Wonder,-9.03884345324515,Conditional experiment
+hss,Claude Opus 5.5,0.0,Conditional experiment
+hss,GPT-6 Astra,-2.0940323298077743,Conditional experiment
+hss,GPT-6.1 Sol,-6.8621881718049735,Conditional experiment
+hss,Claude Fable 5.1,-7.763815038921422,Conditional experiment
+hss,Claude Sonnet 5.5,-6.634714388248838,Conditional experiment
+hss,Gemini 4 Argon,-9.242802575375336,Conditional experiment
+hss,Muse Wonder Full,2.126746265558978,Conditional experiment
+hss,Muse Wonder,-9.323160913643719,Conditional experiment
+ebr,Claude Opus 5.5,0.0,Conditional experiment
+ebr,GPT-6 Astra,-1.2189592095198236,Conditional experiment
+ebr,GPT-6.1 Sol,-5.710584803890711,Conditional experiment
+ebr,Claude Fable 5.1,-7.450171632274106,Conditional experiment
+ebr,Claude Sonnet 5.5,-6.272726834599055,Conditional experiment
+ebr,Gemini 4 Argon,-9.30996425354644,Conditional experiment
+ebr,Muse Wonder Full,2.565937227280358,Conditional experiment
+ebr,Muse Wonder,-8.883969951922353,Conditional experiment
+mystery-game,Claude Opus 5.5,0.0,Conditional experiment
+mystery-game,GPT-6 Astra,-2.015066184844244,Conditional experiment
+mystery-game,GPT-6.1 Sol,-7.961829598212773,Conditional experiment
+mystery-game,Claude Fable 5.1,-7.509819317601341,Conditional experiment
+mystery-game,Claude Sonnet 5.5,-6.2237648008224795,Conditional experiment
+mystery-game,Gemini 4 Argon,-9.892439913136172,Conditional experiment
+mystery-game,Muse Wonder Full,1.9591850471492052,Conditional experiment
+mystery-game,Muse Wonder,-9.490722132053506,Conditional experiment
+frontiermath-v2,Claude Opus 5.5,0.0,Conditional experiment
+frontiermath-v2,GPT-6 Astra,-1.4534493019762067,Conditional experiment
+frontiermath-v2,GPT-6.1 Sol,-6.957347664235712,Conditional experiment
+frontiermath-v2,Claude Fable 5.1,-7.599672083997618,Conditional experiment
+frontiermath-v2,Claude Sonnet 5.5,-5.9529575444281875,Conditional experiment
+frontiermath-v2,Gemini 4 Argon,-9.063896287633042,Conditional experiment
+frontiermath-v2,Muse Wonder Full,2.2216135202541807,Conditional experiment
+frontiermath-v2,Muse Wonder,-9.356715778384626,Conditional experiment
+furniture-assembly,Claude Opus 5.5,0.0,Conditional experiment
+furniture-assembly,GPT-6 Astra,-0.8786803939854906,Conditional experiment
+furniture-assembly,GPT-6.1 Sol,-6.411110973132637,Conditional experiment
+furniture-assembly,Claude Fable 5.1,-6.548883536110409,Conditional experiment
+furniture-assembly,Claude Sonnet 5.5,-5.491821154423278,Conditional experiment
+furniture-assembly,Gemini 4 Argon,-8.439866012998749,Conditional experiment
+furniture-assembly,Muse Wonder Full,2.931278004476951,Conditional experiment
+furniture-assembly,Muse Wonder,-8.51862917472576,Conditional experiment
+gpqa-diamond,Claude Opus 5.5,0.0,Conditional experiment
+gpqa-diamond,GPT-6 Astra,-1.5625099381722123,Conditional experiment
+gpqa-diamond,GPT-6.1 Sol,-6.937221900507396,Conditional experiment
+gpqa-diamond,Claude Fable 5.1,-7.942658053632556,Conditional experiment
+gpqa-diamond,Claude Sonnet 5.5,-6.755273937457488,Conditional experiment
+gpqa-diamond,Gemini 4 Argon,-9.305269263888846,Conditional experiment
+gpqa-diamond,Muse Wonder Full,1.9756784850228826,Conditional experiment
+gpqa-diamond,Muse Wonder,-9.60265081361591,Conditional experiment
+mirrorcode,Claude Opus 5.5,0.0,Conditional experiment
+mirrorcode,GPT-6 Astra,-1.2326149237015755,Conditional experiment
+mirrorcode,GPT-6.1 Sol,-6.7329830474026835,Conditional experiment
+mirrorcode,Claude Fable 5.1,-7.803400650995002,Conditional experiment
+mirrorcode,Claude Sonnet 5.5,-6.23147542981809,Conditional experiment
+mirrorcode,Gemini 4 Argon,-8.857112779383883,Conditional experiment
+mirrorcode,Muse Wonder Full,2.3835517521565635,Conditional experiment
+mirrorcode,Muse Wonder,-9.096383918766605,Conditional experiment
+simpleqa-verified,Claude Opus 5.5,0.0,Conditional experiment
+simpleqa-verified,GPT-6 Astra,-1.591045795534896,Conditional experiment
+simpleqa-verified,GPT-6.1 Sol,-6.915155639439064,Conditional experiment
+simpleqa-verified,Claude Fable 5.1,-7.547865527708083,Conditional experiment
+simpleqa-verified,Claude Sonnet 5.5,-5.5757705038684975,Conditional experiment
+simpleqa-verified,Gemini 4 Argon,-8.538221101026053,Conditional experiment
+simpleqa-verified,Muse Wonder Full,2.11830820663711,Conditional experiment
+simpleqa-verified,Muse Wonder,-9.29092666101738,Conditional experiment
+arcagi-2,Claude Opus 5.5,0.0,Conditional experiment
+arcagi-2,GPT-6 Astra,-1.3685599057513116,Conditional experiment
+arcagi-2,GPT-6.1 Sol,-6.754787953344632,Conditional experiment
+arcagi-2,Claude Fable 5.1,-7.5897444489101815,Conditional experiment
+arcagi-2,Claude Sonnet 5.5,-6.375634124511791,Conditional experiment
+arcagi-2,Gemini 4 Argon,-9.085885333843635,Conditional experiment
+arcagi-2,Muse Wonder Full,2.197065372905712,Conditional experiment
+arcagi-2,Muse Wonder,-9.38126392573308,Conditional experiment
+ioi_v2,Claude Opus 5.5,0.0,Conditional experiment
+ioi_v2,GPT-6 Astra,-1.7304942436395265,Conditional experiment
+ioi_v2,GPT-6.1 Sol,-6.978745312750846,Conditional experiment
+ioi_v2,Claude Fable 5.1,-7.678758294188057,Conditional experiment
+ioi_v2,Claude Sonnet 5.5,-5.857018856838451,Conditional experiment
+ioi_v2,Gemini 4 Argon,-9.353176489297198,Conditional experiment
+ioi_v2,Muse Wonder Full,2.2601173579210894,Conditional experiment
+ioi_v2,Muse Wonder,-9.21981831300208,Conditional experiment
+public_benefits_v1.1,Claude Opus 5.5,0.0,Conditional experiment
+public_benefits_v1.1,GPT-6 Astra,-1.3943023040199733,Conditional experiment
+public_benefits_v1.1,GPT-6.1 Sol,-6.067211935144869,Conditional experiment
+public_benefits_v1.1,Claude Fable 5.1,-7.851095325202323,Conditional experiment
+public_benefits_v1.1,Claude Sonnet 5.5,-6.1766260682906164,Conditional experiment
+public_benefits_v1.1,Gemini 4 Argon,-8.77086272636781,Conditional experiment
+public_benefits_v1.1,Muse Wonder Full,2.1029682413956152,Conditional experiment
+public_benefits_v1.1,Muse Wonder,-9.306266626258875,Conditional experiment
+cua_games,Claude Opus 5.5,0.0,Conditional experiment
+cua_games,GPT-6 Astra,-1.46411060788175,Conditional experiment
+cua_games,GPT-6.1 Sol,-6.774132217186406,Conditional experiment
+cua_games,Claude Fable 5.1,-8.409899571458652,Conditional experiment
+cua_games,Claude Sonnet 5.5,-6.614246862943418,Conditional experiment
+cua_games,Gemini 4 Argon,-8.49349029950308,Conditional experiment
+cua_games,Muse Wonder Full,2.267025089756487,Conditional experiment
+cua_games,Muse Wonder,-9.182882089446224,Conditional experiment
+time_horizon_ksp,Claude Opus 5.5,0.0,Conditional experiment
+time_horizon_ksp,GPT-6 Astra,-0.8691017057790447,Conditional experiment
+time_horizon_ksp,GPT-6.1 Sol,-6.295267703574183,Conditional experiment
+time_horizon_ksp,Claude Fable 5.1,-7.389735987472562,Conditional experiment
+time_horizon_ksp,Claude Sonnet 5.5,-6.13451058332376,Conditional experiment
+time_horizon_ksp,Gemini 4 Argon,-8.208603233972681,Conditional experiment
+time_horizon_ksp,Muse Wonder Full,2.7434684805649994,Conditional experiment
+time_horizon_ksp,Muse Wonder,-8.706438698637712,Conditional experiment
+mercor_gdpval_ext_private,Claude Opus 5.5,0.0,Conditional experiment
+mercor_gdpval_ext_private,GPT-6 Astra,-1.5133985471467923,Conditional experiment
+mercor_gdpval_ext_private,GPT-6.1 Sol,-6.772313454744804,Conditional experiment
+mercor_gdpval_ext_private,Claude Fable 5.1,-7.573331291548243,Conditional experiment
+mercor_gdpval_ext_private,Claude Sonnet 5.5,-6.207284023820392,Conditional experiment
+mercor_gdpval_ext_private,Gemini 4 Argon,-8.818589898762383,Conditional experiment
+mercor_gdpval_ext_private,Muse Wonder Full,2.4611860231666185,Conditional experiment
+mercor_gdpval_ext_private,Muse Wonder,-8.988548831784428,Conditional experiment
+mercor_medxpert_private,Claude Opus 5.5,0.0,Conditional experiment
+mercor_medxpert_private,GPT-6 Astra,-0.9245292490440846,Conditional experiment
+mercor_medxpert_private,GPT-6.1 Sol,-6.068884038255391,Conditional experiment
+mercor_medxpert_private,Claude Fable 5.1,-7.6619681896777365,Conditional experiment
+mercor_medxpert_private,Claude Sonnet 5.5,-6.132770111850846,Conditional experiment
+mercor_medxpert_private,Gemini 4 Argon,-8.73901396275916,Conditional experiment
+mercor_medxpert_private,Muse Wonder Full,2.6384774243208398,Conditional experiment
+mercor_medxpert_private,Muse Wonder,-8.811429754881871,Conditional experiment
+mercor_mmmupro_private,Claude Opus 5.5,0.0,Conditional experiment
+mercor_mmmupro_private,GPT-6 Astra,-1.8700415154175545,Conditional experiment
+mercor_mmmupro_private,GPT-6.1 Sol,-7.429788185192265,Conditional experiment
+mercor_mmmupro_private,Claude Fable 5.1,-8.4598661097545,Conditional experiment
+mercor_mmmupro_private,Claude Sonnet 5.5,-6.898120069688773,Conditional experiment
+mercor_mmmupro_private,Gemini 4 Argon,-9.499260428927712,Conditional experiment
+mercor_mmmupro_private,Muse Wonder Full,1.8668256314219036,Conditional experiment
+mercor_mmmupro_private,Muse Wonder,-9.583081547780807,Conditional experiment
+mercor_swe_atlas_private,Claude Opus 5.5,0.0,Conditional experiment
+mercor_swe_atlas_private,GPT-6 Astra,-1.5068842810049148,Conditional experiment
+mercor_swe_atlas_private,GPT-6.1 Sol,-6.811501227560413,Conditional experiment
+mercor_swe_atlas_private,Claude Fable 5.1,-7.680861025557434,Conditional experiment
+mercor_swe_atlas_private,Claude Sonnet 5.5,-6.408546326516188,Conditional experiment
+mercor_swe_atlas_private,Gemini 4 Argon,-8.935515227345377,Conditional experiment
+mercor_swe_atlas_private,Muse Wonder Full,2.3025982093760575,Conditional experiment
+mercor_swe_atlas_private,Muse Wonder,-9.177337461547111,Conditional experiment
+mercor_tb21_private,Claude Opus 5.5,0.0,Conditional experiment
+mercor_tb21_private,GPT-6 Astra,-1.5065020285009751,Conditional experiment
+mercor_tb21_private,GPT-6.1 Sol,-6.813544885156304,Conditional experiment
+mercor_tb21_private,Claude Fable 5.1,-7.76969203843413,Conditional experiment
+mercor_tb21_private,Claude Sonnet 5.5,-6.297067387764656,Conditional experiment
+mercor_tb21_private,Gemini 4 Argon,-8.933493068831694,Conditional experiment
+mercor_tb21_private,Muse Wonder Full,2.306432989258809,Conditional experiment
+mercor_tb21_private,Muse Wonder,-9.17350268166436,Conditional experiment
+mercor_apex1_investment_banking,Claude Opus 5.5,0.0,Conditional experiment
+mercor_apex1_investment_banking,GPT-6 Astra,-1.4879594913560084,Conditional experiment
+mercor_apex1_investment_banking,GPT-6.1 Sol,-6.790771102716533,Conditional experiment
+mercor_apex1_investment_banking,Claude Fable 5.1,-7.685557259179973,Conditional experiment
+mercor_apex1_investment_banking,Claude Sonnet 5.5,-5.985377458002745,Conditional experiment
+mercor_apex1_investment_banking,Gemini 4 Argon,-8.798688293246869,Conditional experiment
+mercor_apex1_investment_banking,Muse Wonder Full,2.4839466250866877,Conditional experiment
+mercor_apex1_investment_banking,Muse Wonder,-8.965788229864344,Conditional experiment
+thinkingbox-507,Claude Opus 5.5,0.0,Conditional experiment
+thinkingbox-507,GPT-6 Astra,-1.450003116866725,Conditional experiment
+thinkingbox-507,GPT-6.1 Sol,-6.7727427732619105,Conditional experiment
+thinkingbox-507,Claude Fable 5.1,-7.626215664573905,Conditional experiment
+thinkingbox-507,Claude Sonnet 5.5,-6.221327013195079,Conditional experiment
+thinkingbox-507,Gemini 4 Argon,-8.819451046072103,Conditional experiment
+thinkingbox-507,Muse Wonder Full,2.4603822901754313,Conditional experiment
+thinkingbox-507,Muse Wonder,-8.989352564775615,Conditional experiment
+arena-text-overall-20261008,Claude Opus 5.5,0.0,Conditional experiment
+arena-text-overall-20261008,GPT-6 Astra,-1.1073849226161911,Conditional experiment
+arena-text-overall-20261008,GPT-6.1 Sol,-6.547216172907255,Conditional experiment
+arena-text-overall-20261008,Claude Fable 5.1,-7.593766545986,Conditional experiment
+arena-text-overall-20261008,Claude Sonnet 5.5,-6.2577412333117195,Conditional experiment
+arena-text-overall-20261008,Gemini 4 Argon,-9.005811362038543,Conditional experiment
+arena-text-overall-20261008,Muse Wonder Full,2.0609979284232622,Conditional experiment
+arena-text-overall-20261008,Muse Wonder,-9.348236939231228,Conditional experiment

@@ -1,0 +1,9 @@
+model_id,model_name,developer,provider_snapshot_id,released_on,identity_qualification
+claude-opus-5-5,Claude Opus 5.5,Anthropic,unknown,unknown,Canonical display identity; exact evaluated provider snapshot not reconstructed
+gpt-6-astra,GPT-6 Astra,OpenAI,unknown,unknown,Canonical display identity; exact evaluated provider snapshot not reconstructed
+gpt-6-1-sol,GPT-6.1 Sol,OpenAI,unknown,unknown,Canonical display identity; exact evaluated provider snapshot not reconstructed
+claude-fable-5-1,Claude Fable 5.1,Anthropic,unknown,unknown,Canonical display identity; exact evaluated provider snapshot not reconstructed
+claude-sonnet-5-5,Claude Sonnet 5.5,Anthropic,unknown,unknown,Canonical display identity; exact evaluated provider snapshot not reconstructed
+gemini-4-argon,Gemini 4 Argon,Google,unknown,unknown,Canonical display identity; exact evaluated provider snapshot not reconstructed
+muse-wonder-full,Muse Wonder Full,Meta,unknown,2026-10-12,Canonical display identity; exact evaluated provider snapshot not reconstructed
+muse-wonder,Muse Wonder,Meta,unknown,2026-10-12,Canonical display identity; exact evaluated provider snapshot not reconstructed
