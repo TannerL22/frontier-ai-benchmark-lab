@@ -1,0 +1,49 @@
+{
+  "id": "v5.3",
+  "status": "tested_source_review",
+  "created_on": "2026-10-13",
+  "evidence_cutoff": "2026-10-13",
+  "scope": "Selected reported systems; dated source review, not verified equal-compute runs",
+  "included_observations": 306,
+  "excluded_alternatives": 1,
+  "inherited_observations_investigated": 153,
+  "numeric_corroborations_including_reconstructions": 305,
+  "historical_population_not_corroborated": 1,
+  "score_revisions": [
+    {
+      "benchmark_id": "B006",
+      "model_id": "gpt-6-astra",
+      "previous": 1570.0,
+      "current": 1571.0,
+      "source_url": "https://artificialanalysis.ai/models/comparisons?compare=gemini-4-argon%2Cgpt-6-astra%2Cgpt-6-1-sol%2Cclaude-fable-5-1%2Cclaude-sonnet-5-5",
+      "interpretation": "Current-source revision; prior transcription error versus later source update is unestablished"
+    },
+    {
+      "benchmark_id": "B006",
+      "model_id": "gpt-6-1-sol",
+      "previous": 1557.0,
+      "current": 1561.0,
+      "source_url": "https://artificialanalysis.ai/models/comparisons?compare=gemini-4-argon%2Cgpt-6-astra%2Cgpt-6-1-sol%2Cclaude-fable-5-1%2Cclaude-sonnet-5-5",
+      "interpretation": "Current-source revision; prior transcription error versus later source update is unestablished"
+    },
+    {
+      "benchmark_id": "B007",
+      "model_id": "gpt-6-astra",
+      "previous": 1574.0,
+      "current": 1572.0,
+      "source_url": "https://artificialanalysis.ai/models/comparisons?compare=gemini-4-argon%2Cgpt-6-astra%2Cgpt-6-1-sol%2Cclaude-fable-5-1%2Cclaude-sonnet-5-5",
+      "interpretation": "Current-source revision; prior transcription error versus later source update is unestablished"
+    },
+    {
+      "benchmark_id": "B007",
+      "model_id": "gpt-6-1-sol",
+      "previous": 1592.0,
+      "current": 1593.0,
+      "source_url": "https://artificialanalysis.ai/models/comparisons?compare=gemini-4-argon%2Cgpt-6-astra%2Cgpt-6-1-sol%2Cclaude-fable-5-1%2Cclaude-sonnet-5-5",
+      "interpretation": "Current-source revision; prior transcription error versus later source update is unestablished"
+    }
+  ],
+  "exact_run_metadata": "incomplete",
+  "independent_human_review": "pending owner task/eligibility review",
+  "frozen_forecast_inputs": "data/v5_2 unchanged; the four revisions are not supplied to registered estimators"
+}

@@ -1,0 +1,12 @@
+{
+  "release_id": "v5.2",
+  "publication_status": "merged_and_hosted",
+  "published_on": "2026-10-13",
+  "pull_request": "https://github.com/TannerL22/frontier-ai-benchmark-lab/pull/4",
+  "merge_commit": "3c6ab25a6483edf9d6d04619dbcdb36e7c275c43",
+  "hosted_url": "https://frontier-ai-lab.streamlit.app/",
+  "hosted_verification": "Browser displayed v5.2 coverage, 306 observations and all seven pages",
+  "authorization": "Project owner requested implementation of release and deployment",
+  "scope": "Published descriptive evidence platform; no independent scientific certification or paid model runs",
+  "frozen_data_note": "Original prepared release metadata is preserved as an immutable input snapshot; publication state is recorded separately"
+}

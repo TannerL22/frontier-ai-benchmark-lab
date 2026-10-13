@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-13",
+  "full_pytest": {"passed": 54, "seconds": 120.38, "includes_slow_historical_calibration": true},
+  "application_checks": {"passed": 32, "page_release_combinations": 28, "additional_interactions": 4},
+  "release_input_hashes_verified": 46,
+  "public_forecasts_verified": 1372,
+  "source_review": {"inherited_investigated": 153, "matching_numbers": 148, "current_source_revisions": 4, "different_dated_population": 1},
+  "private_pilot": {"tasks": 24, "independent_SQL_oracle_checks": 24, "independent_human_review": "pending owner review", "model_execution_enabled": false, "paid_model_calls": 0},
+  "prospective_registration": "https://github.com/TannerL22/frontier-ai-benchmark-lab/issues/5",
+  "acquired_future_outcomes": 0,
+  "qualification": "Internal software and numeric checks do not substitute for the owner's independent task/eligibility review or exact historical run provenance"
+}

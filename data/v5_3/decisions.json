@@ -1,0 +1,77 @@
+[
+  {
+    "id": "D001",
+    "date": "2026-10-13",
+    "decision": "Restore Fable 5.1 and GPT-6.1 Sol FrontierCode Main Scores (50.9 and 50.2)",
+    "basis": "Independent audit's original Cognition table transcription",
+    "review_status": "Published through PR #4 after internal numeric/configuration review; no independent run certification"
+  },
+  {
+    "id": "D002",
+    "date": "2026-10-13",
+    "decision": "Retain Opus High 13.93; disclose Max 17.29 as excluded alternative",
+    "basis": "Different observational session populations; frozen-system scope replaces best-available wording",
+    "review_status": "Published through PR #4 after internal numeric/configuration review; no independent run certification"
+  },
+  {
+    "id": "D003",
+    "date": "2026-10-13",
+    "decision": "Fix experimental normalizers to v4.2 reference",
+    "basis": "Prevent roster changes from redefining the ruler; does not make index a capability measure or scores comparable across releases",
+    "review_status": "Declared experimental convention"
+  },
+  {
+    "id": "D004",
+    "date": "2026-10-13",
+    "decision": "Expose provisional tasks and broader genealogy sensitivity",
+    "basis": "AA labels SciCode/CritPt under review; ancestry grouping is a sensitivity assumption",
+    "review_status": "Does not establish task duplication"
+  },
+  {
+    "id": "D005",
+    "date": "2026-10-13",
+    "decision": "Apply four dated AA Elo revisions in a new release",
+    "basis": [
+      {
+        "benchmark_id": "B006",
+        "model_id": "gpt-6-astra",
+        "previous": 1570.0,
+        "current": 1571.0,
+        "source_url": "https://artificialanalysis.ai/models/comparisons?compare=gemini-4-argon%2Cgpt-6-astra%2Cgpt-6-1-sol%2Cclaude-fable-5-1%2Cclaude-sonnet-5-5",
+        "interpretation": "Current-source revision; prior transcription error versus later source update is unestablished"
+      },
+      {
+        "benchmark_id": "B006",
+        "model_id": "gpt-6-1-sol",
+        "previous": 1557.0,
+        "current": 1561.0,
+        "source_url": "https://artificialanalysis.ai/models/comparisons?compare=gemini-4-argon%2Cgpt-6-astra%2Cgpt-6-1-sol%2Cclaude-fable-5-1%2Cclaude-sonnet-5-5",
+        "interpretation": "Current-source revision; prior transcription error versus later source update is unestablished"
+      },
+      {
+        "benchmark_id": "B007",
+        "model_id": "gpt-6-astra",
+        "previous": 1574.0,
+        "current": 1572.0,
+        "source_url": "https://artificialanalysis.ai/models/comparisons?compare=gemini-4-argon%2Cgpt-6-astra%2Cgpt-6-1-sol%2Cclaude-fable-5-1%2Cclaude-sonnet-5-5",
+        "interpretation": "Current-source revision; prior transcription error versus later source update is unestablished"
+      },
+      {
+        "benchmark_id": "B007",
+        "model_id": "gpt-6-1-sol",
+        "previous": 1592.0,
+        "current": 1593.0,
+        "source_url": "https://artificialanalysis.ai/models/comparisons?compare=gemini-4-argon%2Cgpt-6-astra%2Cgpt-6-1-sol%2Cclaude-fable-5-1%2Cclaude-sonnet-5-5",
+        "interpretation": "Current-source revision; prior transcription error versus later source update is unestablished"
+      }
+    ],
+    "review_status": "Internal primary-source numeric check; project owner authorized publication"
+  },
+  {
+    "id": "D006",
+    "date": "2026-10-13",
+    "decision": "Retain Astra Arena Oct 8 value as individually uncorroborated",
+    "basis": "The Oct 13 leaderboard reports 1442 for another dated population; it cannot verify the stored Oct 8 value 1440",
+    "review_status": "Explicit unresolved historical-source gap"
+  }
+]

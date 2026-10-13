@@ -2,7 +2,15 @@
 
 A small cross-source evidence observatory for reported AI systems and selected tasks. The primary workflow is to inspect coverage, compare raw task results, and trace each result to its configuration and source. Global aggregation is an optional research experiment.
 
-## Evidence review v5.2
+## Current source review v5.3
+
+v5.2 has been merged and verified on the hosted app. The follow-up v5.3 release investigates all 153 inherited observations: 148 match the sources, four AA Elo values have current-source revisions, and one October 8 Arena value cannot be verified by the newer dated population. The new release keeps 306 observations and records 305 numeric corroborations/reconstructions with one explicit historical-source gap. Exact run comparability remains incomplete. See [the source review](reviews/SOURCE_REVIEW_REPORT.md).
+
+The private pilot now has 24 separate synthetic tasks, with independent SQL oracle checks and a local review page. Private task data and answers stay out of Git. The project owner is the designated independent reviewer; actual review remains pending. Model execution is disabled and paid spend is capped at zero. See [the review packet](studies/artifact_pilot_v1/REVIEW_PACKET.md).
+
+The original 1,372 forecasts remain frozen to v5.2. Public registration adopts that existing bundle and records the later actual public-registration cutoff. Source revisions never retune these forecasts. Future outcomes must pass date, ancestry, roster, acquisition and independent-review gates. Use the public registry scorer rather than the earlier preparation-only scoring command.
+
+## Frozen evidence review v5.2
 
 The proposed release contains **306 included results across 57 rows, eight model identities and nine evaluator labels**, plus one excluded alternative and 150 explicit missing cells. Two omitted FrontierCode 1.1 Main Scores are restored: Claude Fable 5.1 Medium / Claude Code, 50.9; GPT-6.1 Sol Medium / Codex, 50.2. Opus High 13.93 remains the frozen Agent Arena configuration; the published Max 17.29 alternative is documented separately because its observational session population differs.
 

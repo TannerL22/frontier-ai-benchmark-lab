@@ -1,0 +1,36 @@
+{
+  "version": "v5.3-source-review-2026-10-13",
+  "frozen_baseline": "v4.2 unchanged; 8-model extension in data/v5_1",
+  "baseline_models": [
+    "Claude Opus 5.5",
+    "GPT-6 Astra",
+    "GPT-6.1 Sol",
+    "Claude Fable 5.1",
+    "Claude Sonnet 5.5",
+    "Gemini 4 Argon",
+    "Muse Wonder Full",
+    "Muse Wonder"
+  ],
+  "domain_weights": {
+    "Professional": 0.25,
+    "Coding": 0.2,
+    "Science": 0.2,
+    "Knowledge": 0.15,
+    "Context": 0.1,
+    "Multimodal": 0.07,
+    "Games": 0.03
+  },
+  "display_anchor": "Claude Opus 5.5",
+  "scale_factor": 20,
+  "as_of": "2026-10-13",
+  "note": "All 153 inherited observations investigated: 148 matching numbers, four AA revisions, one uncorroborated historical Arena population. No exact-run or equal-budget certification. Frozen forecasts continue to use v5.2.",
+  "evidence_cutoff": "2026-10-13",
+  "release_status": "tested_source_review",
+  "catalog_required": true,
+  "expected_counts": {
+    "models": 8,
+    "benchmarks": 57,
+    "scores": 306
+  },
+  "normalization_reference": "normalization_reference.csv"
+}

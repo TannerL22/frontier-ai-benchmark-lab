@@ -1,0 +1,17 @@
+{
+  "plan_id": "artifact_private_v1_preparation",
+  "execution_enabled": false,
+  "max_paid_spend_usd": 0,
+  "attempts_per_task": 3,
+  "task_count": 24,
+  "max_seconds_per_attempt": 300,
+  "proposed_max_input_tokens": 16000,
+  "proposed_max_output_tokens": 4000,
+  "submission_harness": "manual JSON artifact collection; no automatic provider calls",
+  "fallback_policy": "none permitted in the controlled pilot unless a new configuration is separately declared",
+  "system_roster": "Pending actual endpoint/snapshot declarations; preparation does not invent tested systems",
+  "independent_reviewer_id": "TannerL22",
+  "human_review": "pending",
+  "publication_rule": "Never publish private tasks or oracle answers before exposure/rotation decisions; commit only hashes and category counts.",
+  "enable_requirements": ["All tasks independently accepted by the designated reviewer", "Actual snapshots, endpoints, reasoning, harness, fallback and budgets declared before submissions", "Known zero paid spend and recorded elapsed time; three attempts per task retained including missing outcomes"]
+}

@@ -9,10 +9,12 @@ python -m pip install -r requirements-lock.txt
 python -m pip check
 python scripts/check_release.py
 python scripts/prospective_study.py verify
+python scripts/prospective_registry.py verify
 python -m pytest -q
 python scripts/reproduce.py --calibration
 python scripts/reproduce_v51.py
 python scripts/reproduce_v52.py
+python scripts/reproduce_v53.py
 python scripts/app_smoke.py
 python scripts/artifact_pilot.py oracle-demo
 ```

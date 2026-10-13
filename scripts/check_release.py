@@ -14,7 +14,7 @@ def main():
     parser.add_argument("--write-manifest", action="store_true", help="Explicit maintainer action after reviewing input changes")
     args = parser.parse_args()
     counts = []
-    for folder in ("data", "data/v5_1", "data/v5_2"):
+    for folder in ("data", "data/v5_1", "data/v5_2", "data/v5_3"):
         evidence = Evidence(ROOT / folder)
         counts.append({"release": folder, "models": len(evidence.models), "benchmarks": len(evidence.rows), "scores": len(evidence.score_records)})
     if args.write_manifest:
@@ -25,7 +25,7 @@ def main():
     manifest = verify_manifest(ROOT, MANIFEST)
     if counts != manifest["release_counts"]:
         raise ValueError("Registered release counts changed")
-    print(f"Verified {len(manifest['sha256'])} canonical input hashes and all three release contracts")
+    print(f"Verified {len(manifest['sha256'])} canonical input hashes and all {len(counts)} release contracts")
 
 
 if __name__ == "__main__":
