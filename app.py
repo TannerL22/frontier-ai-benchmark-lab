@@ -1,4 +1,4 @@
-"""Evidence-first Streamlit interface; global aggregation is an optional experiment."""
+"""Frontier model explorer with drill-down evidence and preserved research views."""
 from pathlib import Path
 import json
 import subprocess
@@ -15,6 +15,7 @@ from frontierlab.analysis import (
 )
 from frontierlab.integrity import verify_manifest
 from frontierlab.prospective_ops import verify_publication
+from frontierlab.explorer_ui import hero as explorer_hero, explorer, whats_new
 from frontierlab.presentation import (
     COLORS, badge, csv_export, identity_columns, inject_lab_theme_css, rank_shift,
     render_audit_callout, render_hero, render_kpi_grid, render_section,
@@ -23,16 +24,18 @@ from frontierlab.presentation import (
 
 ROOT = Path(__file__).resolve().parent
 RELEASES = {
+    "v5.4 · Wider frontier": ROOT / "data" / "v5_4",
     "v5.3 · Source follow-up": ROOT / "data" / "v5_3",
     "v5.2 · Evidence review": ROOT / "data" / "v5_2",
     "v5.1 · Original eight-model release": ROOT / "data" / "v5_1",
     "v4.2 · Frozen six-model reference": ROOT / "data",
 }
 PAGES = [
+    "Frontier explorer", "What’s new",
     "Evidence coverage", "Compare recorded results", "Evidence details",
     "Validation", "Release notes", "Aggregation experiments", "Research programme",
 ]
-st.set_page_config(page_title="Frontier AI · Research Observatory", page_icon="◈", layout="wide")
+st.set_page_config(page_title="Frontier AI · Model Explorer", page_icon="✧", layout="wide")
 inject_lab_theme_css()
 
 
@@ -204,19 +207,23 @@ def show_observation(evidence, row, model):
     return detail
 
 
-st.sidebar.html('<div class="lab-brand"><span class="lab-mark">◈</span><span>Frontier AI Lab</span></div><div class="lab-eyebrow">Release & dataset</div>')
-version = st.sidebar.radio("Evidence release", list(RELEASES))
-st.sidebar.html('<div class="lab-eyebrow">Workspace</div>')
+st.sidebar.html('<div class="lab-brand"><span class="lab-mark">✧</span><span>Frontier AI Lab</span></div>')
+with st.sidebar.expander("Release archive", expanded=False):
+    version = st.radio("Evidence release", list(RELEASES))
+st.sidebar.html('<div class="lab-eyebrow">Explore the frontier</div>')
 page = st.sidebar.radio("Explore", PAGES)
 ev = load_data(version)
 models = visible_models(ev)
 integrity_ok, integrity_count, integrity_detail = integrity_status()
 release = read_json(ev.data_dir.relative_to(ROOT) / "release.json")
 release_id = release.get("id", version.split(" · ")[0])
-render_hero("Frontier AI Benchmark Lab", "A research observatory for reported AI systems. Trace the evidence, inspect what is missing, and test what generalizes.",
-            release=release_id, status="Inputs verified" if integrity_ok else "Integrity check failed", tone="verified" if integrity_ok else "issue",
-            context=[("Evidence cutoff", ev.config.get("evidence_cutoff", ev.config["as_of"])),
-                     ("Benchmark rows", len(ev.rows)), ("Evaluators", len(ev.evaluators)), ("Workspace", page)])
+if page in {"Frontier explorer", "What’s new"}:
+    explorer_hero(ev, release_id, new=page == "What’s new")
+else:
+    render_hero("Behind the frontier", "Explore the tests, run conditions and research that support the model comparisons.",
+                release=release_id, status="Inputs verified" if integrity_ok else "Integrity check failed", tone="verified" if integrity_ok else "issue",
+                context=[("Evidence cutoff", ev.config.get("evidence_cutoff", ev.config["as_of"])),
+                         ("Benchmark rows", len(ev.rows)), ("Evaluators", len(ev.evaluators)), ("Workspace", page)])
 if not integrity_ok:
     st.error(integrity_detail)
 if not models:
@@ -224,7 +231,13 @@ if not models:
 if ev.catalog is None:
     st.info("Historical snapshot. Detailed run metadata is available in the v5.2 evidence review; historical inputs and formulas remain frozen.")
 
-if page == "Evidence coverage":
+if page == "Frontier explorer":
+    explorer(ev, models)
+
+elif page == "What’s new":
+    whats_new(ev)
+
+elif page == "Evidence coverage":
     render_section("Compare what was actually evaluated", "Observed records · no inferred scores")
     st.write("Start with task coverage and source records. These results describe selected reported systems; they do not establish a universal model winner.")
     ids = scoped_ids(ev, range(len(ev.rows)))
@@ -238,7 +251,7 @@ if page == "Evidence coverage":
         {"label": "Recorded results", "value": f"{observed:,}", "status": "Observed", "tone": "verified", "caption": "Selected model–benchmark records"},
         {"label": "Evidence coverage", "value": f"{observed / slots:.1%}" if slots else "—", "status": "Reporting coverage", "caption": "Recorded cells / selected possible cells"},
         {"label": "Numeric corroborations", "value": f"{corroborated:,}" if ev.catalog else "—", "status": "Release-wide", "tone": "verified" if ev.catalog else "pending", "caption": "Includes provisional records; excludes reconstructions"},
-        {"label": "Canonical inputs", "value": integrity_count if integrity_ok else "—", "status": "Hashes match" if integrity_ok else "Check failed", "tone": "verified" if integrity_ok else "issue", "caption": "Across all four preserved releases"},
+        {"label": "Canonical inputs", "value": integrity_count if integrity_ok else "—", "status": "Hashes match" if integrity_ok else "Check failed", "tone": "verified" if integrity_ok else "issue", "caption": "Across all preserved releases"},
     ])
     st.warning("Single-evaluator evidence and unobserved domains limit broad comparisons. A missing result means no evidence entered in this release, not zero capability.")
     domains = list(ev.domain_weights)
@@ -670,9 +683,9 @@ elif page == "Research programme":
 # order remains stable for saved sessions and the application smoke contract.
 with st.sidebar:
     st.divider()
-    st.html('<div class="lab-eyebrow">Aggregation policy</div>')
-    st.selectbox("Portfolio weighting", list(METHODS), key="context_weighting", on_change=sync_context_policy)
-    st.caption("Applied in Aggregation experiments. These conventions do not change observed scores.")
+    with st.expander("Research weighting", expanded=False):
+        st.selectbox("Portfolio weighting", list(METHODS), key="context_weighting", on_change=sync_context_policy)
+        st.caption("Applied in Aggregation experiments. These conventions do not change observed scores.")
     with st.expander("Model & evaluator filters", expanded=False):
         key = ev.data_dir.name
         providers = sorted({r["developer"] for r in ev.model_registry})

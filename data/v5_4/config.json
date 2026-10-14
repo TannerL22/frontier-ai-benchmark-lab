@@ -1,0 +1,36 @@
+{
+  "version": "v5.4-frontier-expansion-2026-10-14",
+  "frozen_baseline": "v4.2 unchanged; 8-model extension in data/v5_1",
+  "baseline_models": [
+    "Claude Opus 5.5",
+    "GPT-6 Astra",
+    "GPT-6.1 Sol",
+    "Claude Fable 5.1",
+    "Claude Sonnet 5.5",
+    "Gemini 4 Argon",
+    "Muse Wonder Full",
+    "Muse Wonder"
+  ],
+  "domain_weights": {
+    "Professional": 0.25,
+    "Coding": 0.2,
+    "Science": 0.2,
+    "Knowledge": 0.15,
+    "Context": 0.1,
+    "Multimodal": 0.07,
+    "Games": 0.03
+  },
+  "display_anchor": "Claude Opus 5.5",
+  "scale_factor": 20,
+  "as_of": "2026-10-14",
+  "note": "Four additional executions, three new families; Argon science EAP runs remain provisional. Earlier release and forecast inputs remain frozen.",
+  "evidence_cutoff": "2026-10-14",
+  "release_status": "curated_expansion",
+  "catalog_required": true,
+  "expected_counts": {
+    "models": 8,
+    "benchmarks": 61,
+    "scores": 326
+  },
+  "normalization_reference": "normalization_reference.csv"
+}

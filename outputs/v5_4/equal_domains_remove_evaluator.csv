@@ -1,0 +1,74 @@
+Removed group,Model,Relative difference,Status
+AA,Whole roster,,Disconnected; global summary unavailable
+Vals,Claude Opus 5.5,0.0,Conditional experiment
+Vals,GPT-6 Astra,-3.2463542549150333,Conditional experiment
+Vals,GPT-6.1 Sol,-7.392198420144709,Conditional experiment
+Vals,Claude Fable 5.1,-10.345158238264673,Conditional experiment
+Vals,Claude Sonnet 5.5,-8.747428812853173,Conditional experiment
+Vals,Gemini 4 Argon,-11.399434624047458,Conditional experiment
+Vals,Muse Wonder Full,-2.053489553379137,Conditional experiment
+Vals,Muse Wonder,-14.926874708049482,Conditional experiment
+Arena,Claude Opus 5.5,0.0,Conditional experiment
+Arena,GPT-6 Astra,-1.9956598505116148,Conditional experiment
+Arena,GPT-6.1 Sol,-7.594044566260095,Conditional experiment
+Arena,Claude Fable 5.1,-7.7789976716899645,Conditional experiment
+Arena,Claude Sonnet 5.5,-6.359862657970822,Conditional experiment
+Arena,Gemini 4 Argon,-8.31362697378367,Conditional experiment
+Arena,Muse Wonder Full,1.883900964419439,Conditional experiment
+Arena,Muse Wonder,-10.562831086063142,Conditional experiment
+Mercor,Claude Opus 5.5,0.0,Conditional experiment
+Mercor,GPT-6 Astra,-2.9507847024277822,Conditional experiment
+Mercor,GPT-6.1 Sol,-8.667527501500999,Conditional experiment
+Mercor,Claude Fable 5.1,-8.946075925786985,Conditional experiment
+Mercor,Claude Sonnet 5.5,-7.258936074113194,Conditional experiment
+Mercor,Gemini 4 Argon,-7.741519168954113,Conditional experiment
+Mercor,Muse Wonder Full,1.4760530076293321,Conditional experiment
+Mercor,Muse Wonder,-11.009704939119658,Conditional experiment
+Cognition,Claude Opus 5.5,0.0,Conditional experiment
+Cognition,GPT-6 Astra,-2.2693307078783675,Conditional experiment
+Cognition,GPT-6.1 Sol,-7.4374904591043105,Conditional experiment
+Cognition,Claude Fable 5.1,-7.690394341096265,Conditional experiment
+Cognition,Claude Sonnet 5.5,-6.406444035879602,Conditional experiment
+Cognition,Gemini 4 Argon,-8.424708350681101,Conditional experiment
+Cognition,Muse Wonder Full,2.2245278120928447,Conditional experiment
+Cognition,Muse Wonder,-10.292359832098967,Conditional experiment
+Scale,Claude Opus 5.5,0.0,Conditional experiment
+Scale,GPT-6 Astra,-2.9689143191090324,Conditional experiment
+Scale,GPT-6.1 Sol,-7.813960679161127,Conditional experiment
+Scale,Claude Fable 5.1,-7.704607868436426,Conditional experiment
+Scale,Claude Sonnet 5.5,-6.4615828712761925,Conditional experiment
+Scale,Gemini 4 Argon,-8.32228969157859,Conditional experiment
+Scale,Muse Wonder Full,2.1011650639536583,Conditional experiment
+Scale,Muse Wonder,-10.405929696378166,Conditional experiment
+Epoch,Claude Opus 5.5,0.0,Conditional experiment
+Epoch,GPT-6 Astra,-2.867045884625014,Conditional experiment
+Epoch,GPT-6.1 Sol,-8.73368687827822,Conditional experiment
+Epoch,Claude Fable 5.1,-6.291931908526266,Conditional experiment
+Epoch,Claude Sonnet 5.5,-4.624416975774295,Conditional experiment
+Epoch,Gemini 4 Argon,-9.164105484088623,Conditional experiment
+Epoch,Muse Wonder Full,1.595831461762046,Conditional experiment
+Epoch,Muse Wonder,-11.286258363477515,Conditional experiment
+ARC Prize,Claude Opus 5.5,0.0,Conditional experiment
+ARC Prize,GPT-6 Astra,-2.191553578121301,Conditional experiment
+ARC Prize,GPT-6.1 Sol,-7.572479949934433,Conditional experiment
+ARC Prize,Claude Fable 5.1,-7.6274422466653675,Conditional experiment
+ARC Prize,Claude Sonnet 5.5,-6.355363225089377,Conditional experiment
+ARC Prize,Gemini 4 Argon,-8.197844330261859,Conditional experiment
+ARC Prize,Muse Wonder Full,2.142833572288936,Conditional experiment
+ARC Prize,Muse Wonder,-10.567630499743515,Conditional experiment
+Microsoft,Claude Opus 5.5,0.0,Conditional experiment
+Microsoft,GPT-6 Astra,-2.2240332234997737,Conditional experiment
+Microsoft,GPT-6.1 Sol,-7.553217617444545,Conditional experiment
+Microsoft,Claude Fable 5.1,-7.635726645800759,Conditional experiment
+Microsoft,Claude Sonnet 5.5,-6.201668302862444,Conditional experiment
+Microsoft,Gemini 4 Argon,-8.059213099013988,Conditional experiment
+Microsoft,Muse Wonder Full,2.3668452612303383,Conditional experiment
+Microsoft,Muse Wonder,-10.143664856381264,Conditional experiment
+Gamow,Claude Opus 5.5,0.0,Conditional experiment
+Gamow,GPT-6 Astra,-1.7451404198462939,Conditional experiment
+Gamow,GPT-6.1 Sol,-6.996405732520131,Conditional experiment
+Gamow,Claude Fable 5.1,-7.623929842757022,Conditional experiment
+Gamow,Claude Sonnet 5.5,-6.21281477645357,Conditional experiment
+Gamow,Gemini 4 Argon,-9.25196731415663,Conditional experiment
+Gamow,Muse Wonder Full,2.2546286686297776,Conditional experiment
+Gamow,Muse Wonder,-9.195278510572933,Conditional experiment

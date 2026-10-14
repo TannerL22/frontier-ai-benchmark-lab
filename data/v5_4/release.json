@@ -1,0 +1,20 @@
+{
+  "id": "v5.4",
+  "status": "curated_expansion",
+  "created_on": "2026-10-14",
+  "evidence_cutoff": "2026-10-14",
+  "included_observations": 326,
+  "new_observations": 20,
+  "new_families": 3,
+  "scope": "Selected reported systems across 61 evaluation rows / 59 families / 10 evaluator labels",
+  "exact_run_metadata": "incomplete",
+  "independent_human_review": "pending owner task/eligibility review",
+  "frozen_forecast_inputs": "data/v5_2 unchanged",
+  "aa_composites": "AA-3D and FrontierCode are not constituents of AA Intelligence Index v4.3.2 or Coding Agent Index v1.5 as reviewed on 14 Oct",
+  "added_benchmarks": [
+    "B063",
+    "B064",
+    "B065",
+    "B066"
+  ]
+}

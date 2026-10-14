@@ -1,5 +1,60 @@
 [
   {
+    "release": "v5.4 \u00b7 Wider frontier",
+    "page": "Frontier explorer",
+    "exceptions": []
+  },
+  {
+    "release": "v5.4 \u00b7 Wider frontier",
+    "page": "What\u2019s new",
+    "exceptions": []
+  },
+  {
+    "release": "v5.4 \u00b7 Wider frontier",
+    "page": "Evidence coverage",
+    "exceptions": []
+  },
+  {
+    "release": "v5.4 \u00b7 Wider frontier",
+    "page": "Compare recorded results",
+    "exceptions": []
+  },
+  {
+    "release": "v5.4 \u00b7 Wider frontier",
+    "page": "Evidence details",
+    "exceptions": []
+  },
+  {
+    "release": "v5.4 \u00b7 Wider frontier",
+    "page": "Validation",
+    "exceptions": []
+  },
+  {
+    "release": "v5.4 \u00b7 Wider frontier",
+    "page": "Release notes",
+    "exceptions": []
+  },
+  {
+    "release": "v5.4 \u00b7 Wider frontier",
+    "page": "Aggregation experiments",
+    "exceptions": []
+  },
+  {
+    "release": "v5.4 \u00b7 Wider frontier",
+    "page": "Research programme",
+    "exceptions": []
+  },
+  {
+    "release": "v5.3 \u00b7 Source follow-up",
+    "page": "Frontier explorer",
+    "exceptions": []
+  },
+  {
+    "release": "v5.3 \u00b7 Source follow-up",
+    "page": "What\u2019s new",
+    "exceptions": []
+  },
+  {
     "release": "v5.3 \u00b7 Source follow-up",
     "page": "Evidence coverage",
     "exceptions": []
@@ -36,6 +91,16 @@
   },
   {
     "release": "v5.2 \u00b7 Evidence review",
+    "page": "Frontier explorer",
+    "exceptions": []
+  },
+  {
+    "release": "v5.2 \u00b7 Evidence review",
+    "page": "What\u2019s new",
+    "exceptions": []
+  },
+  {
+    "release": "v5.2 \u00b7 Evidence review",
     "page": "Evidence coverage",
     "exceptions": []
   },
@@ -71,6 +136,16 @@
   },
   {
     "release": "v5.1 \u00b7 Original eight-model release",
+    "page": "Frontier explorer",
+    "exceptions": []
+  },
+  {
+    "release": "v5.1 \u00b7 Original eight-model release",
+    "page": "What\u2019s new",
+    "exceptions": []
+  },
+  {
+    "release": "v5.1 \u00b7 Original eight-model release",
     "page": "Evidence coverage",
     "exceptions": []
   },
@@ -106,6 +181,16 @@
   },
   {
     "release": "v4.2 \u00b7 Frozen six-model reference",
+    "page": "Frontier explorer",
+    "exceptions": []
+  },
+  {
+    "release": "v4.2 \u00b7 Frozen six-model reference",
+    "page": "What\u2019s new",
+    "exceptions": []
+  },
+  {
+    "release": "v4.2 \u00b7 Frozen six-model reference",
     "page": "Evidence coverage",
     "exceptions": []
   },
@@ -140,22 +225,42 @@
     "exceptions": []
   },
   {
-    "release": "v5.2",
+    "release": "v5.4 \u00b7 Wider frontier",
+    "page": "Explorer weighting, EAP and source removal",
+    "exceptions": []
+  },
+  {
+    "release": "v5.4 \u00b7 Wider frontier",
+    "page": "Explorer identical duel",
+    "exceptions": []
+  },
+  {
+    "release": "v5.4 \u00b7 Wider frontier",
+    "page": "New science evaluation",
+    "exceptions": []
+  },
+  {
+    "release": "v5.4 \u00b7 Wider frontier",
+    "page": "Matched-cohort release change",
+    "exceptions": []
+  },
+  {
+    "release": "v5.4 \u00b7 Wider frontier",
     "page": "Global advanced experiment",
     "exceptions": []
   },
   {
-    "release": "v5.2",
+    "release": "v5.4 \u00b7 Wider frontier",
     "page": "Empty portfolio",
     "exceptions": []
   },
   {
-    "release": "v5.2",
+    "release": "v5.4 \u00b7 Wider frontier",
     "page": "Identical pair",
     "exceptions": []
   },
   {
-    "release": "v5.2",
+    "release": "v5.4 \u00b7 Wider frontier",
     "page": "Evaluator abstentions",
     "exceptions": []
   }
