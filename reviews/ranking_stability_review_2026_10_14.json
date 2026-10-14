@@ -1,0 +1,2561 @@
+{
+  "checked_on": "2026-10-14",
+  "release": "v5.3-source-review-2026-10-13",
+  "live_inputs_changed": false,
+  "scope": "Original six-model cohort using current v5.3 observations and fixed normalizers; sensitivity counts are not confidence probabilities",
+  "cohort": [
+    "Claude Opus 5.5",
+    "GPT-6 Astra",
+    "GPT-6.1 Sol",
+    "Claude Fable 5.1",
+    "Claude Sonnet 5.5",
+    "Gemini 4 Argon"
+  ],
+  "release_counts": {
+    "evaluation_rows": 57,
+    "families": 56,
+    "recorded_results": 306,
+    "domains": 7,
+    "evaluator_labels": 9
+  },
+  "coverage": [
+    {
+      "Model": "Claude Opus 5.5",
+      "Recorded results": 57,
+      "Evaluators": 9,
+      "Source coverage": "AA, ARC Prize, Arena, Cognition, Epoch, Mercor, Microsoft, Scale, Vals",
+      "Missing domains": "None in this portfolio",
+      "Scope": "Selected multi-evaluator evidence",
+      "Professional": 16,
+      "Coding": 13,
+      "Science": 9,
+      "Knowledge": 8,
+      "Context": 2,
+      "Multimodal": 5,
+      "Games": 4
+    },
+    {
+      "Model": "GPT-6 Astra",
+      "Recorded results": 50,
+      "Evaluators": 9,
+      "Source coverage": "AA, ARC Prize, Arena, Cognition, Epoch, Mercor, Microsoft, Scale, Vals",
+      "Missing domains": "None in this portfolio",
+      "Scope": "Selected multi-evaluator evidence",
+      "Professional": 14,
+      "Coding": 11,
+      "Science": 9,
+      "Knowledge": 6,
+      "Context": 2,
+      "Multimodal": 4,
+      "Games": 4
+    },
+    {
+      "Model": "GPT-6.1 Sol",
+      "Recorded results": 48,
+      "Evaluators": 8,
+      "Source coverage": "AA, ARC Prize, Arena, Cognition, Epoch, Mercor, Scale, Vals",
+      "Missing domains": "None in this portfolio",
+      "Scope": "Selected multi-evaluator evidence",
+      "Professional": 11,
+      "Coding": 11,
+      "Science": 9,
+      "Knowledge": 8,
+      "Context": 2,
+      "Multimodal": 5,
+      "Games": 2
+    },
+    {
+      "Model": "Claude Fable 5.1",
+      "Recorded results": 52,
+      "Evaluators": 8,
+      "Source coverage": "AA, ARC Prize, Arena, Cognition, Epoch, Mercor, Scale, Vals",
+      "Missing domains": "None in this portfolio",
+      "Scope": "Selected multi-evaluator evidence",
+      "Professional": 15,
+      "Coding": 12,
+      "Science": 8,
+      "Knowledge": 8,
+      "Context": 2,
+      "Multimodal": 3,
+      "Games": 4
+    },
+    {
+      "Model": "Claude Sonnet 5.5",
+      "Recorded results": 45,
+      "Evaluators": 6,
+      "Source coverage": "AA, Arena, Cognition, Epoch, Mercor, Vals",
+      "Missing domains": "None in this portfolio",
+      "Scope": "Selected multi-evaluator evidence",
+      "Professional": 13,
+      "Coding": 12,
+      "Science": 8,
+      "Knowledge": 8,
+      "Context": 2,
+      "Multimodal": 1,
+      "Games": 1
+    },
+    {
+      "Model": "Gemini 4 Argon",
+      "Recorded results": 34,
+      "Evaluators": 4,
+      "Source coverage": "AA, Arena, Mercor, Vals",
+      "Missing domains": "Multimodal",
+      "Scope": "Selected multi-evaluator evidence",
+      "Professional": 10,
+      "Coding": 9,
+      "Science": 5,
+      "Knowledge": 6,
+      "Context": 2,
+      "Multimodal": 0,
+      "Games": 2
+    },
+    {
+      "Model": "Muse Wonder Full",
+      "Recorded results": 10,
+      "Evaluators": 1,
+      "Source coverage": "AA",
+      "Missing domains": "Multimodal, Games",
+      "Scope": "Single-evaluator evidence",
+      "Professional": 3,
+      "Coding": 2,
+      "Science": 2,
+      "Knowledge": 1,
+      "Context": 2,
+      "Multimodal": 0,
+      "Games": 0
+    },
+    {
+      "Model": "Muse Wonder",
+      "Recorded results": 10,
+      "Evaluators": 1,
+      "Source coverage": "AA",
+      "Missing domains": "Multimodal, Games",
+      "Scope": "Single-evaluator evidence",
+      "Professional": 3,
+      "Coding": 2,
+      "Science": 2,
+      "Knowledge": 1,
+      "Context": 2,
+      "Multimodal": 0,
+      "Games": 0
+    }
+  ],
+  "methods": {
+    "Equal families": {
+      "baseline_order": [
+        "Claude Opus 5.5",
+        "Gemini 4 Argon",
+        "Claude Sonnet 5.5",
+        "GPT-6 Astra",
+        "Claude Fable 5.1",
+        "GPT-6.1 Sol"
+      ],
+      "remove_family": {
+        "scenarios": [
+          {
+            "removed": "aa-briefcase_v1.1",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "gdpval-aa_v2.1",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "automationbench-aa",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "terminal-bench_4.0",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "scicode",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "humanity's_last_exam",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "gdp.pdf",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "critpt",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "aa-omniscience",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "aa-lcr_v1.1",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "code_migration",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "cyberbench_v1.1",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "emb",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "finance_agent_(v2)",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "legal_research_bench",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "medcode",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "medscribe",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mysterymechanism",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "proofbench_v1.1",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "sage",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "sre_bench",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "tax_agent_bench",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "vibe_code_bench_v1.1",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "harvey_legal_agent",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "programbench",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "terminal-bench_science",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "arena-agent-confirmed",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "apex-agents",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "apex-accounting",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "apex-swe",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "frontiercode",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "tau3-banking",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "browsecomp-extended",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "charxiv-extended",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "rli",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "hss",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "ebr",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mystery-game",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "frontiermath-v2",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "furniture-assembly",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "gpqa-diamond",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mirrorcode",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "simpleqa-verified",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "arcagi-2",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "ioi_v2",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "public_benefits_v1.1",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "cua_games",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "time_horizon_ksp",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mercor_gdpval_ext_private",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mercor_medxpert_private",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mercor_mmmupro_private",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mercor_swe_atlas_private",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mercor_tb21_private",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mercor_apex1_investment_banking",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "thinkingbox-507",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "arena-text-overall-20261008",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          }
+        ],
+        "winner_counts": {
+          "Claude Opus 5.5": 56
+        }
+      },
+      "remove_evaluator": {
+        "scenarios": [
+          {
+            "removed": "AA",
+            "ranking": [
+              "Gemini 4 Argon",
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 2
+          },
+          {
+            "removed": "Vals",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Gemini 4 Argon",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "Arena",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "Mercor",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "Cognition",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "Scale",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "Epoch",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6 Astra",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "ARC Prize",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "Microsoft",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          }
+        ],
+        "winner_counts": {
+          "Gemini 4 Argon": 1,
+          "Claude Opus 5.5": 8
+        }
+      }
+    },
+    "Equal domains": {
+      "baseline_order": [
+        "Claude Opus 5.5",
+        "GPT-6 Astra",
+        "Claude Sonnet 5.5",
+        "GPT-6.1 Sol",
+        "Claude Fable 5.1",
+        "Gemini 4 Argon"
+      ],
+      "remove_family": {
+        "scenarios": [
+          {
+            "removed": "aa-briefcase_v1.1",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "gdpval-aa_v2.1",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "automationbench-aa",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "terminal-bench_4.0",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "scicode",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "humanity's_last_exam",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "gdp.pdf",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "critpt",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "aa-omniscience",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "aa-lcr_v1.1",
+            "ranking": [
+              "GPT-6 Astra",
+              "Claude Opus 5.5",
+              "GPT-6.1 Sol",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 2
+          },
+          {
+            "removed": "code_migration",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "cyberbench_v1.1",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "emb",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "finance_agent_(v2)",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "legal_research_bench",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "medcode",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "medscribe",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mysterymechanism",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "proofbench_v1.1",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "sage",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "GPT-6.1 Sol",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "sre_bench",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "tax_agent_bench",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "vibe_code_bench_v1.1",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "harvey_legal_agent",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "programbench",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "terminal-bench_science",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "arena-agent-confirmed",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "apex-agents",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "apex-accounting",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "apex-swe",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "GPT-6.1 Sol",
+              "Claude Sonnet 5.5",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "frontiercode",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "tau3-banking",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "browsecomp-extended",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "charxiv-extended",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "rli",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "hss",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "ebr",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "GPT-6.1 Sol",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mystery-game",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "frontiermath-v2",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "furniture-assembly",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "gpqa-diamond",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mirrorcode",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "simpleqa-verified",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "arcagi-2",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "ioi_v2",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "public_benefits_v1.1",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "GPT-6.1 Sol",
+              "Claude Sonnet 5.5",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "cua_games",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "time_horizon_ksp",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mercor_gdpval_ext_private",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mercor_medxpert_private",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mercor_mmmupro_private",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mercor_swe_atlas_private",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mercor_tb21_private",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mercor_apex1_investment_banking",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "thinkingbox-507",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "arena-text-overall-20261008",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          }
+        ],
+        "winner_counts": {
+          "Claude Opus 5.5": 55,
+          "GPT-6 Astra": 1
+        }
+      },
+      "remove_evaluator": {
+        "scenarios": [
+          {
+            "removed": "AA",
+            "ranking": [
+              "GPT-6 Astra",
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 2
+          },
+          {
+            "removed": "Vals",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "GPT-6.1 Sol",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "Arena",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "Mercor",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Gemini 4 Argon",
+              "GPT-6.1 Sol",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "Cognition",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "Scale",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "Epoch",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "ARC Prize",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "Microsoft",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1"
+            ],
+            "opus_rank": 1
+          }
+        ],
+        "winner_counts": {
+          "GPT-6 Astra": 1,
+          "Claude Opus 5.5": 8
+        }
+      }
+    },
+    "Super-Aggregate v4.2": {
+      "baseline_order": [
+        "Claude Opus 5.5",
+        "Gemini 4 Argon",
+        "GPT-6 Astra",
+        "Claude Sonnet 5.5",
+        "Claude Fable 5.1",
+        "GPT-6.1 Sol"
+      ],
+      "remove_family": {
+        "scenarios": [
+          {
+            "removed": "aa-briefcase_v1.1",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "gdpval-aa_v2.1",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "automationbench-aa",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "Gemini 4 Argon",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "terminal-bench_4.0",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "Claude Sonnet 5.5",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "scicode",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "humanity's_last_exam",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "gdp.pdf",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6 Astra",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "critpt",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "aa-omniscience",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Claude Sonnet 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "aa-lcr_v1.1",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "code_migration",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "cyberbench_v1.1",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "emb",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "finance_agent_(v2)",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "legal_research_bench",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "medcode",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "medscribe",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mysterymechanism",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "proofbench_v1.1",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "sage",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "sre_bench",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "tax_agent_bench",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "vibe_code_bench_v1.1",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "harvey_legal_agent",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "programbench",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "terminal-bench_science",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "arena-agent-confirmed",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "apex-agents",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "apex-accounting",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "apex-swe",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "frontiercode",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "tau3-banking",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "browsecomp-extended",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "charxiv-extended",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "rli",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "hss",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "ebr",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mystery-game",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "frontiermath-v2",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Claude Sonnet 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "furniture-assembly",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "gpqa-diamond",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mirrorcode",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "simpleqa-verified",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Claude Sonnet 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "arcagi-2",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "ioi_v2",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Claude Sonnet 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "public_benefits_v1.1",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "cua_games",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "time_horizon_ksp",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mercor_gdpval_ext_private",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mercor_medxpert_private",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mercor_mmmupro_private",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mercor_swe_atlas_private",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mercor_tb21_private",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "mercor_apex1_investment_banking",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "thinkingbox-507",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "arena-text-overall-20261008",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          }
+        ],
+        "winner_counts": {
+          "Claude Opus 5.5": 56
+        }
+      },
+      "remove_evaluator": {
+        "scenarios": [
+          {
+            "removed": "AA",
+            "ranking": [
+              "Gemini 4 Argon",
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 2
+          },
+          {
+            "removed": "Vals",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol",
+              "Gemini 4 Argon"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "Arena",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "Mercor",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "Cognition",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "Scale",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "Epoch",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Claude Sonnet 5.5",
+              "GPT-6 Astra",
+              "Gemini 4 Argon",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "ARC Prize",
+            "ranking": [
+              "Claude Opus 5.5",
+              "GPT-6 Astra",
+              "Gemini 4 Argon",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          },
+          {
+            "removed": "Microsoft",
+            "ranking": [
+              "Claude Opus 5.5",
+              "Gemini 4 Argon",
+              "GPT-6 Astra",
+              "Claude Sonnet 5.5",
+              "Claude Fable 5.1",
+              "GPT-6.1 Sol"
+            ],
+            "opus_rank": 1
+          }
+        ],
+        "winner_counts": {
+          "Gemini 4 Argon": 1,
+          "Claude Opus 5.5": 8
+        }
+      }
+    }
+  }
+}

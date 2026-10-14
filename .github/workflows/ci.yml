@@ -41,6 +41,7 @@ jobs:
         run: |
           python scripts/reproduce_v52.py
           python scripts/reproduce_v53.py
+          python scripts/reproduce_v54.py
           python scripts/app_smoke.py
           python scripts/artifact_pilot.py oracle-demo
           if [ -f studies/prospective_v1/publication.json ]; then python scripts/prospective_registry.py score; fi

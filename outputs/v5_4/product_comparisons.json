@@ -1,0 +1,3536 @@
+{
+  "false": {
+    "include_provisional": false,
+    "cohort": [
+      "Claude Opus 5.5",
+      "GPT-6 Astra",
+      "GPT-6.1 Sol",
+      "Claude Fable 5.1",
+      "Claude Sonnet 5.5",
+      "Gemini 4 Argon"
+    ],
+    "comparison_rules": "At least 20 results, 3 evaluator labels, 6 domains; threshold independent of score",
+    "standings": {
+      "Equal families": [
+        {
+          "Model": "Claude Opus 5.5",
+          "Rank": 1,
+          "Index": 100.0,
+          "results": 59,
+          "families": 57,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "Gemini 4 Argon",
+          "Rank": 2,
+          "Index": 97.55819986517368,
+          "results": 33,
+          "families": 33,
+          "evaluators": 4,
+          "domains": 6
+        },
+        {
+          "Model": "Claude Sonnet 5.5",
+          "Rank": 3,
+          "Index": 94.45201794634836,
+          "results": 46,
+          "families": 44,
+          "evaluators": 7,
+          "domains": 7
+        },
+        {
+          "Model": "GPT-6 Astra",
+          "Rank": 4,
+          "Index": 93.93554949378436,
+          "results": 51,
+          "families": 49,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "Claude Fable 5.1",
+          "Rank": 5,
+          "Index": 91.93263245452039,
+          "results": 53,
+          "families": 51,
+          "evaluators": 9,
+          "domains": 7
+        },
+        {
+          "Model": "GPT-6.1 Sol",
+          "Rank": 6,
+          "Index": 88.1830775001329,
+          "results": 49,
+          "families": 47,
+          "evaluators": 9,
+          "domains": 7
+        }
+      ],
+      "Equal domains": [
+        {
+          "Model": "Claude Opus 5.5",
+          "Rank": 1,
+          "Index": 100.0,
+          "results": 59,
+          "families": 57,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "GPT-6 Astra",
+          "Rank": 2,
+          "Index": 98.7862960118514,
+          "results": 51,
+          "families": 49,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "Claude Sonnet 5.5",
+          "Rank": 3,
+          "Index": 93.67304020610713,
+          "results": 46,
+          "families": 44,
+          "evaluators": 7,
+          "domains": 7
+        },
+        {
+          "Model": "GPT-6.1 Sol",
+          "Rank": 4,
+          "Index": 92.58255402204863,
+          "results": 49,
+          "families": 47,
+          "evaluators": 9,
+          "domains": 7
+        },
+        {
+          "Model": "Gemini 4 Argon",
+          "Rank": 5,
+          "Index": 92.00530702948092,
+          "results": 33,
+          "families": 33,
+          "evaluators": 4,
+          "domains": 6
+        },
+        {
+          "Model": "Claude Fable 5.1",
+          "Rank": 6,
+          "Index": 91.97850120708152,
+          "results": 53,
+          "families": 51,
+          "evaluators": 9,
+          "domains": 7
+        }
+      ],
+      "Super-Aggregate v4.2": [
+        {
+          "Model": "Claude Opus 5.5",
+          "Rank": 1,
+          "Index": 100.0,
+          "results": 59,
+          "families": 57,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "Gemini 4 Argon",
+          "Rank": 2,
+          "Index": 93.9139743533098,
+          "results": 33,
+          "families": 33,
+          "evaluators": 4,
+          "domains": 6
+        },
+        {
+          "Model": "GPT-6 Astra",
+          "Rank": 3,
+          "Index": 93.88045527183515,
+          "results": 51,
+          "families": 49,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "Claude Sonnet 5.5",
+          "Rank": 4,
+          "Index": 93.5746155644244,
+          "results": 46,
+          "families": 44,
+          "evaluators": 7,
+          "domains": 7
+        },
+        {
+          "Model": "Claude Fable 5.1",
+          "Rank": 5,
+          "Index": 92.64835619324487,
+          "results": 53,
+          "families": 51,
+          "evaluators": 9,
+          "domains": 7
+        },
+        {
+          "Model": "GPT-6.1 Sol",
+          "Rank": 6,
+          "Index": 89.78772148826363,
+          "results": 49,
+          "families": 47,
+          "evaluators": 9,
+          "domains": 7
+        }
+      ]
+    },
+    "full_roster": {
+      "Equal families": [
+        {
+          "Model": "Claude Opus 5.5",
+          "Rank": 1,
+          "Index": 100.0,
+          "results": 59,
+          "families": 57,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "Muse Wonder Full",
+          "Rank": 2,
+          "Index": 96.7391604682295,
+          "results": 8,
+          "families": 8,
+          "evaluators": 1,
+          "domains": 5
+        },
+        {
+          "Model": "Gemini 4 Argon",
+          "Rank": 3,
+          "Index": 96.51465740907096,
+          "results": 33,
+          "families": 33,
+          "evaluators": 4,
+          "domains": 6
+        },
+        {
+          "Model": "Claude Sonnet 5.5",
+          "Rank": 4,
+          "Index": 94.59471613544994,
+          "results": 46,
+          "families": 44,
+          "evaluators": 7,
+          "domains": 7
+        },
+        {
+          "Model": "GPT-6 Astra",
+          "Rank": 5,
+          "Index": 93.391002319255,
+          "results": 51,
+          "families": 49,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "Claude Fable 5.1",
+          "Rank": 6,
+          "Index": 91.61699242219234,
+          "results": 53,
+          "families": 51,
+          "evaluators": 9,
+          "domains": 7
+        },
+        {
+          "Model": "GPT-6.1 Sol",
+          "Rank": 7,
+          "Index": 87.92185597276394,
+          "results": 49,
+          "families": 47,
+          "evaluators": 9,
+          "domains": 7
+        },
+        {
+          "Model": "Muse Wonder",
+          "Rank": 8,
+          "Index": 83.09226817476602,
+          "results": 9,
+          "families": 9,
+          "evaluators": 2,
+          "domains": 5
+        }
+      ],
+      "Equal domains": [
+        {
+          "Model": "Muse Wonder Full",
+          "Rank": 1,
+          "Index": 101.93578100658797,
+          "results": 8,
+          "families": 8,
+          "evaluators": 1,
+          "domains": 5
+        },
+        {
+          "Model": "Claude Opus 5.5",
+          "Rank": 2,
+          "Index": 100.0,
+          "results": 59,
+          "families": 57,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "GPT-6 Astra",
+          "Rank": 3,
+          "Index": 98.4149730057234,
+          "results": 51,
+          "families": 49,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "Claude Sonnet 5.5",
+          "Rank": 4,
+          "Index": 93.814420519757,
+          "results": 46,
+          "families": 44,
+          "evaluators": 7,
+          "domains": 7
+        },
+        {
+          "Model": "GPT-6.1 Sol",
+          "Rank": 5,
+          "Index": 92.95655492423263,
+          "results": 49,
+          "families": 47,
+          "evaluators": 9,
+          "domains": 7
+        },
+        {
+          "Model": "Claude Fable 5.1",
+          "Rank": 6,
+          "Index": 92.22666880913121,
+          "results": 53,
+          "families": 51,
+          "evaluators": 9,
+          "domains": 7
+        },
+        {
+          "Model": "Gemini 4 Argon",
+          "Rank": 7,
+          "Index": 90.96039283224353,
+          "results": 33,
+          "families": 33,
+          "evaluators": 4,
+          "domains": 6
+        },
+        {
+          "Model": "Muse Wonder",
+          "Rank": 8,
+          "Index": 90.02967160583088,
+          "results": 9,
+          "families": 9,
+          "evaluators": 2,
+          "domains": 5
+        }
+      ],
+      "Super-Aggregate v4.2": [
+        {
+          "Model": "Claude Opus 5.5",
+          "Rank": 1,
+          "Index": 100.0,
+          "results": 59,
+          "families": 57,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "Muse Wonder Full",
+          "Rank": 2,
+          "Index": 95.10263440507077,
+          "results": 8,
+          "families": 8,
+          "evaluators": 1,
+          "domains": 5
+        },
+        {
+          "Model": "Claude Sonnet 5.5",
+          "Rank": 3,
+          "Index": 93.08510512346922,
+          "results": 46,
+          "families": 44,
+          "evaluators": 7,
+          "domains": 7
+        },
+        {
+          "Model": "GPT-6 Astra",
+          "Rank": 4,
+          "Index": 92.50395288086655,
+          "results": 51,
+          "families": 49,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "Gemini 4 Argon",
+          "Rank": 5,
+          "Index": 91.77429714131837,
+          "results": 33,
+          "families": 33,
+          "evaluators": 4,
+          "domains": 6
+        },
+        {
+          "Model": "Claude Fable 5.1",
+          "Rank": 6,
+          "Index": 91.7185354112676,
+          "results": 53,
+          "families": 51,
+          "evaluators": 9,
+          "domains": 7
+        },
+        {
+          "Model": "GPT-6.1 Sol",
+          "Rank": 7,
+          "Index": 88.70967586994205,
+          "results": 49,
+          "families": 47,
+          "evaluators": 9,
+          "domains": 7
+        },
+        {
+          "Model": "Muse Wonder",
+          "Rank": 8,
+          "Index": 82.69981119750346,
+          "results": 9,
+          "families": 9,
+          "evaluators": 2,
+          "domains": 5
+        }
+      ]
+    },
+    "previous_release_changes": {
+      "Equal families": [
+        {
+          "Model": "Claude Opus 5.5",
+          "Previous": 1,
+          "Current": 1,
+          "Movement": 0,
+          "Added_results": 4
+        },
+        {
+          "Model": "Gemini 4 Argon",
+          "Previous": 2,
+          "Current": 2,
+          "Movement": 0,
+          "Added_results": 1
+        },
+        {
+          "Model": "Claude Sonnet 5.5",
+          "Previous": 3,
+          "Current": 3,
+          "Movement": 0,
+          "Added_results": 3
+        },
+        {
+          "Model": "GPT-6 Astra",
+          "Previous": 4,
+          "Current": 4,
+          "Movement": 0,
+          "Added_results": 3
+        },
+        {
+          "Model": "Claude Fable 5.1",
+          "Previous": 5,
+          "Current": 5,
+          "Movement": 0,
+          "Added_results": 3
+        },
+        {
+          "Model": "GPT-6.1 Sol",
+          "Previous": 6,
+          "Current": 6,
+          "Movement": 0,
+          "Added_results": 3
+        }
+      ],
+      "Equal domains": [
+        {
+          "Model": "Claude Opus 5.5",
+          "Previous": 1,
+          "Current": 1,
+          "Movement": 0,
+          "Added_results": 4
+        },
+        {
+          "Model": "GPT-6 Astra",
+          "Previous": 2,
+          "Current": 2,
+          "Movement": 0,
+          "Added_results": 3
+        },
+        {
+          "Model": "Claude Sonnet 5.5",
+          "Previous": 3,
+          "Current": 3,
+          "Movement": 0,
+          "Added_results": 3
+        },
+        {
+          "Model": "GPT-6.1 Sol",
+          "Previous": 4,
+          "Current": 4,
+          "Movement": 0,
+          "Added_results": 3
+        },
+        {
+          "Model": "Gemini 4 Argon",
+          "Previous": 5,
+          "Current": 5,
+          "Movement": 0,
+          "Added_results": 1
+        },
+        {
+          "Model": "Claude Fable 5.1",
+          "Previous": 6,
+          "Current": 6,
+          "Movement": 0,
+          "Added_results": 3
+        }
+      ],
+      "Super-Aggregate v4.2": [
+        {
+          "Model": "Claude Opus 5.5",
+          "Previous": 1,
+          "Current": 1,
+          "Movement": 0,
+          "Added_results": 4
+        },
+        {
+          "Model": "Gemini 4 Argon",
+          "Previous": 2,
+          "Current": 2,
+          "Movement": 0,
+          "Added_results": 1
+        },
+        {
+          "Model": "GPT-6 Astra",
+          "Previous": 3,
+          "Current": 3,
+          "Movement": 0,
+          "Added_results": 3
+        },
+        {
+          "Model": "Claude Sonnet 5.5",
+          "Previous": 4,
+          "Current": 4,
+          "Movement": 0,
+          "Added_results": 3
+        },
+        {
+          "Model": "Claude Fable 5.1",
+          "Previous": 5,
+          "Current": 5,
+          "Movement": 0,
+          "Added_results": 3
+        },
+        {
+          "Model": "GPT-6.1 Sol",
+          "Previous": 6,
+          "Current": 6,
+          "Movement": 0,
+          "Added_results": 3
+        }
+      ]
+    },
+    "domain_leaders": {
+      "Equal families": {
+        "Professional": [
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 1,
+            "Index": 103.18892861517364,
+            "results": 10,
+            "families": 10,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 16,
+            "families": 16,
+            "evaluators": 6,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 3,
+            "Index": 96.59954220985013,
+            "results": 13,
+            "families": 13,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 4,
+            "Index": 94.00031918056658,
+            "results": 15,
+            "families": 15,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 5,
+            "Index": 79.0814325795776,
+            "results": 14,
+            "families": 14,
+            "evaluators": 6,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 6,
+            "Index": 76.7869810190932,
+            "results": 11,
+            "families": 11,
+            "evaluators": 4,
+            "domains": 1
+          }
+        ],
+        "Coding": [
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 1,
+            "Index": 100.0,
+            "results": 13,
+            "families": 12,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 2,
+            "Index": 94.17723764164535,
+            "results": 12,
+            "families": 11,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 3,
+            "Index": 94.0184313362694,
+            "results": 9,
+            "families": 9,
+            "evaluators": 3,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 4,
+            "Index": 91.44036926091344,
+            "results": 11,
+            "families": 10,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 5,
+            "Index": 86.92505325852872,
+            "results": 11,
+            "families": 10,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 6,
+            "Index": 85.7332601608856,
+            "results": 12,
+            "families": 11,
+            "evaluators": 5,
+            "domains": 1
+          }
+        ],
+        "Science": [
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 1,
+            "Index": 105.60098248113079,
+            "results": 9,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 10,
+            "families": 9,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 3,
+            "Index": 94.23372199621988,
+            "results": 9,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 4,
+            "Index": 91.91114112475212,
+            "results": 8,
+            "families": 7,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 5,
+            "Index": 90.91660076774252,
+            "results": 8,
+            "families": 7,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 6,
+            "Index": 89.4694309880422,
+            "results": 4,
+            "families": 4,
+            "evaluators": 2,
+            "domains": 1
+          }
+        ],
+        "Knowledge": [
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 1,
+            "Index": 108.79314055405246,
+            "results": 6,
+            "families": 6,
+            "evaluators": 3,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 2,
+            "Index": 104.04372756038076,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 3,
+            "Index": 100.0,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 4,
+            "Index": 95.15945816298982,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 5,
+            "Index": 95.06117797424626,
+            "results": 6,
+            "families": 6,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 6,
+            "Index": 91.8719626136235,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          }
+        ],
+        "Context": [
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 1,
+            "Index": 106.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 2,
+            "Index": 102.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 3,
+            "Index": 100.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 3,
+            "Index": 100.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 5,
+            "Index": 96.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 6,
+            "Index": 81.99999999999999,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          }
+        ],
+        "Multimodal": [
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 1,
+            "Index": 107.3215847697453,
+            "results": 5,
+            "families": 5,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 6,
+            "families": 6,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 3,
+            "Index": 98.08695652173913,
+            "results": 6,
+            "families": 6,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 4,
+            "Index": 94.2724723437098,
+            "results": 2,
+            "families": 2,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 5,
+            "Index": 80.08134808335475,
+            "results": 4,
+            "families": 4,
+            "evaluators": 4,
+            "domains": 1
+          }
+        ],
+        "Games": [
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 1,
+            "Index": 112.83352866698323,
+            "results": 4,
+            "families": 4,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 4,
+            "families": 4,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 3,
+            "Index": 94.16045930406358,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 4,
+            "Index": 78.90042908720096,
+            "results": 1,
+            "families": 1,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 5,
+            "Index": 77.93178800151574,
+            "results": 4,
+            "families": 4,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 6,
+            "Index": 63.43525279663026,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          }
+        ]
+      },
+      "Equal domains": {
+        "Professional": [
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 1,
+            "Index": 103.18892861517364,
+            "results": 10,
+            "families": 10,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 16,
+            "families": 16,
+            "evaluators": 6,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 3,
+            "Index": 96.59954220985013,
+            "results": 13,
+            "families": 13,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 4,
+            "Index": 94.00031918056658,
+            "results": 15,
+            "families": 15,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 5,
+            "Index": 79.0814325795776,
+            "results": 14,
+            "families": 14,
+            "evaluators": 6,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 6,
+            "Index": 76.7869810190932,
+            "results": 11,
+            "families": 11,
+            "evaluators": 4,
+            "domains": 1
+          }
+        ],
+        "Coding": [
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 1,
+            "Index": 100.0,
+            "results": 13,
+            "families": 12,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 2,
+            "Index": 94.17723764164536,
+            "results": 12,
+            "families": 11,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 3,
+            "Index": 94.01843133626942,
+            "results": 9,
+            "families": 9,
+            "evaluators": 3,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 4,
+            "Index": 91.44036926091346,
+            "results": 11,
+            "families": 10,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 5,
+            "Index": 86.92505325852873,
+            "results": 11,
+            "families": 10,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 6,
+            "Index": 85.73326016088564,
+            "results": 12,
+            "families": 11,
+            "evaluators": 5,
+            "domains": 1
+          }
+        ],
+        "Science": [
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 1,
+            "Index": 105.60098248113079,
+            "results": 9,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 10,
+            "families": 9,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 3,
+            "Index": 94.23372199621988,
+            "results": 9,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 4,
+            "Index": 91.91114112475212,
+            "results": 8,
+            "families": 7,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 5,
+            "Index": 90.91660076774252,
+            "results": 8,
+            "families": 7,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 6,
+            "Index": 89.4694309880422,
+            "results": 4,
+            "families": 4,
+            "evaluators": 2,
+            "domains": 1
+          }
+        ],
+        "Knowledge": [
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 1,
+            "Index": 108.79314055405246,
+            "results": 6,
+            "families": 6,
+            "evaluators": 3,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 2,
+            "Index": 104.04372756038076,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 3,
+            "Index": 100.0,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 4,
+            "Index": 95.15945816298981,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 5,
+            "Index": 95.06117797424626,
+            "results": 6,
+            "families": 6,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 6,
+            "Index": 91.8719626136235,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          }
+        ],
+        "Context": [
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 1,
+            "Index": 106.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 2,
+            "Index": 102.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 3,
+            "Index": 100.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 3,
+            "Index": 100.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 5,
+            "Index": 96.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 6,
+            "Index": 81.99999999999999,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          }
+        ],
+        "Multimodal": [
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 1,
+            "Index": 107.3215847697453,
+            "results": 5,
+            "families": 5,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 6,
+            "families": 6,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 3,
+            "Index": 98.08695652173913,
+            "results": 6,
+            "families": 6,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 4,
+            "Index": 94.2724723437098,
+            "results": 2,
+            "families": 2,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 5,
+            "Index": 80.08134808335475,
+            "results": 4,
+            "families": 4,
+            "evaluators": 4,
+            "domains": 1
+          }
+        ],
+        "Games": [
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 1,
+            "Index": 112.83352866698323,
+            "results": 4,
+            "families": 4,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 4,
+            "families": 4,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 3,
+            "Index": 94.16045930406358,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 4,
+            "Index": 78.90042908720096,
+            "results": 1,
+            "families": 1,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 5,
+            "Index": 77.93178800151574,
+            "results": 4,
+            "families": 4,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 6,
+            "Index": 63.43525279663026,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          }
+        ]
+      },
+      "Super-Aggregate v4.2": {
+        "Professional": [
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 1,
+            "Index": 101.00030044265168,
+            "results": 10,
+            "families": 10,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 16,
+            "families": 16,
+            "evaluators": 6,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 3,
+            "Index": 98.79289889559085,
+            "results": 13,
+            "families": 13,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 4,
+            "Index": 94.47645406944626,
+            "results": 15,
+            "families": 15,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 5,
+            "Index": 79.76616995829244,
+            "results": 14,
+            "families": 14,
+            "evaluators": 6,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 6,
+            "Index": 78.87348614257598,
+            "results": 11,
+            "families": 11,
+            "evaluators": 4,
+            "domains": 1
+          }
+        ],
+        "Coding": [
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 1,
+            "Index": 100.0,
+            "results": 13,
+            "families": 12,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 2,
+            "Index": 93.13694799554479,
+            "results": 12,
+            "families": 11,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 3,
+            "Index": 90.38362990862042,
+            "results": 11,
+            "families": 10,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 4,
+            "Index": 88.82777644137765,
+            "results": 9,
+            "families": 9,
+            "evaluators": 3,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 5,
+            "Index": 86.12814913319848,
+            "results": 11,
+            "families": 10,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 6,
+            "Index": 84.78792287974001,
+            "results": 12,
+            "families": 11,
+            "evaluators": 5,
+            "domains": 1
+          }
+        ],
+        "Science": [
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 1,
+            "Index": 103.35354598952752,
+            "results": 9,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 10,
+            "families": 9,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 3,
+            "Index": 92.88030937938186,
+            "results": 9,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 4,
+            "Index": 91.69077411346096,
+            "results": 8,
+            "families": 7,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 5,
+            "Index": 91.00099393854654,
+            "results": 8,
+            "families": 7,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 6,
+            "Index": 89.95964615338893,
+            "results": 4,
+            "families": 4,
+            "evaluators": 2,
+            "domains": 1
+          }
+        ],
+        "Knowledge": [
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 1,
+            "Index": 106.18339572384444,
+            "results": 6,
+            "families": 6,
+            "evaluators": 3,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 2,
+            "Index": 102.12525726065331,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 3,
+            "Index": 100.0,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 4,
+            "Index": 96.18444922322155,
+            "results": 6,
+            "families": 6,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 5,
+            "Index": 92.7358785717333,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 6,
+            "Index": 88.95337284663614,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          }
+        ],
+        "Context": [
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 1,
+            "Index": 106.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 2,
+            "Index": 102.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 3,
+            "Index": 100.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 3,
+            "Index": 100.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 5,
+            "Index": 96.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 6,
+            "Index": 81.99999999999999,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          }
+        ],
+        "Multimodal": [
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 1,
+            "Index": 104.01471765260384,
+            "results": 5,
+            "families": 5,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 6,
+            "families": 6,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 3,
+            "Index": 94.80331109328935,
+            "results": 6,
+            "families": 6,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 4,
+            "Index": 91.79799965580165,
+            "results": 2,
+            "families": 2,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 5,
+            "Index": 76.77396987731342,
+            "results": 4,
+            "families": 4,
+            "evaluators": 4,
+            "domains": 1
+          }
+        ],
+        "Games": [
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 1,
+            "Index": 113.17786561386065,
+            "results": 4,
+            "families": 4,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 4,
+            "families": 4,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 3,
+            "Index": 94.17081384588012,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 4,
+            "Index": 78.9107836290175,
+            "results": 1,
+            "families": 1,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 5,
+            "Index": 77.61851468008793,
+            "results": 4,
+            "families": 4,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 6,
+            "Index": 63.4456073384468,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          }
+        ]
+      }
+    },
+    "evaluator_removal": {
+      "Equal families": {
+        "scenarios": 10,
+        "connected": 10,
+        "disconnected": 0,
+        "first": 9,
+        "rank_range": [
+          1,
+          2
+        ],
+        "leader": "Claude Opus 5.5"
+      },
+      "Equal domains": {
+        "scenarios": 10,
+        "connected": 10,
+        "disconnected": 0,
+        "first": 9,
+        "rank_range": [
+          1,
+          2
+        ],
+        "leader": "Claude Opus 5.5"
+      },
+      "Super-Aggregate v4.2": {
+        "scenarios": 10,
+        "connected": 10,
+        "disconnected": 0,
+        "first": 9,
+        "rank_range": [
+          1,
+          2
+        ],
+        "leader": "Claude Opus 5.5"
+      }
+    },
+    "family_removal": {
+      "Equal families": {
+        "scenarios": 57,
+        "connected": 57,
+        "disconnected": 0,
+        "first": 57,
+        "rank_range": [
+          1,
+          1
+        ],
+        "leader": "Claude Opus 5.5"
+      },
+      "Equal domains": {
+        "scenarios": 57,
+        "connected": 57,
+        "disconnected": 0,
+        "first": 56,
+        "rank_range": [
+          1,
+          2
+        ],
+        "leader": "Claude Opus 5.5"
+      },
+      "Super-Aggregate v4.2": {
+        "scenarios": 57,
+        "connected": 57,
+        "disconnected": 0,
+        "first": 57,
+        "rank_range": [
+          1,
+          1
+        ],
+        "leader": "Claude Opus 5.5"
+      }
+    }
+  },
+  "true": {
+    "include_provisional": true,
+    "cohort": [
+      "Claude Opus 5.5",
+      "GPT-6 Astra",
+      "GPT-6.1 Sol",
+      "Claude Fable 5.1",
+      "Claude Sonnet 5.5",
+      "Gemini 4 Argon"
+    ],
+    "comparison_rules": "At least 20 results, 3 evaluator labels, 6 domains; threshold independent of score",
+    "standings": {
+      "Equal families": [
+        {
+          "Model": "Claude Opus 5.5",
+          "Rank": 1,
+          "Index": 100.0,
+          "results": 61,
+          "families": 59,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "Gemini 4 Argon",
+          "Rank": 2,
+          "Index": 97.9079472016164,
+          "results": 37,
+          "families": 37,
+          "evaluators": 5,
+          "domains": 6
+        },
+        {
+          "Model": "Claude Sonnet 5.5",
+          "Rank": 3,
+          "Index": 94.23554834381481,
+          "results": 48,
+          "families": 46,
+          "evaluators": 7,
+          "domains": 7
+        },
+        {
+          "Model": "GPT-6 Astra",
+          "Rank": 4,
+          "Index": 93.38210264136643,
+          "results": 53,
+          "families": 51,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "Claude Fable 5.1",
+          "Rank": 5,
+          "Index": 91.92785136203501,
+          "results": 55,
+          "families": 53,
+          "evaluators": 9,
+          "domains": 7
+        },
+        {
+          "Model": "GPT-6.1 Sol",
+          "Rank": 6,
+          "Index": 87.75950024641277,
+          "results": 51,
+          "families": 49,
+          "evaluators": 9,
+          "domains": 7
+        }
+      ],
+      "Equal domains": [
+        {
+          "Model": "Claude Opus 5.5",
+          "Rank": 1,
+          "Index": 100.0,
+          "results": 61,
+          "families": 59,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "GPT-6 Astra",
+          "Rank": 2,
+          "Index": 98.29985424790934,
+          "results": 53,
+          "families": 51,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "Claude Sonnet 5.5",
+          "Rank": 3,
+          "Index": 93.61456831599591,
+          "results": 48,
+          "families": 46,
+          "evaluators": 7,
+          "domains": 7
+        },
+        {
+          "Model": "Gemini 4 Argon",
+          "Rank": 4,
+          "Index": 92.83977681512837,
+          "results": 37,
+          "families": 37,
+          "evaluators": 5,
+          "domains": 6
+        },
+        {
+          "Model": "GPT-6.1 Sol",
+          "Rank": 5,
+          "Index": 92.26336991957355,
+          "results": 51,
+          "families": 49,
+          "evaluators": 9,
+          "domains": 7
+        },
+        {
+          "Model": "Claude Fable 5.1",
+          "Rank": 6,
+          "Index": 92.0919636981508,
+          "results": 55,
+          "families": 53,
+          "evaluators": 9,
+          "domains": 7
+        }
+      ],
+      "Super-Aggregate v4.2": [
+        {
+          "Model": "Claude Opus 5.5",
+          "Rank": 1,
+          "Index": 100.0,
+          "results": 61,
+          "families": 59,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "Gemini 4 Argon",
+          "Rank": 2,
+          "Index": 94.70767142402865,
+          "results": 37,
+          "families": 37,
+          "evaluators": 5,
+          "domains": 6
+        },
+        {
+          "Model": "Claude Sonnet 5.5",
+          "Rank": 3,
+          "Index": 93.57978836690108,
+          "results": 48,
+          "families": 46,
+          "evaluators": 7,
+          "domains": 7
+        },
+        {
+          "Model": "GPT-6 Astra",
+          "Rank": 4,
+          "Index": 93.37532601726727,
+          "results": 53,
+          "families": 51,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "Claude Fable 5.1",
+          "Rank": 5,
+          "Index": 92.79265600539694,
+          "results": 55,
+          "families": 53,
+          "evaluators": 9,
+          "domains": 7
+        },
+        {
+          "Model": "GPT-6.1 Sol",
+          "Rank": 6,
+          "Index": 89.48012789748624,
+          "results": 51,
+          "families": 49,
+          "evaluators": 9,
+          "domains": 7
+        }
+      ]
+    },
+    "full_roster": {
+      "Equal families": [
+        {
+          "Model": "Claude Opus 5.5",
+          "Rank": 1,
+          "Index": 100.0,
+          "results": 61,
+          "families": 59,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "Muse Wonder Full",
+          "Rank": 2,
+          "Index": 97.84129381793596,
+          "results": 10,
+          "families": 10,
+          "evaluators": 1,
+          "domains": 5
+        },
+        {
+          "Model": "Gemini 4 Argon",
+          "Rank": 3,
+          "Index": 96.77502419552475,
+          "results": 37,
+          "families": 37,
+          "evaluators": 5,
+          "domains": 6
+        },
+        {
+          "Model": "Claude Sonnet 5.5",
+          "Rank": 4,
+          "Index": 94.27706554328813,
+          "results": 48,
+          "families": 46,
+          "evaluators": 7,
+          "domains": 7
+        },
+        {
+          "Model": "GPT-6 Astra",
+          "Rank": 5,
+          "Index": 92.6944154304804,
+          "results": 53,
+          "families": 51,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "Claude Fable 5.1",
+          "Rank": 6,
+          "Index": 91.58652122883134,
+          "results": 55,
+          "families": 53,
+          "evaluators": 9,
+          "domains": 7
+        },
+        {
+          "Model": "GPT-6.1 Sol",
+          "Rank": 7,
+          "Index": 87.35566468188873,
+          "results": 51,
+          "families": 49,
+          "evaluators": 9,
+          "domains": 7
+        },
+        {
+          "Model": "Muse Wonder",
+          "Rank": 8,
+          "Index": 83.36626097025183,
+          "results": 11,
+          "families": 11,
+          "evaluators": 2,
+          "domains": 5
+        }
+      ],
+      "Equal domains": [
+        {
+          "Model": "Muse Wonder Full",
+          "Rank": 1,
+          "Index": 102.28792171478428,
+          "results": 10,
+          "families": 10,
+          "evaluators": 1,
+          "domains": 5
+        },
+        {
+          "Model": "Claude Opus 5.5",
+          "Rank": 2,
+          "Index": 100.0,
+          "results": 61,
+          "families": 59,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "GPT-6 Astra",
+          "Rank": 3,
+          "Index": 97.8331692004247,
+          "results": 53,
+          "families": 51,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "Claude Sonnet 5.5",
+          "Rank": 4,
+          "Index": 93.70324099633902,
+          "results": 48,
+          "families": 46,
+          "evaluators": 7,
+          "domains": 7
+        },
+        {
+          "Model": "GPT-6.1 Sol",
+          "Rank": 5,
+          "Index": 92.532624554812,
+          "results": 51,
+          "families": 49,
+          "evaluators": 9,
+          "domains": 7
+        },
+        {
+          "Model": "Claude Fable 5.1",
+          "Rank": 6,
+          "Index": 92.30205302046475,
+          "results": 55,
+          "families": 53,
+          "evaluators": 9,
+          "domains": 7
+        },
+        {
+          "Model": "Gemini 4 Argon",
+          "Rank": 7,
+          "Index": 91.78118846623987,
+          "results": 37,
+          "families": 37,
+          "evaluators": 5,
+          "domains": 6
+        },
+        {
+          "Model": "Muse Wonder",
+          "Rank": 8,
+          "Index": 89.7707533538211,
+          "results": 11,
+          "families": 11,
+          "evaluators": 2,
+          "domains": 5
+        }
+      ],
+      "Super-Aggregate v4.2": [
+        {
+          "Model": "Claude Opus 5.5",
+          "Rank": 1,
+          "Index": 100.0,
+          "results": 61,
+          "families": 59,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "Muse Wonder Full",
+          "Rank": 2,
+          "Index": 97.01256696478171,
+          "results": 10,
+          "families": 10,
+          "evaluators": 1,
+          "domains": 5
+        },
+        {
+          "Model": "Claude Sonnet 5.5",
+          "Rank": 3,
+          "Index": 93.1003441404649,
+          "results": 48,
+          "families": 46,
+          "evaluators": 7,
+          "domains": 7
+        },
+        {
+          "Model": "Gemini 4 Argon",
+          "Rank": 4,
+          "Index": 92.37565485169009,
+          "results": 37,
+          "families": 37,
+          "evaluators": 5,
+          "domains": 6
+        },
+        {
+          "Model": "GPT-6 Astra",
+          "Rank": 5,
+          "Index": 91.95680691179061,
+          "results": 53,
+          "families": 51,
+          "evaluators": 10,
+          "domains": 7
+        },
+        {
+          "Model": "Claude Fable 5.1",
+          "Rank": 6,
+          "Index": 91.85378867411356,
+          "results": 55,
+          "families": 53,
+          "evaluators": 9,
+          "domains": 7
+        },
+        {
+          "Model": "GPT-6.1 Sol",
+          "Rank": 7,
+          "Index": 88.44118595414861,
+          "results": 51,
+          "families": 49,
+          "evaluators": 9,
+          "domains": 7
+        },
+        {
+          "Model": "Muse Wonder",
+          "Rank": 8,
+          "Index": 83.89309445867897,
+          "results": 11,
+          "families": 11,
+          "evaluators": 2,
+          "domains": 5
+        }
+      ]
+    },
+    "previous_release_changes": {
+      "Equal families": [
+        {
+          "Model": "Claude Opus 5.5",
+          "Previous": 1,
+          "Current": 1,
+          "Movement": 0,
+          "Added_results": 4
+        },
+        {
+          "Model": "Gemini 4 Argon",
+          "Previous": 2,
+          "Current": 2,
+          "Movement": 0,
+          "Added_results": 3
+        },
+        {
+          "Model": "Claude Sonnet 5.5",
+          "Previous": 3,
+          "Current": 3,
+          "Movement": 0,
+          "Added_results": 3
+        },
+        {
+          "Model": "GPT-6 Astra",
+          "Previous": 4,
+          "Current": 4,
+          "Movement": 0,
+          "Added_results": 3
+        },
+        {
+          "Model": "Claude Fable 5.1",
+          "Previous": 5,
+          "Current": 5,
+          "Movement": 0,
+          "Added_results": 3
+        },
+        {
+          "Model": "GPT-6.1 Sol",
+          "Previous": 6,
+          "Current": 6,
+          "Movement": 0,
+          "Added_results": 3
+        }
+      ],
+      "Equal domains": [
+        {
+          "Model": "Claude Opus 5.5",
+          "Previous": 1,
+          "Current": 1,
+          "Movement": 0,
+          "Added_results": 4
+        },
+        {
+          "Model": "GPT-6 Astra",
+          "Previous": 2,
+          "Current": 2,
+          "Movement": 0,
+          "Added_results": 3
+        },
+        {
+          "Model": "Claude Sonnet 5.5",
+          "Previous": 3,
+          "Current": 3,
+          "Movement": 0,
+          "Added_results": 3
+        },
+        {
+          "Model": "Gemini 4 Argon",
+          "Previous": 6,
+          "Current": 4,
+          "Movement": 2,
+          "Added_results": 3
+        },
+        {
+          "Model": "GPT-6.1 Sol",
+          "Previous": 4,
+          "Current": 5,
+          "Movement": -1,
+          "Added_results": 3
+        },
+        {
+          "Model": "Claude Fable 5.1",
+          "Previous": 5,
+          "Current": 6,
+          "Movement": -1,
+          "Added_results": 3
+        }
+      ],
+      "Super-Aggregate v4.2": [
+        {
+          "Model": "Claude Opus 5.5",
+          "Previous": 1,
+          "Current": 1,
+          "Movement": 0,
+          "Added_results": 4
+        },
+        {
+          "Model": "Gemini 4 Argon",
+          "Previous": 2,
+          "Current": 2,
+          "Movement": 0,
+          "Added_results": 3
+        },
+        {
+          "Model": "Claude Sonnet 5.5",
+          "Previous": 4,
+          "Current": 3,
+          "Movement": 1,
+          "Added_results": 3
+        },
+        {
+          "Model": "GPT-6 Astra",
+          "Previous": 3,
+          "Current": 4,
+          "Movement": -1,
+          "Added_results": 3
+        },
+        {
+          "Model": "Claude Fable 5.1",
+          "Previous": 5,
+          "Current": 5,
+          "Movement": 0,
+          "Added_results": 3
+        },
+        {
+          "Model": "GPT-6.1 Sol",
+          "Previous": 6,
+          "Current": 6,
+          "Movement": 0,
+          "Added_results": 3
+        }
+      ]
+    },
+    "domain_leaders": {
+      "Equal families": {
+        "Professional": [
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 1,
+            "Index": 103.18892861517364,
+            "results": 10,
+            "families": 10,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 16,
+            "families": 16,
+            "evaluators": 6,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 3,
+            "Index": 96.59954220985013,
+            "results": 13,
+            "families": 13,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 4,
+            "Index": 94.00031918056658,
+            "results": 15,
+            "families": 15,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 5,
+            "Index": 79.0814325795776,
+            "results": 14,
+            "families": 14,
+            "evaluators": 6,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 6,
+            "Index": 76.7869810190932,
+            "results": 11,
+            "families": 11,
+            "evaluators": 4,
+            "domains": 1
+          }
+        ],
+        "Coding": [
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 1,
+            "Index": 100.0,
+            "results": 14,
+            "families": 13,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 2,
+            "Index": 93.04059730381758,
+            "results": 10,
+            "families": 10,
+            "evaluators": 3,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 3,
+            "Index": 92.79967920702731,
+            "results": 13,
+            "families": 12,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 4,
+            "Index": 88.45126637249051,
+            "results": 12,
+            "families": 11,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 5,
+            "Index": 85.88901466691841,
+            "results": 13,
+            "families": 12,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 6,
+            "Index": 83.70113058268558,
+            "results": 12,
+            "families": 11,
+            "evaluators": 4,
+            "domains": 1
+          }
+        ],
+        "Science": [
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 1,
+            "Index": 105.03703629183946,
+            "results": 10,
+            "families": 9,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 11,
+            "families": 10,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 3,
+            "Index": 96.4709137256298,
+            "results": 7,
+            "families": 7,
+            "evaluators": 3,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 4,
+            "Index": 95.42684774615027,
+            "results": 10,
+            "families": 9,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 5,
+            "Index": 93.05109261813375,
+            "results": 9,
+            "families": 8,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 6,
+            "Index": 91.66031464482339,
+            "results": 9,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          }
+        ],
+        "Knowledge": [
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 1,
+            "Index": 108.79314055405246,
+            "results": 6,
+            "families": 6,
+            "evaluators": 3,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 2,
+            "Index": 104.04372756038076,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 3,
+            "Index": 100.0,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 4,
+            "Index": 95.15945816298982,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 5,
+            "Index": 95.06117797424626,
+            "results": 6,
+            "families": 6,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 6,
+            "Index": 91.8719626136235,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          }
+        ],
+        "Context": [
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 1,
+            "Index": 106.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 2,
+            "Index": 102.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 3,
+            "Index": 100.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 3,
+            "Index": 100.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 5,
+            "Index": 96.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 6,
+            "Index": 81.99999999999999,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          }
+        ],
+        "Multimodal": [
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 1,
+            "Index": 107.3215847697453,
+            "results": 5,
+            "families": 5,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 6,
+            "families": 6,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 3,
+            "Index": 98.08695652173913,
+            "results": 6,
+            "families": 6,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 4,
+            "Index": 94.2724723437098,
+            "results": 2,
+            "families": 2,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 5,
+            "Index": 80.08134808335475,
+            "results": 4,
+            "families": 4,
+            "evaluators": 4,
+            "domains": 1
+          }
+        ],
+        "Games": [
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 1,
+            "Index": 112.83352866698323,
+            "results": 4,
+            "families": 4,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 4,
+            "families": 4,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 3,
+            "Index": 94.16045930406358,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 4,
+            "Index": 78.90042908720096,
+            "results": 1,
+            "families": 1,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 5,
+            "Index": 77.93178800151574,
+            "results": 4,
+            "families": 4,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 6,
+            "Index": 63.43525279663026,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          }
+        ]
+      },
+      "Equal domains": {
+        "Professional": [
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 1,
+            "Index": 103.18892861517364,
+            "results": 10,
+            "families": 10,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 16,
+            "families": 16,
+            "evaluators": 6,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 3,
+            "Index": 96.59954220985013,
+            "results": 13,
+            "families": 13,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 4,
+            "Index": 94.00031918056658,
+            "results": 15,
+            "families": 15,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 5,
+            "Index": 79.0814325795776,
+            "results": 14,
+            "families": 14,
+            "evaluators": 6,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 6,
+            "Index": 76.7869810190932,
+            "results": 11,
+            "families": 11,
+            "evaluators": 4,
+            "domains": 1
+          }
+        ],
+        "Coding": [
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 1,
+            "Index": 100.0,
+            "results": 14,
+            "families": 13,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 2,
+            "Index": 93.0405973038176,
+            "results": 10,
+            "families": 10,
+            "evaluators": 3,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 3,
+            "Index": 92.79967920702734,
+            "results": 13,
+            "families": 12,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 4,
+            "Index": 88.45126637249052,
+            "results": 12,
+            "families": 11,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 5,
+            "Index": 85.88901466691843,
+            "results": 13,
+            "families": 12,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 6,
+            "Index": 83.70113058268561,
+            "results": 12,
+            "families": 11,
+            "evaluators": 4,
+            "domains": 1
+          }
+        ],
+        "Science": [
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 1,
+            "Index": 105.03703629183946,
+            "results": 10,
+            "families": 9,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 11,
+            "families": 10,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 3,
+            "Index": 96.4709137256298,
+            "results": 7,
+            "families": 7,
+            "evaluators": 3,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 4,
+            "Index": 95.42684774615027,
+            "results": 10,
+            "families": 9,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 5,
+            "Index": 93.05109261813375,
+            "results": 9,
+            "families": 8,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 6,
+            "Index": 91.66031464482339,
+            "results": 9,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          }
+        ],
+        "Knowledge": [
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 1,
+            "Index": 108.79314055405246,
+            "results": 6,
+            "families": 6,
+            "evaluators": 3,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 2,
+            "Index": 104.04372756038076,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 3,
+            "Index": 100.0,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 4,
+            "Index": 95.15945816298981,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 5,
+            "Index": 95.06117797424626,
+            "results": 6,
+            "families": 6,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 6,
+            "Index": 91.8719626136235,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          }
+        ],
+        "Context": [
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 1,
+            "Index": 106.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 2,
+            "Index": 102.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 3,
+            "Index": 100.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 3,
+            "Index": 100.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 5,
+            "Index": 96.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 6,
+            "Index": 81.99999999999999,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          }
+        ],
+        "Multimodal": [
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 1,
+            "Index": 107.3215847697453,
+            "results": 5,
+            "families": 5,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 6,
+            "families": 6,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 3,
+            "Index": 98.08695652173913,
+            "results": 6,
+            "families": 6,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 4,
+            "Index": 94.2724723437098,
+            "results": 2,
+            "families": 2,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 5,
+            "Index": 80.08134808335475,
+            "results": 4,
+            "families": 4,
+            "evaluators": 4,
+            "domains": 1
+          }
+        ],
+        "Games": [
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 1,
+            "Index": 112.83352866698323,
+            "results": 4,
+            "families": 4,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 4,
+            "families": 4,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 3,
+            "Index": 94.16045930406358,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 4,
+            "Index": 78.90042908720096,
+            "results": 1,
+            "families": 1,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 5,
+            "Index": 77.93178800151574,
+            "results": 4,
+            "families": 4,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 6,
+            "Index": 63.43525279663026,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          }
+        ]
+      },
+      "Super-Aggregate v4.2": {
+        "Professional": [
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 1,
+            "Index": 101.00030044265168,
+            "results": 10,
+            "families": 10,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 16,
+            "families": 16,
+            "evaluators": 6,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 3,
+            "Index": 98.79289889559085,
+            "results": 13,
+            "families": 13,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 4,
+            "Index": 94.47645406944626,
+            "results": 15,
+            "families": 15,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 5,
+            "Index": 79.76616995829244,
+            "results": 14,
+            "families": 14,
+            "evaluators": 6,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 6,
+            "Index": 78.87348614257598,
+            "results": 11,
+            "families": 11,
+            "evaluators": 4,
+            "domains": 1
+          }
+        ],
+        "Coding": [
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 1,
+            "Index": 100.0,
+            "results": 14,
+            "families": 13,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 2,
+            "Index": 91.53233400771418,
+            "results": 13,
+            "families": 12,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 3,
+            "Index": 89.32386790991431,
+            "results": 10,
+            "families": 10,
+            "evaluators": 3,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 4,
+            "Index": 87.1460320321239,
+            "results": 12,
+            "families": 11,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 5,
+            "Index": 85.40658190818499,
+            "results": 13,
+            "families": 12,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 6,
+            "Index": 82.43964857612161,
+            "results": 12,
+            "families": 11,
+            "evaluators": 4,
+            "domains": 1
+          }
+        ],
+        "Science": [
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 1,
+            "Index": 104.12247446250409,
+            "results": 10,
+            "families": 9,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 11,
+            "families": 10,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 3,
+            "Index": 95.00342712663758,
+            "results": 10,
+            "families": 9,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 4,
+            "Index": 94.44244083137863,
+            "results": 7,
+            "families": 7,
+            "evaluators": 3,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 5,
+            "Index": 92.79672640086079,
+            "results": 9,
+            "families": 8,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 6,
+            "Index": 91.81452303323833,
+            "results": 9,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          }
+        ],
+        "Knowledge": [
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 1,
+            "Index": 106.18339572384444,
+            "results": 6,
+            "families": 6,
+            "evaluators": 3,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 2,
+            "Index": 102.12525726065331,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 3,
+            "Index": 100.0,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 4,
+            "Index": 96.18444922322155,
+            "results": 6,
+            "families": 6,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 5,
+            "Index": 92.7358785717333,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 6,
+            "Index": 88.95337284663614,
+            "results": 8,
+            "families": 8,
+            "evaluators": 5,
+            "domains": 1
+          }
+        ],
+        "Context": [
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 1,
+            "Index": 106.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 2,
+            "Index": 102.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 3,
+            "Index": 100.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 3,
+            "Index": 100.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 5,
+            "Index": 96.0,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 6,
+            "Index": 81.99999999999999,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          }
+        ],
+        "Multimodal": [
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 1,
+            "Index": 104.01471765260384,
+            "results": 5,
+            "families": 5,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 6,
+            "families": 6,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 3,
+            "Index": 94.80331109328935,
+            "results": 6,
+            "families": 6,
+            "evaluators": 4,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 4,
+            "Index": 91.79799965580165,
+            "results": 2,
+            "families": 2,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 5,
+            "Index": 76.77396987731342,
+            "results": 4,
+            "families": 4,
+            "evaluators": 4,
+            "domains": 1
+          }
+        ],
+        "Games": [
+          {
+            "Model": "GPT-6 Astra",
+            "Rank": 1,
+            "Index": 113.17786561386065,
+            "results": 4,
+            "families": 4,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Opus 5.5",
+            "Rank": 2,
+            "Index": 100.0,
+            "results": 4,
+            "families": 4,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "GPT-6.1 Sol",
+            "Rank": 3,
+            "Index": 94.17081384588012,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Sonnet 5.5",
+            "Rank": 4,
+            "Index": 78.9107836290175,
+            "results": 1,
+            "families": 1,
+            "evaluators": 1,
+            "domains": 1
+          },
+          {
+            "Model": "Claude Fable 5.1",
+            "Rank": 5,
+            "Index": 77.61851468008793,
+            "results": 4,
+            "families": 4,
+            "evaluators": 2,
+            "domains": 1
+          },
+          {
+            "Model": "Gemini 4 Argon",
+            "Rank": 6,
+            "Index": 63.4456073384468,
+            "results": 2,
+            "families": 2,
+            "evaluators": 1,
+            "domains": 1
+          }
+        ]
+      }
+    },
+    "evaluator_removal": {
+      "Equal families": {
+        "scenarios": 10,
+        "connected": 10,
+        "disconnected": 0,
+        "first": 9,
+        "rank_range": [
+          1,
+          2
+        ],
+        "leader": "Claude Opus 5.5"
+      },
+      "Equal domains": {
+        "scenarios": 10,
+        "connected": 10,
+        "disconnected": 0,
+        "first": 9,
+        "rank_range": [
+          1,
+          3
+        ],
+        "leader": "Claude Opus 5.5"
+      },
+      "Super-Aggregate v4.2": {
+        "scenarios": 10,
+        "connected": 10,
+        "disconnected": 0,
+        "first": 9,
+        "rank_range": [
+          1,
+          2
+        ],
+        "leader": "Claude Opus 5.5"
+      }
+    },
+    "family_removal": {
+      "Equal families": {
+        "scenarios": 59,
+        "connected": 59,
+        "disconnected": 0,
+        "first": 59,
+        "rank_range": [
+          1,
+          1
+        ],
+        "leader": "Claude Opus 5.5"
+      },
+      "Equal domains": {
+        "scenarios": 59,
+        "connected": 59,
+        "disconnected": 0,
+        "first": 58,
+        "rank_range": [
+          1,
+          2
+        ],
+        "leader": "Claude Opus 5.5"
+      },
+      "Super-Aggregate v4.2": {
+        "scenarios": 59,
+        "connected": 59,
+        "disconnected": 0,
+        "first": 59,
+        "rank_range": [
+          1,
+          1
+        ],
+        "leader": "Claude Opus 5.5"
+      }
+    }
+  }
+}

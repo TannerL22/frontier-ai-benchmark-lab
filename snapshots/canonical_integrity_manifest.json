@@ -24,6 +24,12 @@
       "models": 8,
       "benchmarks": 57,
       "scores": 306
+    },
+    {
+      "release": "data/v5_4",
+      "models": 8,
+      "benchmarks": 61,
+      "scores": 326
     }
   ],
   "sha256": {
@@ -68,6 +74,20 @@
     "data/v5_3/scores.csv": "1e1eb7db8113048b6d353f69e0108c70c74729f3996d70480025bac5991f574e",
     "data/v5_3/sources.jsonl": "19cd62a03e4ea91825f45121517d186295073d814f976df904d1d8830dc89667",
     "data/v5_3/systems.csv": "ea717882cb70e92ec9a638b7e5ad5bb57fea49fc693bd9d39f1ba0d54aeaedca",
+    "data/v5_4/benchmarks.csv": "3515e5dd17e5b183ceeb8667759355ab1a31cad66493373dcd0d3b20c5ea410c",
+    "data/v5_4/candidate_scores.csv": "77ab57d3b069a915185874e3318452513f3788ec9c14f6c3500f0a42b50b1445",
+    "data/v5_4/config.json": "33d4ed42825dae64eb1e93214141eafc332720c1d4f1e03551a241add1244ff6",
+    "data/v5_4/decisions.json": "d7e409d166e07c9df3e408100b1cd711e9f1ff7a1e4879812856ae1edfa907ff",
+    "data/v5_4/external_indices.csv": "5ecc44d1bc407f77fb91b4ab917bc280d8f8e60064bbaad8e4f86c0680cc2c74",
+    "data/v5_4/missingness.csv": "fb36bf863af9c989aef5c6524c7b82848ffb96124161446315599ee3de8f8776",
+    "data/v5_4/model_identities.csv": "38cadb5d6e60d5b732f305448cad9c0453bef28a373a28fd4cdcf71bb8fa6a32",
+    "data/v5_4/models.csv": "aa2abf74f797b243ae112fd1ca2a91349f6ba392287b071a82131f199eca8538",
+    "data/v5_4/normalization_reference.csv": "94b1dfb4e56bde92f5568d6a2b1bbfe7cc82f1d995efb38f94876daa98742067",
+    "data/v5_4/observations.jsonl": "c69f3255d0a44d7715dbb30c1c75cd9463f8a948f69c37259c4b29c422d1d24d",
+    "data/v5_4/release.json": "f04afafdacf5872f3d78b61d6aa578c66a8b3ec8a79e13c12ecf4f24410fbfdc",
+    "data/v5_4/scores.csv": "a9ef5e8011c2e38c882d4460f5e599fc41436865f972db86a317de5a852864dd",
+    "data/v5_4/sources.jsonl": "65ae249fcf9026f89081e8eb765bbf91d2c35d102d9c6a221aec3a70530d8513",
+    "data/v5_4/systems.csv": "4280a38074170b1a02bfde0e1404dd946cbb00f26a1eec8594785f6de37fe7d1",
     "snapshots/source_corroboration_2026_10_12.csv": "3cd4db097ba6bb72c4a404867b31c6b15c0467cc646d4a314322aeae90864ea4",
     "snapshots/source_manifest.json": "efc4b2629f1497d104d2fdfee5efa0dbf10bf83fc1d907608d34cc46a18e158d",
     "snapshots/v4_2_reference.json": "294a57808842730cb826118bd3ec509cdbf86198c4332ee85b4525913f6be872",
