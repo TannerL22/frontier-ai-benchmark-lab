@@ -5,12 +5,13 @@ import json
 from pathlib import Path
 import shutil
 import tempfile
+import subprocess
 import pytest
 
 from frontierlab.core import Evidence
 from frontierlab.pilot_ops import prepare_holdout, independent_answers, verify_review, grade_controlled
 from frontierlab.prospective_ops import score_registered
-from frontierlab.study import seal
+from frontierlab.study import seal, score_future
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -132,3 +133,50 @@ def test_private_review_ui_cannot_accept_an_unreviewed_dataset(tmp_path, monkeyp
     review = json.loads((workspace / "review.json").read_text())
     assert review["overall_task_validity_accepted"] is False
     assert all(r["decision"] == "not_reviewed" for r in review["items"])
+
+
+def test_public_registry_keeps_frozen_inputs_after_ui_changes(tmp_path):
+    root = tmp_path / "registered_root"
+    shutil.copytree(ROOT / "data/v5_2", root / "data/v5_2")
+    shutil.copytree(ROOT / "src/frontierlab", root / "src/frontierlab", ignore=shutil.ignore_patterns("__pycache__"))
+    for relative in ("studies/prospective_v1/protocol.json", "scripts/prospective_study.py"):
+        target = root / relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(ROOT / relative, target)
+    bundle = root / "registered"
+    registration = seal(root, bundle)
+    for args in (["init"], ["add", "."], ["-c", "user.name=Fixture", "-c", "user.email=fixture@example.org", "commit", "-m", "Synthetic registered inputs"]):
+        subprocess.run(["git", *args], cwd=root, check=True, capture_output=True)
+    commit = subprocess.run(["git", "rev-parse", "HEAD"], cwd=root, check=True, capture_output=True, text=True).stdout.strip()
+    start = datetime.fromisoformat(registration["sealed_at"]) + timedelta(seconds=1)
+    publication = {"status": "publicly_registered_awaiting_future_outcomes",
+                   "registration_url": "https://github.com/TannerL22/frontier-ai-benchmark-lab/issues/5",
+                   "public_registered_at": start.isoformat(), "collection_ends_at": (start + timedelta(days=180)).isoformat(),
+                   "bundle_path": "registered", "frozen_input_commit": commit,
+                   "forecast_sha256": registration["forecast_sha256"], "independent_reviewer_id": "fixture_reviewer"}
+    mids = registration["model_ids"][:2]
+    row = {"benchmark_id": "future-fixture", "family_id": "fresh-fixture", "genealogy_id": "fresh-fixture-ancestry",
+           "domain": "Coding", "direction": "higher", "scores": {mids[0]: 10, mids[1]: 20},
+           "published_at": (start + timedelta(hours=1)).isoformat(), "acquired_at": (start + timedelta(hours=2)).isoformat(),
+           "reviewed_at": (start + timedelta(hours=3)).isoformat(), "reviewer_id": "fixture_reviewer", "prior_exposure": False,
+           "review_accepted": True, "review_reason": "Synthetic test fixture only", "source_url": "https://example.org/fixture",
+           "system_records": {mid: {key: "fixture" for key in ("model_snapshot", "endpoint", "reasoning_effort", "harness", "fallback_policy", "resource_budget", "evaluation_date")} for mid in mids}}
+    expected = score_future(root, bundle, [row])
+    ui_file = root / "src/frontierlab/presentation.py"
+    ui_file.write_text(ui_file.read_text(encoding="utf-8") + "\n# Synthetic UI revision\n", encoding="utf-8")
+    report = score_registered(root, publication, [row], now=start + timedelta(days=1))
+    assert report["accepted_outcome_count"] == 1
+    assert report["summaries"] == expected["summaries"]
+    assert report["predictions"] == expected["predictions"]
+    assert "Synthetic UI revision" in ui_file.read_text(encoding="utf-8")
+    engine = root / "src/frontierlab/study.py"
+    original_engine = engine.read_bytes()
+    engine.write_bytes(original_engine + b"\n# Synthetic engine revision\n")
+    with pytest.raises(ValueError, match="integrity mismatch"):
+        score_registered(root, publication, [row], now=start + timedelta(days=1))
+    engine.write_bytes(original_engine)
+    # A current UI revision is permitted; a changed sealed forecast still fails.
+    with (bundle / "forecasts.jsonl").open("a", encoding="utf-8") as stream:
+        stream.write("\n")
+    with pytest.raises(ValueError, match="integrity mismatch"):
+        score_registered(root, publication, [row], now=start + timedelta(days=1))

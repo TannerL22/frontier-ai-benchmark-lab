@@ -1,0 +1,35 @@
+{
+  "scope": "Observatory UI overhaul; analytical engines, data contracts and private review decisions preserved",
+  "full_pytest": {
+    "passed": 55,
+    "seconds": 75.94,
+    "includes_slow_calibration": true
+  },
+  "final_runtime_and_review_checks": {
+    "passed": 8
+  },
+  "application_checks": {
+    "passed": 32,
+    "page_release_combinations": 28,
+    "additional_existing_interactions": 4
+  },
+  "new_ui_interactions": {
+    "passed": 14,
+    "scope": "Provider and evaluator filters, empty model selections across all pages, abstention threshold, audit search, bidirectional weighting sync and private review reason/save gates in a temporary fixture"
+  },
+  "canonical_input_hashes_verified": 46,
+  "new_dependencies": [],
+  "registered_study_release_checks": {
+    "targeted_tests_passed": 20,
+    "frozen_forecasts_verified": 1372,
+    "scope": "UI revisions preserve identical outcome scores; altered scoring inputs or sealed forecasts are rejected; published scoring uses the original Git snapshot"
+  },
+  "browser_checks": [
+    "Desktop observatory and holdout residual diagnostics",
+    "Local private review split pane; no real review decisions saved",
+    "390px responsive card reflow, no horizontal page overflow, accessible sidebar toggle"
+  ],
+  "private_pilot_review": "Unchanged; independent owner review remains pending",
+  "paid_model_runs": 0,
+  "verification_scope": "Local pre-publication checks; GitHub build and hosted deployment are verified separately after publication"
+}
