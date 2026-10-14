@@ -4,7 +4,7 @@ A model explorer that brings a wider mix of benchmark results into one place. St
 
 ## Wider frontier v5.4
 
-The 14 October release contains **326 results across 61 evaluation rows, 59 benchmark families, eight model identities, seven domains and ten evaluator labels**. It adds AA-3D, AA's FrontierCode 1.1 execution, RareBench and LabBench. FrontierCode shares a family with the preserved Cognition execution, preventing a second full family weight. Earlier release files and all 1,372 registered forecasts remain frozen.
+The 14 October release contains **326 results across 61 evaluation rows, 59 benchmark families, eight model identities, seven domains and ten evaluator labels**. It adds AA-3D, AA's FrontierCode 1.1 execution, RareBench and LabBench. FrontierCode shares a family with the preserved Cognition execution: Equal families and Equal domains split that family's weight between executions. The historical Super-Aggregate convention retains its evaluator hierarchy. Earlier release files and all 1,372 registered forecasts remain frozen.
 
 The primary explorer excludes AA SciCode/CritPt publisher-review results and provisional Argon EAP science observations. Its broad comparison cohort requires at least 20 results, three evaluator labels and six domains, independent of score. Opus leads this six-model cohort under all three weighting conventions and stays first in nine of ten evaluator-removal checks under each convention. Runner-up order varies with weighting. These checks are sensitivity results, not statistical confidence probabilities. Sparse Muse contenders remain visible separately, with the all-model experiment one click away. See [reproducible product comparisons](outputs/v5_4/product_comparisons.json).
 

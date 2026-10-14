@@ -112,7 +112,7 @@ def explorer(evidence, visible):
     with st.expander("See the complete standings & comparison rules"):
         st.write("Broad cohort: at least 20 recorded results, 3 evaluator labels and 6 capability domains. These reporting thresholds are independent of score. Model filters only change displayed cards; they do not refit or rerank the cohort.")
         st.dataframe([dict(Rank=r["Rank"], Model=r["Model"], **{"Reference index":round(r["Index"],1), "Results":r["results"], "Evaluators":r["evaluators"], "Domains":r["domains"]}) for r in displayed], hide_index=True, width="stretch")
-        st.caption("Reference index is an experimental summary with Opus = 100, not an intelligence percentage. Different task metrics use fixed scales. It describes these reported systems; task coverage and harnesses differ. Scores are not comparable across releases.")
+        st.caption("Reference index is an experimental summary with Opus = 100, not an intelligence percentage. Different task metrics use fixed scales. It describes these reported systems; task coverage and harnesses differ. Scores are not comparable across releases. Equal families and Equal domains split a shared family's weight across executions; the historical Super-Aggregate lens retains its evaluator hierarchy.")
         full = standings(view,view.models,method)
         if full:
             st.write("All-model experiment, including sparse contenders")
